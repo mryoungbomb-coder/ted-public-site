@@ -1,0 +1,43 @@
+{
+  "name": "Ted",
+  "updated": "2026-10-12",
+  "knowledgeCount": 5497,
+  "videos": [
+    {
+      "id": "amie",
+      "short": "AMIE",
+      "title": "AMIE：医疗 AI 走进真实门诊",
+      "description": "从研究原文出发，解释试验结果、应用价值与尚未解决的问题。",
+      "tags": [
+        "AI 研究",
+        "视频"
+      ],
+      "poster": "assets/amie.jpg",
+      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-5c55539a9dedc7aa.mp4"
+    },
+    {
+      "id": "dayone",
+      "short": "DayOne",
+      "title": "DayOne：增长怎样变成回报",
+      "description": "围绕数据中心的建设、计费与现金流，拆解 AI 基础设施的商业逻辑。",
+      "tags": [
+        "产业分析",
+        "视频"
+      ],
+      "poster": "assets/dayone.jpg",
+      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-d8cc49028195f164.mp4"
+    },
+    {
+      "id": "firmus",
+      "short": "Firmus",
+      "title": "Firmus：AI 基础设施与资本",
+      "description": "从产业发展和资金需求两条线，理解一家 AI 基础设施公司的故事。",
+      "tags": [
+        "资本市场",
+        "视频"
+      ],
+      "poster": "assets/firmus.jpg",
+      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-75e4c86b16134a9b.mp4"
+    }
+  ]
+}
