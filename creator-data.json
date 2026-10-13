@@ -1,12 +1,13 @@
 {
   "generated": "2026-10-12T16:02:25",
-  "count": 43,
-  "latestCount": 43,
+  "count": 45,
+  "latestCount": 45,
   "categories": [
     "AI 与科技",
     "TimeXmart / MIRA",
     "其他创作",
     "商业与金融",
+    "宣传片 / 品牌作品",
     "生活与个人 IP"
   ],
   "items": [
@@ -675,8 +676,8 @@
     },
     {
       "id": "v-1c953ed98111f703",
-      "title": "个人IP资产搭建新版独立成片",
-      "category": "生活与个人 IP",
+      "title": "个人 IP · 新版宣传成片",
+      "category": "宣传片 / 品牌作品",
       "date": "2026-09-03",
       "updated": "2026-09-03T22:53:05",
       "version": "作品版本",
@@ -688,12 +689,13 @@
       "latest": true,
       "final": true,
       "selection": "同主题最新完整成片",
-      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-1c953ed98111f703.mp4"
+      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-1c953ed98111f703.mp4",
+      "promo": true
     },
     {
       "id": "v-12a903856f4fea3c",
-      "title": "物品交换新版独立成片",
-      "category": "TimeXmart / MIRA",
+      "title": "物品交换 · 新版宣传成片",
+      "category": "宣传片 / 品牌作品",
       "date": "2026-09-03",
       "updated": "2026-09-03T22:52:18",
       "version": "作品版本",
@@ -705,12 +707,13 @@
       "latest": true,
       "final": true,
       "selection": "同主题最新完整成片",
-      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-12a903856f4fea3c.mp4"
+      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-12a903856f4fea3c.mp4",
+      "promo": true
     },
     {
       "id": "v-464392022666c2fb",
-      "title": "技能交换新版独立成片",
-      "category": "TimeXmart / MIRA",
+      "title": "技能交换 · 新版宣传成片",
+      "category": "宣传片 / 品牌作品",
       "date": "2026-09-03",
       "updated": "2026-09-03T22:52:17",
       "version": "作品版本",
@@ -722,12 +725,13 @@
       "latest": true,
       "final": true,
       "selection": "同主题最新完整成片",
-      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-464392022666c2fb.mp4"
+      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-464392022666c2fb.mp4",
+      "promo": true
     },
     {
       "id": "v-c5a900893b8197b4",
-      "title": "TimeXmart 品牌片 v1",
-      "category": "TimeXmart / MIRA",
+      "title": "TimeXmart · 品牌宣传片",
+      "category": "宣传片 / 品牌作品",
       "date": "2026-07-26",
       "updated": "2026-07-26T04:01:27",
       "version": "v1",
@@ -739,8 +743,53 @@
       "latest": true,
       "final": true,
       "selection": "同主题最新完整成片",
-      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-c5a900893b8197b4.mp4"
+      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-c5a900893b8197b4.mp4",
+      "promo": true
+    },
+    {
+      "id": "v-84c97862e4ac83fa",
+      "title": "TimeXmart · 市集宣传主片",
+      "category": "宣传片 / 品牌作品",
+      "date": "2026-09-02",
+      "updated": "2026-09-02T19:16:41",
+      "version": "最终成片",
+      "family": "timexmart-main",
+      "status": "完整成片",
+      "bytes": 34369071,
+      "sourceCopies": 1,
+      "poster": "assets/creator/v-84c97862e4ac83fa.jpg",
+      "latest": true,
+      "final": true,
+      "promo": true,
+      "selection": "最终主片 / final-v2",
+      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-84c97862e4ac83fa.mp4"
+    },
+    {
+      "id": "v-520fcba546159698",
+      "title": "TimeXmart · 产品演示宣传片",
+      "category": "宣传片 / 品牌作品",
+      "date": "2026-08-27",
+      "updated": "2026-08-27T23:09:43",
+      "version": "最终成片",
+      "family": "timexmart-exchange-showreel-final-v2",
+      "status": "完整成片",
+      "bytes": 8324127,
+      "sourceCopies": 1,
+      "poster": "assets/creator/v-520fcba546159698.jpg",
+      "latest": true,
+      "final": true,
+      "promo": true,
+      "selection": "最终主片 / final-v2",
+      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-520fcba546159698.mp4"
     }
   ],
-  "displayPolicy": "final-only"
+  "displayPolicy": "final-only",
+  "promoIds": [
+    "v-84c97862e4ac83fa",
+    "v-520fcba546159698",
+    "v-464392022666c2fb",
+    "v-12a903856f4fea3c",
+    "v-1c953ed98111f703",
+    "v-c5a900893b8197b4"
+  ]
 }
