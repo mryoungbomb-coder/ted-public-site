@@ -6,3 +6,7 @@ window.TED_PROJECTS.push(...[{"id": "real-estate", "title": "房地产投资：�
 Object.assign(window.TED_PROJECTS.find(p=>p.id==="real-estate"),{caseLink:"underwriting.html"});
 
 Object.assign(window.TED_PROJECTS.find(p=>p.id==="real-estate"),{caseLink:"work-record.html",caseLabel:"My Silverline work record"});
+
+Object.assign(window.TED_PROJECTS.find(p=>p.id==="real-estate"),{caseLink:"underwriting.html",caseLabel:"Excel 模型拆解与我的建模过程"});
+
+Object.assign(window.TED_PROJECTS.find(p=>p.id==="timexmart"),{caseLink:"personal-ip.html#films",caseLabel:"观看 MIRA 小机器人开场的宣传片"});

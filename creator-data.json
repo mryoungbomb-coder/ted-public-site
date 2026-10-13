@@ -1,14 +1,13 @@
 {
   "generated": "2026-10-12T16:02:25",
-  "count": 45,
-  "latestCount": 45,
+  "count": 41,
+  "latestCount": 41,
   "categories": [
     "AI 与科技",
     "TimeXmart / MIRA",
     "其他创作",
     "商业与金融",
-    "宣传片 / 品牌作品",
-    "生活与个人 IP"
+    "宣传片 / 品牌作品"
   ],
   "items": [
     {
@@ -146,23 +145,6 @@
       "final": true,
       "selection": "同主题最新完整成片",
       "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-f9cfdb40b1e9936a.mp4"
-    },
-    {
-      "id": "v-6b3af02b5a023992",
-      "title": "跳绳 深夜楼顶故事瀑布 无Logo v9",
-      "category": "生活与个人 IP",
-      "date": "2026-09-23",
-      "updated": "2026-09-23T00:11:20",
-      "version": "v9",
-      "family": "jump-rope-series",
-      "status": "完整成片",
-      "bytes": 53141751,
-      "sourceCopies": 2,
-      "poster": "assets/creator/v-6b3af02b5a023992.jpg",
-      "latest": true,
-      "final": true,
-      "selection": "同主题最新完整成片",
-      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-6b3af02b5a023992.mp4"
     },
     {
       "id": "v-a776b58a0c70ee3c",
@@ -727,69 +709,12 @@
       "selection": "同主题最新完整成片",
       "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-464392022666c2fb.mp4",
       "promo": true
-    },
-    {
-      "id": "v-c5a900893b8197b4",
-      "title": "TimeXmart · 品牌宣传片",
-      "category": "宣传片 / 品牌作品",
-      "date": "2026-07-26",
-      "updated": "2026-07-26T04:01:27",
-      "version": "v1",
-      "family": "timexmart_品牌片",
-      "status": "完整成片",
-      "bytes": 48665509,
-      "sourceCopies": 1,
-      "poster": "assets/creator/v-c5a900893b8197b4.jpg",
-      "latest": true,
-      "final": true,
-      "selection": "同主题最新完整成片",
-      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-c5a900893b8197b4.mp4",
-      "promo": true
-    },
-    {
-      "id": "v-84c97862e4ac83fa",
-      "title": "TimeXmart · 市集宣传主片",
-      "category": "宣传片 / 品牌作品",
-      "date": "2026-09-02",
-      "updated": "2026-09-02T19:16:41",
-      "version": "最终成片",
-      "family": "timexmart-main",
-      "status": "完整成片",
-      "bytes": 34369071,
-      "sourceCopies": 1,
-      "poster": "assets/creator/v-84c97862e4ac83fa.jpg",
-      "latest": true,
-      "final": true,
-      "promo": true,
-      "selection": "最终主片 / final-v2",
-      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-84c97862e4ac83fa.mp4"
-    },
-    {
-      "id": "v-520fcba546159698",
-      "title": "TimeXmart · 产品演示宣传片",
-      "category": "宣传片 / 品牌作品",
-      "date": "2026-08-27",
-      "updated": "2026-08-27T23:09:43",
-      "version": "最终成片",
-      "family": "timexmart-exchange-showreel-final-v2",
-      "status": "完整成片",
-      "bytes": 8324127,
-      "sourceCopies": 1,
-      "poster": "assets/creator/v-520fcba546159698.jpg",
-      "latest": true,
-      "final": true,
-      "promo": true,
-      "selection": "最终主片 / final-v2",
-      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-520fcba546159698.mp4"
     }
   ],
   "displayPolicy": "final-only",
   "promoIds": [
-    "v-84c97862e4ac83fa",
-    "v-520fcba546159698",
     "v-464392022666c2fb",
     "v-12a903856f4fea3c",
-    "v-1c953ed98111f703",
-    "v-c5a900893b8197b4"
+    "v-1c953ed98111f703"
   ]
 }
