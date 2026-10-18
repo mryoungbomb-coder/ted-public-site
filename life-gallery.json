@@ -1,0 +1,18 @@
+[
+  {
+    "id": "life-photo-01",
+    "title": "草地上的片刻",
+    "caption": "穿着红色上衣，坐在草地上的生活片段。",
+    "src": "assets/life/life-01.jpg",
+    "width": 971,
+    "height": 1280
+  },
+  {
+    "id": "life-photo-02",
+    "title": "今天穿红黑",
+    "caption": "穿着红黑运动外套，在镜头前比出手势。",
+    "src": "assets/life/life-02.jpg",
+    "width": 971,
+    "height": 1280
+  }
+]

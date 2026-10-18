@@ -78,5 +78,69 @@
     "src": "assets/cats/cat-10.jpg",
     "width": 2880,
     "height": 3840
+  },
+  {
+    "id": "cat-photo-11",
+    "title": "一起抬头看",
+    "caption": "灰白长毛猫和虎斑白猫一起抬头望向镜头。",
+    "src": "assets/cats/cat-11.jpg",
+    "width": 836,
+    "height": 1280
+  },
+  {
+    "id": "cat-photo-12",
+    "title": "椅子上的小剧场",
+    "caption": "两只小猫在椅子上，一只伸出前爪。",
+    "src": "assets/cats/cat-12.jpg",
+    "width": 2880,
+    "height": 3840
+  },
+  {
+    "id": "cat-photo-13",
+    "title": "怀里的小不点",
+    "caption": "被抱在怀里的虎斑白小猫。",
+    "src": "assets/cats/cat-13.jpg",
+    "width": 2880,
+    "height": 3840
+  },
+  {
+    "id": "cat-photo-14",
+    "title": "躺着也认真",
+    "caption": "灰白小猫仰躺着，露出小爪子。",
+    "src": "assets/cats/cat-14.jpg",
+    "width": 2880,
+    "height": 3840
+  },
+  {
+    "id": "cat-photo-15",
+    "title": "纸箱里的小住客",
+    "caption": "虎斑白小猫坐在纸箱里望向镜头。",
+    "src": "assets/cats/cat-15.jpg",
+    "width": 2880,
+    "height": 3840
+  },
+  {
+    "id": "cat-photo-16",
+    "title": "球鞋旁的小脑袋",
+    "caption": "灰白小猫在两只球鞋之间探出头。",
+    "src": "assets/cats/cat-16.jpg",
+    "width": 2880,
+    "height": 3840
+  },
+  {
+    "id": "cat-photo-17",
+    "title": "一起探头",
+    "caption": "两只小猫从椅背后面一起探头。",
+    "src": "assets/cats/cat-17.jpg",
+    "width": 2880,
+    "height": 3840
+  },
+  {
+    "id": "cat-photo-18",
+    "title": "轻轻走过",
+    "caption": "虎斑白小猫沿着椅背走过。",
+    "src": "assets/cats/cat-18.jpg",
+    "width": 1087,
+    "height": 1280
   }
 ]
