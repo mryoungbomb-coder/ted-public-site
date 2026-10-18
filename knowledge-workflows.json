@@ -1,0 +1,5616 @@
+{
+  "generated": "2026-10-17T22:21:30",
+  "scope": {
+    "user_attachments": 16,
+    "existing_timexmart_documents": 7,
+    "user_work_summary": 1
+  },
+  "counts": {
+    "sources": 24,
+    "knowledge_points": 155,
+    "workflows": 31,
+    "source_units_private": 6841
+  },
+  "sources": [
+    {
+      "id": "SRC-01",
+      "name": "职业与借贷业务手写笔记",
+      "format": "JPG",
+      "units": 7,
+      "coverage": "可辨认内容人工整理；不是完整逐字 OCR，未辨认部分保留待确认"
+    },
+    {
+      "id": "SRC-02",
+      "name": "职业、创业与自动化手写笔记",
+      "format": "JPG",
+      "units": 7,
+      "coverage": "可辨认内容人工整理；不是完整逐字 OCR，未辨认部分保留待确认"
+    },
+    {
+      "id": "SRC-03",
+      "name": "RTL 内部政策（截至 2025-12；阈值未公开）",
+      "format": "PDF",
+      "units": 162,
+      "coverage": "逐页文字提取；复用时按页核对表格和版式"
+    },
+    {
+      "id": "SRC-04",
+      "name": "RTL 承销与定价模型（5 张表）",
+      "format": "XLSX",
+      "units": 476,
+      "coverage": "全部工作表（含隐藏表）；公式按相对引用模式归并，不把每个期间重复公式当新知识"
+    },
+    {
+      "id": "SRC-05",
+      "name": "贷款交割文件清单",
+      "format": "PDF",
+      "units": 3,
+      "coverage": "逐页文字提取；复用时按页核对表格和版式"
+    },
+    {
+      "id": "SRC-06",
+      "name": "职业简历（2026-06 版本）",
+      "format": "PDF",
+      "units": 22,
+      "coverage": "逐页文字提取；复用时按页核对表格和版式"
+    },
+    {
+      "id": "SRC-07",
+      "name": "资本市场工作记录（17 张表）",
+      "format": "XLSX",
+      "units": 1158,
+      "coverage": "全部工作表（含隐藏表）；公式按相对引用模式归并，不把每个期间重复公式当新知识"
+    },
+    {
+      "id": "SRC-08",
+      "name": "供应商自动化早期操作文档",
+      "format": "MD",
+      "units": 454,
+      "coverage": "全文结构化；早期指令与历史记录不自动作为现行流程"
+    },
+    {
+      "id": "SRC-09",
+      "name": "自动化文件与数据结构说明",
+      "format": "MD",
+      "units": 25,
+      "coverage": "全文结构化；早期指令与历史记录不自动作为现行流程"
+    },
+    {
+      "id": "SRC-10",
+      "name": "AP 全流程及后续更新（截至 2026-10-08）",
+      "format": "MD",
+      "units": 75,
+      "coverage": "全文结构化；早期指令与历史记录不自动作为现行流程"
+    },
+    {
+      "id": "SRC-11",
+      "name": "早期简历与活动记录（需核对版本）",
+      "format": "PDF",
+      "units": 6,
+      "coverage": "逐页文字提取；复用时按页核对表格和版式"
+    },
+    {
+      "id": "SRC-12",
+      "name": "开发与基金承销模板（17 张表）",
+      "format": "XLSX",
+      "units": 2106,
+      "coverage": "全部工作表（含隐藏表）；公式按相对引用模式归并，不把每个期间重复公式当新知识"
+    },
+    {
+      "id": "SRC-13",
+      "name": "independent project video production pack",
+      "format": "MD",
+      "units": 131,
+      "coverage": "全文结构化；早期指令与历史记录不自动作为现行流程"
+    },
+    {
+      "id": "SRC-14",
+      "name": "learned project brief",
+      "format": "MD",
+      "units": 171,
+      "coverage": "全文结构化；早期指令与历史记录不自动作为现行流程"
+    },
+    {
+      "id": "SRC-15",
+      "name": "Minimax true rebuild prompt",
+      "format": "MD",
+      "units": 22,
+      "coverage": "全文结构化；早期指令与历史记录不自动作为现行流程"
+    },
+    {
+      "id": "SRC-16",
+      "name": "Mira and documentary video upgrade pack",
+      "format": "MD",
+      "units": 59,
+      "coverage": "全文结构化；早期指令与历史记录不自动作为现行流程"
+    },
+    {
+      "id": "SRC-17",
+      "name": "Mira robot animation upgrade",
+      "format": "MD",
+      "units": 48,
+      "coverage": "全文结构化；早期指令与历史记录不自动作为现行流程"
+    },
+    {
+      "id": "SRC-18",
+      "name": "promo rewrite plan",
+      "format": "MD",
+      "units": 95,
+      "coverage": "全文结构化；早期指令与历史记录不自动作为现行流程"
+    },
+    {
+      "id": "SRC-19",
+      "name": "video brand asset bible",
+      "format": "MD",
+      "units": 69,
+      "coverage": "全文结构化；早期指令与历史记录不自动作为现行流程"
+    },
+    {
+      "id": "SRC-20",
+      "name": "RTL 信托研究比较（5 张表）",
+      "format": "XLSX",
+      "units": 375,
+      "coverage": "逐张工作表读取非空单元格；公开版只保留方法与结构，联系人、项目和报价未公开。",
+      "sheets": [
+        {
+          "name": "工作表 1",
+          "rows": 12,
+          "columns": 17
+        },
+        {
+          "name": "工作表 2",
+          "rows": 10,
+          "columns": 8
+        },
+        {
+          "name": "工作表 3",
+          "rows": 37,
+          "columns": 7
+        },
+        {
+          "name": "工作表 4",
+          "rows": 10,
+          "columns": 3
+        },
+        {
+          "name": "工作表 5",
+          "rows": 21,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "id": "SRC-21",
+      "name": "融资渠道与项目条款比较（9 张表）",
+      "format": "XLSX",
+      "units": 722,
+      "coverage": "逐张工作表读取非空单元格；公开版只保留方法与结构，联系人、项目和报价未公开。",
+      "sheets": [
+        {
+          "name": "工作表 1",
+          "rows": 121,
+          "columns": 9
+        },
+        {
+          "name": "工作表 2",
+          "rows": 18,
+          "columns": 6
+        },
+        {
+          "name": "工作表 3",
+          "rows": 6,
+          "columns": 4
+        },
+        {
+          "name": "工作表 4",
+          "rows": 29,
+          "columns": 15
+        },
+        {
+          "name": "工作表 5",
+          "rows": 7,
+          "columns": 14
+        },
+        {
+          "name": "工作表 6",
+          "rows": 4,
+          "columns": 13
+        },
+        {
+          "name": "工作表 7",
+          "rows": 4,
+          "columns": 13
+        },
+        {
+          "name": "工作表 8",
+          "rows": 10,
+          "columns": 14
+        },
+        {
+          "name": "工作表 9",
+          "rows": 5,
+          "columns": 6
+        }
+      ]
+    },
+    {
+      "id": "SRC-22",
+      "name": "RTL 交易与合格资产比较（4 张表）",
+      "format": "XLSX",
+      "units": 396,
+      "coverage": "逐张工作表读取非空单元格；公开版只保留方法与结构，联系人、项目和报价未公开。",
+      "sheets": [
+        {
+          "name": "工作表 1",
+          "rows": 8,
+          "columns": 12
+        },
+        {
+          "name": "工作表 2",
+          "rows": 16,
+          "columns": 7
+        },
+        {
+          "name": "工作表 3",
+          "rows": 36,
+          "columns": 8
+        },
+        {
+          "name": "工作表 4",
+          "rows": 12,
+          "columns": 7
+        }
+      ]
+    },
+    {
+      "id": "SRC-23",
+      "name": "RTL 历史市场报告（2026-08-12）",
+      "format": "PDF",
+      "units": 251,
+      "coverage": "逐页文字提取；图表需回看原页。预测、样本统计与代理值不是已核验的当前事实。",
+      "sheets": []
+    },
+    {
+      "id": "SRC-24",
+      "name": "成本、融资与图纸核对工作摘要",
+      "format": "TEXT",
+      "units": 1,
+      "coverage": "本人提供的工作摘要；方法与待办人工整理，未独立核验工程量或项目结果。",
+      "sheets": []
+    }
+  ],
+  "knowledge_points": [
+    {
+      "id": "KP-01-01",
+      "domain": "房地产建模",
+      "title": "把输入与计算分开",
+      "statement": "将租金、成本、时间与融资参数集中为输入；引用到支持表和现金流表。",
+      "check": "同一参数只有一个可追溯输入来源。",
+      "when": "开发项目承销模型搭建",
+      "workflow_id": "WF-01",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Project Assumptions / Construction Draw Schedule / Projected Cash Flows"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-01-02",
+      "domain": "房地产建模",
+      "title": "建立开发成本结构",
+      "statement": "分开土地、硬成本、软成本、contingency 与融资费用，再汇总。",
+      "check": "开发成本明细与总成本一致，储备未重复计入。",
+      "when": "开发项目承销模型搭建",
+      "workflow_id": "WF-01",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Project Assumptions / Construction Draw Schedule / Projected Cash Flows"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-01-03",
+      "domain": "房地产建模",
+      "title": "按时间放置资金流",
+      "statement": "把施工预算展开成月度提款，再把稳定期、运营期与退出连接。",
+      "check": "现金流支出月份与 draw schedule 一致。",
+      "when": "开发项目承销模型搭建",
+      "workflow_id": "WF-01",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Project Assumptions / Construction Draw Schedule / Projected Cash Flows"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-01-04",
+      "domain": "房地产建模",
+      "title": "区分两层现金流",
+      "statement": "先算无杠杆资产现金流，再加入融资、利息、本金与退出偿还。",
+      "check": "融资在股权层处理，不在资产层重复扣除。",
+      "when": "开发项目承销模型搭建",
+      "workflow_id": "WF-01",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Project Assumptions / Construction Draw Schedule / Projected Cash Flows"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-01-05",
+      "domain": "房地产建模",
+      "title": "形成可复核输出",
+      "statement": "汇总 IRR、股权倍数、资金需求及关键假设。",
+      "check": "错误引用、缺失输入与外部链接单独列出。",
+      "when": "开发项目承销模型搭建",
+      "workflow_id": "WF-01",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Project Assumptions / Construction Draw Schedule / Projected Cash Flows"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-02-01",
+      "domain": "房地产建模",
+      "title": "确认租金单位",
+      "statement": "区分每户月租与每平方英尺月租，避免把面积再乘一次。",
+      "check": "收入计算的单位一致。",
+      "when": "租金表到 NOI",
+      "workflow_id": "WF-02",
+      "source_refs": [
+        {
+          "source_id": "SRC-04",
+          "locator": "Project Assumptions!D7 / UW Model!B25:B38"
+        },
+        {
+          "source_id": "SRC-12",
+          "locator": "Project Assumptions!D7 / UW Model!B25:B38"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-02-02",
+      "domain": "房地产建模",
+      "title": "计算底层租金",
+      "statement": "面积型租金先算面积 × 单价，再按户型乘套数；月度转年化乘 12。",
+      "check": "各户型汇总回租金表。",
+      "when": "租金表到 NOI",
+      "workflow_id": "WF-02",
+      "source_refs": [
+        {
+          "source_id": "SRC-04",
+          "locator": "Project Assumptions!D7 / UW Model!B25:B38"
+        },
+        {
+          "source_id": "SRC-12",
+          "locator": "Project Assumptions!D7 / UW Model!B25:B38"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-02-03",
+      "domain": "房地产建模",
+      "title": "调整有效收入",
+      "statement": "按输入扣空置和信用损失，加入已支持的附加收入。",
+      "check": "假设、费用与收入基数有来源。",
+      "when": "租金表到 NOI",
+      "workflow_id": "WF-02",
+      "source_refs": [
+        {
+          "source_id": "SRC-04",
+          "locator": "Project Assumptions!D7 / UW Model!B25:B38"
+        },
+        {
+          "source_id": "SRC-12",
+          "locator": "Project Assumptions!D7 / UW Model!B25:B38"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-02-04",
+      "domain": "房地产建模",
+      "title": "建立运营费用",
+      "statement": "分别列税、保险、维修、管理与其他运营费用。",
+      "check": "按固定额或百分比计算的口径明确。",
+      "when": "租金表到 NOI",
+      "workflow_id": "WF-02",
+      "source_refs": [
+        {
+          "source_id": "SRC-04",
+          "locator": "Project Assumptions!D7 / UW Model!B25:B38"
+        },
+        {
+          "source_id": "SRC-12",
+          "locator": "Project Assumptions!D7 / UW Model!B25:B38"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-02-05",
+      "domain": "房地产建模",
+      "title": "解释 NOI 变化",
+      "statement": "以 EGI − 运营费用计算 NOI，并记录租金、空置及费用的主要变化。",
+      "check": "NOI 与来源行相减一致。",
+      "when": "租金表到 NOI",
+      "workflow_id": "WF-02",
+      "source_refs": [
+        {
+          "source_id": "SRC-04",
+          "locator": "Project Assumptions!D7 / UW Model!B25:B38"
+        },
+        {
+          "source_id": "SRC-12",
+          "locator": "Project Assumptions!D7 / UW Model!B25:B38"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-03-01",
+      "domain": "房地产建模",
+      "title": "拆分工种成本",
+      "statement": "按总承包、结构、机电及其他预算科目整理成本。",
+      "check": "工种合计等于支持的总预算。",
+      "when": "建设预算与提款日历",
+      "workflow_id": "WF-03",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Construction budget / Construction Draw Schedule"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-03-02",
+      "domain": "房地产建模",
+      "title": "建立月份日历",
+      "statement": "从开工日展开建设期间日期。",
+      "check": "日期连续且期数与工期一致。",
+      "when": "建设预算与提款日历",
+      "workflow_id": "WF-03",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Construction budget / Construction Draw Schedule"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-03-03",
+      "domain": "房地产建模",
+      "title": "分配月度支出",
+      "statement": "把每个工种成本安排到对应施工月份。",
+      "check": "每项月度合计回到该项预算。",
+      "when": "建设预算与提款日历",
+      "workflow_id": "WF-03",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Construction budget / Construction Draw Schedule"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-03-04",
+      "domain": "房地产建模",
+      "title": "连接融资使用",
+      "statement": "将月度建设支出接入项目现金流与贷款提款假设。",
+      "check": "未提款余额不被当作已经收到的现金。",
+      "when": "建设预算与提款日历",
+      "workflow_id": "WF-03",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Construction budget / Construction Draw Schedule"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-03-05",
+      "domain": "房地产建模",
+      "title": "更新预算影响",
+      "statement": "收到报价修订后更新成本，并重看资金与时间缺口。",
+      "check": "旧版、新版与差异可以回查。",
+      "when": "建设预算与提款日历",
+      "workflow_id": "WF-03",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Construction budget / Construction Draw Schedule"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-04-01",
+      "domain": "房地产建模",
+      "title": "分开三类融资",
+      "statement": "分别记录收购或再融资、建设贷款和长期贷款。",
+      "check": "贷款用途与对应成本匹配。",
+      "when": "贷款、债务服务与退出余额",
+      "workflow_id": "WF-04",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Projected Cash Flows rows 61–81 / loan amortization templates"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-04-02",
+      "domain": "房地产建模",
+      "title": "排列放款与偿还",
+      "statement": "在实际融资事件发生期放入贷款现金流。",
+      "check": "再融资所得与旧贷款清偿没有漏计或重复。",
+      "when": "贷款、债务服务与退出余额",
+      "workflow_id": "WF-04",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Projected Cash Flows rows 61–81 / loan amortization templates"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-04-03",
+      "domain": "房地产建模",
+      "title": "计算利息和本金",
+      "statement": "区别 interest-only 和 amortizing debt，分别计算本金与利息。",
+      "check": "期初余额 − 本金偿还 = 期末余额。",
+      "when": "贷款、债务服务与退出余额",
+      "workflow_id": "WF-04",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Projected Cash Flows rows 61–81 / loan amortization templates"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-04-04",
+      "domain": "房地产建模",
+      "title": "测算 DSCR",
+      "statement": "以同期间 NOI / 债务服务计算覆盖能力。",
+      "check": "NOI 与债务服务时间口径相同。",
+      "when": "贷款、债务服务与退出余额",
+      "workflow_id": "WF-04",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Projected Cash Flows rows 61–81 / loan amortization templates"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-04-05",
+      "domain": "房地产建模",
+      "title": "扣除退出债务",
+      "statement": "在出售或退出时扣对应未还本金。",
+      "check": "股权退出收入能从净出售收入与债务余额追溯。",
+      "when": "贷款、债务服务与退出余额",
+      "workflow_id": "WF-04",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Projected Cash Flows rows 61–81 / loan amortization templates"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-05-01",
+      "domain": "房地产建模",
+      "title": "区分现金流层级",
+      "statement": "先决定在做资产 DCF 还是股权 DCF。",
+      "check": "现金流与折现率层级一致。",
+      "when": "DCF 估值与敏感性",
+      "workflow_id": "WF-05",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "DCF Analysis / Projected Cash Flows"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-05-02",
+      "domain": "房地产建模",
+      "title": "推导退出价值",
+      "statement": "用退出后下一期 NOI / exit cap rate 计算终值，再扣出售费用。",
+      "check": "终值没有把同一经营期重复计算。",
+      "when": "DCF 估值与敏感性",
+      "workflow_id": "WF-05",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "DCF Analysis / Projected Cash Flows"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-05-03",
+      "domain": "房地产建模",
+      "title": "逐期求现值",
+      "statement": "按对应期数折现经营现金流与净终值。",
+      "check": "时点、折现因子与资金符号一致。",
+      "when": "DCF 估值与敏感性",
+      "workflow_id": "WF-05",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "DCF Analysis / Projected Cash Flows"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-05-04",
+      "domain": "房地产建模",
+      "title": "说明折现率",
+      "statement": "记录 WACC 或风险溢价 build-up 的输入和依据。",
+      "check": "历史文件输入未冒充今天的市场数据。",
+      "when": "DCF 估值与敏感性",
+      "workflow_id": "WF-05",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "DCF Analysis / Projected Cash Flows"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-05-05",
+      "domain": "房地产建模",
+      "title": "运行情景比较",
+      "statement": "比较 discount rate × cap rate 对估值与 NPV 的影响。",
+      "check": "每个格子对应真实改变后的两项输入。",
+      "when": "DCF 估值与敏感性",
+      "workflow_id": "WF-05",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "DCF Analysis / Projected Cash Flows"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-06-01",
+      "domain": "房地产建模",
+      "title": "整理条款顺序",
+      "statement": "明确资本返还、优先回报欠款、GP catch-up 与 residual promote 的先后。",
+      "check": "文字条款、tier 标签与公式一致。",
+      "when": "LP / GP 收益 waterfall",
+      "workflow_id": "WF-06",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Fund Terms Assumptions / OZ Fund Equity Waterfall"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-06-02",
+      "domain": "房地产建模",
+      "title": "建立余额滚动",
+      "statement": "分别记录资本余额和累积未付 preferred return。",
+      "check": "期末余额 = 期初 + 当期新增 − 当期支付。",
+      "when": "LP / GP 收益 waterfall",
+      "workflow_id": "WF-06",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Fund Terms Assumptions / OZ Fund Equity Waterfall"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-06-03",
+      "domain": "房地产建模",
+      "title": "限制当层支付",
+      "statement": "只能在当前可分配现金范围内支付当前 tier。",
+      "check": "已分配现金不再流入下一层。",
+      "when": "LP / GP 收益 waterfall",
+      "workflow_id": "WF-06",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Fund Terms Assumptions / OZ Fund Equity Waterfall"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-06-04",
+      "domain": "房地产建模",
+      "title": "分别汇总参与人",
+      "statement": "区分 LP distributions、GP co-invest 与 GP promote。",
+      "check": "项目现金流与参与人分配总额对齐。",
+      "when": "LP / GP 收益 waterfall",
+      "workflow_id": "WF-06",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Fund Terms Assumptions / OZ Fund Equity Waterfall"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-06-05",
+      "domain": "房地产建模",
+      "title": "计算和检查收益",
+      "statement": "用带日期的现金流计算 XIRR，汇总倍数并检查现金余额。",
+      "check": "XIRR 日期与现金流配对，余额差额有解释。",
+      "when": "LP / GP 收益 waterfall",
+      "workflow_id": "WF-06",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Fund Terms Assumptions / OZ Fund Equity Waterfall"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-07-01",
+      "domain": "贷款承销",
+      "title": "确认分母",
+      "statement": "分别定义土地价值、ARV 和总成本基础。",
+      "check": "Acquisition LTV 不与 LTC 混用分母。",
+      "when": "RTL 贷款规模与杠杆限制",
+      "workflow_id": "WF-07",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "UW Model!B61:B67 / metrics sections"
+        },
+        {
+          "source_id": "SRC-04",
+          "locator": "UW Model!B61:B67 / metrics sections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-07-02",
+      "domain": "贷款承销",
+      "title": "计算杠杆比例",
+      "statement": "按对应贷款部分与分母计算 Acq LTV、ARLTV、LTC。",
+      "check": "公式检查条件与分母单元格一致。",
+      "when": "RTL 贷款规模与杠杆限制",
+      "workflow_id": "WF-07",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "UW Model!B61:B67 / metrics sections"
+        },
+        {
+          "source_id": "SRC-04",
+          "locator": "UW Model!B61:B67 / metrics sections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-07-03",
+      "domain": "贷款承销",
+      "title": "转成额度限制",
+      "statement": "将每项允许杠杆乘对应资产或成本基础。",
+      "check": "审批参数引用的是确认后的版本。",
+      "when": "RTL 贷款规模与杠杆限制",
+      "workflow_id": "WF-07",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "UW Model!B61:B67 / metrics sections"
+        },
+        {
+          "source_id": "SRC-04",
+          "locator": "UW Model!B61:B67 / metrics sections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-07-04",
+      "domain": "贷款承销",
+      "title": "选择 binding limit",
+      "statement": "比较三项限制，取最小值作为模型中的 binding max。",
+      "check": "要求贷款与约束额度比较，其他政策条件另核对。",
+      "when": "RTL 贷款规模与杠杆限制",
+      "workflow_id": "WF-07",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "UW Model!B61:B67 / metrics sections"
+        },
+        {
+          "source_id": "SRC-04",
+          "locator": "UW Model!B61:B67 / metrics sections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-07-05",
+      "domain": "贷款承销",
+      "title": "形成承销解释",
+      "statement": "说明哪项限制生效、缺哪些资料以及为何不能继续。",
+      "check": "模型额度不直接等于最终授信批准。",
+      "when": "RTL 贷款规模与杠杆限制",
+      "workflow_id": "WF-07",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "UW Model!B61:B67 / metrics sections"
+        },
+        {
+          "source_id": "SRC-04",
+          "locator": "UW Model!B61:B67 / metrics sections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-08-01",
+      "domain": "贷款承销",
+      "title": "确认基准日期",
+      "statement": "记录 SOFR 输入日期、floor 和适用定价版本。",
+      "check": "报价时间与输入日期一致。",
+      "when": "SOFR 定价与 carry 估算",
+      "workflow_id": "WF-08",
+      "source_refs": [
+        {
+          "source_id": "SRC-04",
+          "locator": "Pricing Engine / UW Model rows 79–83"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-08-02",
+      "domain": "贷款承销",
+      "title": "选择基础 spread",
+      "statement": "按产品和 borrower tier 选择已确认的 spread。",
+      "check": "不适用产品保持不可用。",
+      "when": "SOFR 定价与 carry 估算",
+      "workflow_id": "WF-08",
+      "source_refs": [
+        {
+          "source_id": "SRC-04",
+          "locator": "Pricing Engine / UW Model rows 79–83"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-08-03",
+      "domain": "贷款承销",
+      "title": "组合 all-in rate",
+      "statement": "取 MAX(SOFR,floor)，再加调整后 spread / 10000。",
+      "check": "百分比与 basis points 单位一致。",
+      "when": "SOFR 定价与 carry 估算",
+      "workflow_id": "WF-08",
+      "source_refs": [
+        {
+          "source_id": "SRC-04",
+          "locator": "Pricing Engine / UW Model rows 79–83"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-08-04",
+      "domain": "贷款承销",
+      "title": "估算建设 carry",
+      "statement": "贷款额 × 平均已提款比例 × 年利率 / 12 × 月数。",
+      "check": "平均提款假设单独列明，并与实际 draw path 区分。",
+      "when": "SOFR 定价与 carry 估算",
+      "workflow_id": "WF-08",
+      "source_refs": [
+        {
+          "source_id": "SRC-04",
+          "locator": "Pricing Engine / UW Model rows 79–83"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-08-05",
+      "domain": "贷款承销",
+      "title": "核对报价输出",
+      "statement": "检查 Pricing Engine、UW Model 与 term sheet 的利率和费用。",
+      "check": "各版本之间没有未解释的差异。",
+      "when": "SOFR 定价与 carry 估算",
+      "workflow_id": "WF-08",
+      "source_refs": [
+        {
+          "source_id": "SRC-04",
+          "locator": "Pricing Engine / UW Model rows 79–83"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-09-01",
+      "domain": "贷款执行",
+      "title": "按六类建清单",
+      "statement": "按实体、项目、保险/title、个人、贷款及 draw 文件组织。",
+      "check": "每个项目有对应清单。",
+      "when": "交割资料清单",
+      "workflow_id": "WF-09",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "Closing checklist / loan documentation sections"
+        },
+        {
+          "source_id": "SRC-05",
+          "locator": "Closing checklist / loan documentation sections"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "Closing checklist / loan documentation sections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-09-02",
+      "domain": "贷款执行",
+      "title": "明确文件状态",
+      "statement": "记录所需文件、版本、有效期、负责人、收到/待补状态。",
+      "check": "没有文件证据不标为已完成。",
+      "when": "交割资料清单",
+      "workflow_id": "WF-09",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "Closing checklist / loan documentation sections"
+        },
+        {
+          "source_id": "SRC-05",
+          "locator": "Closing checklist / loan documentation sections"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "Closing checklist / loan documentation sections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-09-03",
+      "domain": "贷款执行",
+      "title": "核对主体一致",
+      "statement": "比较实体名、借款主体、保险与 title 文件。",
+      "check": "主体冲突列为待确认。",
+      "when": "交割资料清单",
+      "workflow_id": "WF-09",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "Closing checklist / loan documentation sections"
+        },
+        {
+          "source_id": "SRC-05",
+          "locator": "Closing checklist / loan documentation sections"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "Closing checklist / loan documentation sections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-09-04",
+      "domain": "贷款执行",
+      "title": "整理交割缺口",
+      "statement": "把 payoff、WIP、许可证、保险和 lender conditions 的缺项排序。",
+      "check": "关键条件有责任人与下一步。",
+      "when": "交割资料清单",
+      "workflow_id": "WF-09",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "Closing checklist / loan documentation sections"
+        },
+        {
+          "source_id": "SRC-05",
+          "locator": "Closing checklist / loan documentation sections"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "Closing checklist / loan documentation sections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-09-05",
+      "domain": "贷款执行",
+      "title": "提交审核包",
+      "statement": "形成已收到资料和缺口清单，交给有权限人员审查。",
+      "check": "只由正式授权人员确认交割与放款。",
+      "when": "交割资料清单",
+      "workflow_id": "WF-09",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "Closing checklist / loan documentation sections"
+        },
+        {
+          "source_id": "SRC-05",
+          "locator": "Closing checklist / loan documentation sections"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "Closing checklist / loan documentation sections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-10-01",
+      "domain": "贷款执行",
+      "title": "核对申请依据",
+      "statement": "匹配提款申请、预算和已发生工程成本。",
+      "check": "申请金额能追溯到支持材料。",
+      "when": "建设提款与 payoff 跟进",
+      "workflow_id": "WF-10",
+      "source_refs": [
+        {
+          "source_id": "SRC-05",
+          "locator": "construction draw / financing / checklist"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "construction draw / financing / checklist"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-10-02",
+      "domain": "贷款执行",
+      "title": "跟进检查条件",
+      "statement": "核对 inspection、保险凭证及 waiver。",
+      "check": "缺项不被视为已满足。",
+      "when": "建设提款与 payoff 跟进",
+      "workflow_id": "WF-10",
+      "source_refs": [
+        {
+          "source_id": "SRC-05",
+          "locator": "construction draw / financing / checklist"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "construction draw / financing / checklist"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-10-03",
+      "domain": "贷款执行",
+      "title": "跟踪审批与资金",
+      "statement": "区别 submitted、approved、funded 三种状态。",
+      "check": "银行或贷款方证据决定 funded 状态。",
+      "when": "建设提款与 payoff 跟进",
+      "workflow_id": "WF-10",
+      "source_refs": [
+        {
+          "source_id": "SRC-05",
+          "locator": "construction draw / financing / checklist"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "construction draw / financing / checklist"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-10-04",
+      "domain": "贷款执行",
+      "title": "核对账户与支付",
+      "statement": "对资金到账、重复付款及贷款账户进行对账。",
+      "check": "任何冲突留给负责人员确认。",
+      "when": "建设提款与 payoff 跟进",
+      "workflow_id": "WF-10",
+      "source_refs": [
+        {
+          "source_id": "SRC-05",
+          "locator": "construction draw / financing / checklist"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "construction draw / financing / checklist"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-10-05",
+      "domain": "贷款执行",
+      "title": "归档 payoff 与变更",
+      "statement": "保留 payoff、延期、清偿与后续沟通版本。",
+      "check": "申请、批准和实际支付可串联回查。",
+      "when": "建设提款与 payoff 跟进",
+      "workflow_id": "WF-10",
+      "source_refs": [
+        {
+          "source_id": "SRC-05",
+          "locator": "construction draw / financing / checklist"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "construction draw / financing / checklist"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-11-01",
+      "domain": "AP 自动化",
+      "title": "建立接收清单",
+      "statement": "列出可读取的新附件，不把转发目录视为完整邮箱记录。",
+      "check": "覆盖来源与未读取项清楚。",
+      "when": "发票接收与 OCR",
+      "workflow_id": "WF-11",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 1 / Step 0 / OCR amendments"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 1 / Step 0 / OCR amendments"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-11-02",
+      "domain": "AP 自动化",
+      "title": "按文件哈希去重",
+      "statement": "用 SHA-256 对比已保存附件。",
+      "check": "重复文件有记录，不重新处理。",
+      "when": "发票接收与 OCR",
+      "workflow_id": "WF-11",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 1 / Step 0 / OCR amendments"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 1 / Step 0 / OCR amendments"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-11-03",
+      "domain": "AP 自动化",
+      "title": "按版式识别文本",
+      "statement": "有文字层直接提取；图片型文档先 OCR。",
+      "check": "OCR 不覆盖原文件。",
+      "when": "发票接收与 OCR",
+      "workflow_id": "WF-11",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 1 / Step 0 / OCR amendments"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 1 / Step 0 / OCR amendments"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-11-04",
+      "domain": "AP 自动化",
+      "title": "复核重要字段",
+      "statement": "在页面图像上核对金额、发票号与主体。",
+      "check": "影响付款的字段有人工可读证据。",
+      "when": "发票接收与 OCR",
+      "workflow_id": "WF-11",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 1 / Step 0 / OCR amendments"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 1 / Step 0 / OCR amendments"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-11-05",
+      "domain": "AP 自动化",
+      "title": "区分文档类型",
+      "statement": "分类为 invoice、receipt、statement、quote 或 suspicious。",
+      "check": "非发票和可疑文件不进入可付款队列。",
+      "when": "发票接收与 OCR",
+      "workflow_id": "WF-11",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 1 / Step 0 / OCR amendments"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 1 / Step 0 / OCR amendments"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-12-01",
+      "domain": "AP 自动化",
+      "title": "读取发票正面",
+      "statement": "提取 Bill To、service/job address 和行项目。",
+      "check": "不依赖文件名决定主体。",
+      "when": "实体识别与 CSI 编码",
+      "workflow_id": "WF-12",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-12-02",
+      "domain": "AP 自动化",
+      "title": "匹配项目实体",
+      "statement": "按已确认 registry 查找准确项目 LLC。",
+      "check": "不得用母公司替代未知项目实体。",
+      "when": "实体识别与 CSI 编码",
+      "workflow_id": "WF-12",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-12-03",
+      "domain": "AP 自动化",
+      "title": "为多工种逐行编码",
+      "statement": "先查 vendor mapping，多工种依据行项目描述。",
+      "check": "未知工种标记待确认。",
+      "when": "实体识别与 CSI 编码",
+      "workflow_id": "WF-12",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-12-04",
+      "domain": "AP 自动化",
+      "title": "核对命名字段",
+      "statement": "仅将已确认的日期、vendor、invoice、金额和 scope 用于命名建议。",
+      "check": "不创造发票号或金额。",
+      "when": "实体识别与 CSI 编码",
+      "workflow_id": "WF-12",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-12-05",
+      "domain": "AP 自动化",
+      "title": "保存判断证据",
+      "statement": "记录使用了哪个 registry 条目和成本映射。",
+      "check": "每个主体与编码判断可回查。",
+      "when": "实体识别与 CSI 编码",
+      "workflow_id": "WF-12",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-13-01",
+      "domain": "AP 自动化",
+      "title": "同时查字节与业务键",
+      "statement": "文件哈希查副本；vendor + invoice + amount 查内容重复。",
+      "check": "字节不同不代表不同账单。",
+      "when": "重复付款防控",
+      "workflow_id": "WF-13",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "project-archive paid check 2026-10-06"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "project-archive paid check 2026-10-06"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-13-02",
+      "domain": "AP 自动化",
+      "title": "查所有相关归档",
+      "statement": "查已支付归档、历史子目录与旧项目记录。",
+      "check": "记录搜索范围和未能检查的来源。",
+      "when": "重复付款防控",
+      "workflow_id": "WF-13",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "project-archive paid check 2026-10-06"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "project-archive paid check 2026-10-06"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-13-03",
+      "domain": "AP 自动化",
+      "title": "识别付款证据",
+      "statement": "paid marker、确认记录或只读系统状态支持已支付判断。",
+      "check": "无明确标记的匹配进入 HOLD。",
+      "when": "重复付款防控",
+      "workflow_id": "WF-13",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "project-archive paid check 2026-10-06"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "project-archive paid check 2026-10-06"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-13-04",
+      "domain": "AP 自动化",
+      "title": "保留阻断状态",
+      "statement": "已在别处支付的行标 DO NOT PAY，并记录原因。",
+      "check": "不将未清除重复风险重新作为 PAY。",
+      "when": "重复付款防控",
+      "workflow_id": "WF-13",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "project-archive paid check 2026-10-06"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "project-archive paid check 2026-10-06"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-13-05",
+      "domain": "AP 自动化",
+      "title": "留对账记录",
+      "statement": "记录命中位置、判断和人工确认结果。",
+      "check": "不得自行 void 或提交银行交易。",
+      "when": "重复付款防控",
+      "workflow_id": "WF-13",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "project-archive paid check 2026-10-06"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "project-archive paid check 2026-10-06"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-14-01",
+      "domain": "AP 自动化",
+      "title": "定位人工批次",
+      "statement": "找到人工已创建的批次和现有付款表。",
+      "check": "不创建新批次或新日期表。",
+      "when": "更新现有批准批次表",
+      "workflow_id": "WF-14",
+      "source_refs": [
+        {
+          "source_id": "SRC-10",
+          "locator": "FINAL RULE 2026-10-08 / existing-sheet update"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-14-02",
+      "domain": "AP 自动化",
+      "title": "以 PDF 清单作为基础",
+      "statement": "每张有效发票 PDF 对应一行；无对应 PDF 不新增付款行。",
+      "check": "表格行与文件清单逐一对应。",
+      "when": "更新现有批准批次表",
+      "workflow_id": "WF-14",
+      "source_refs": [
+        {
+          "source_id": "SRC-10",
+          "locator": "FINAL RULE 2026-10-08 / existing-sheet update"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-14-03",
+      "domain": "AP 自动化",
+      "title": "更新事实与辅助字段",
+      "statement": "填 PDF 的金额、发票号、项目和编码，再加入资料、风险与决定状态。",
+      "check": "不从旧 ledger 自动复活发票行。",
+      "when": "更新现有批准批次表",
+      "workflow_id": "WF-14",
+      "source_refs": [
+        {
+          "source_id": "SRC-10",
+          "locator": "FINAL RULE 2026-10-08 / existing-sheet update"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-14-04",
+      "domain": "AP 自动化",
+      "title": "保留人工决定",
+      "statement": "已付 elsewhere 标 GREY/DO NOT PAY、保留原因；保留已有决定。",
+      "check": "不擅自删行、移入 PDF 或移动批次。",
+      "when": "更新现有批准批次表",
+      "workflow_id": "WF-14",
+      "source_refs": [
+        {
+          "source_id": "SRC-10",
+          "locator": "FINAL RULE 2026-10-08 / existing-sheet update"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-14-05",
+      "domain": "AP 自动化",
+      "title": "复核后输出",
+      "statement": "计算合计和按状态分组结果，保留更改记录。",
+      "check": "原表锁定或无更新权限时停止并报告。",
+      "when": "更新现有批准批次表",
+      "workflow_id": "WF-14",
+      "source_refs": [
+        {
+          "source_id": "SRC-10",
+          "locator": "FINAL RULE 2026-10-08 / existing-sheet update"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-15-01",
+      "domain": "AP 自动化",
+      "title": "确认先有批准",
+      "statement": "先确认发票已由批准人审核，再进入资料收集。",
+      "check": "未批准项不触发资料催收。",
+      "when": "批准后检查供应商资料",
+      "workflow_id": "WF-15",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 5b / approval-before-docs"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "Stage 5b / approval-before-docs"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 5b / approval-before-docs"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-15-02",
+      "domain": "AP 自动化",
+      "title": "先查文件再查台账",
+      "statement": "核对文档库，再更新 vendor master。",
+      "check": "旧 ledger 不能替代实际文件。",
+      "when": "批准后检查供应商资料",
+      "workflow_id": "WF-15",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 5b / approval-before-docs"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "Stage 5b / approval-before-docs"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 5b / approval-before-docs"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-15-03",
+      "domain": "AP 自动化",
+      "title": "区分两层资料",
+      "statement": "W-9 和完整 policy 为 vendor 级；COI 与 agreement 按项目核对。",
+      "check": "项目级资料不跨项目默认有效。",
+      "when": "批准后检查供应商资料",
+      "workflow_id": "WF-15",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 5b / approval-before-docs"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "Stage 5b / approval-before-docs"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 5b / approval-before-docs"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-15-04",
+      "domain": "AP 自动化",
+      "title": "检查有效性与缺口",
+      "statement": "核对当前日期、实体及所需证明，不仅检查文件是否存在。",
+      "check": "只列确实缺失或无效项目。",
+      "when": "批准后检查供应商资料",
+      "workflow_id": "WF-15",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 5b / approval-before-docs"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "Stage 5b / approval-before-docs"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 5b / approval-before-docs"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-15-05",
+      "domain": "AP 自动化",
+      "title": "生成请求草稿",
+      "statement": "生成缺项请求并标 HOLD - DOCS；首次联系交人工审核。",
+      "check": "收件人与附件未确认时不发送。",
+      "when": "批准后检查供应商资料",
+      "workflow_id": "WF-15",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 5b / approval-before-docs"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "Stage 5b / approval-before-docs"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 5b / approval-before-docs"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-16-01",
+      "domain": "AP 自动化",
+      "title": "确认真实付款状态",
+      "statement": "从银行确认读 payee、amount、send-on、status 和 confirmation/check 信息。",
+      "check": "Scheduled 不当作 Paid。",
+      "when": "付款确认匹配与归档",
+      "workflow_id": "WF-16",
+      "source_refs": [
+        {
+          "source_id": "SRC-10",
+          "locator": "Stages 8–11 / confirmation controls"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-16-02",
+      "domain": "AP 自动化",
+      "title": "匹配确认与发票",
+      "statement": "比较 payee、amount、memo/invoice 与付款日期。",
+      "check": "不使用旧支付记录充当本次证据。",
+      "when": "付款确认匹配与归档",
+      "workflow_id": "WF-16",
+      "source_refs": [
+        {
+          "source_id": "SRC-10",
+          "locator": "Stages 8–11 / confirmation controls"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-16-03",
+      "domain": "AP 自动化",
+      "title": "核对实体与末四位",
+      "statement": "核对 Project LLC 与 paid-from account 映射。",
+      "check": "冲突进入 NEEDS_HUMAN。",
+      "when": "付款确认匹配与归档",
+      "workflow_id": "WF-16",
+      "source_refs": [
+        {
+          "source_id": "SRC-10",
+          "locator": "Stages 8–11 / confirmation controls"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-16-04",
+      "domain": "AP 自动化",
+      "title": "准备合并资料",
+      "statement": "仅在匹配后把确认页与发票组成归档件，并保留原始文件。",
+      "check": "不永久删除原件，不遗漏付款来源末四位。",
+      "when": "付款确认匹配与归档",
+      "workflow_id": "WF-16",
+      "source_refs": [
+        {
+          "source_id": "SRC-10",
+          "locator": "Stages 8–11 / confirmation controls"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-16-05",
+      "domain": "AP 自动化",
+      "title": "记录通知和归档",
+      "statement": "更新确认信息，生成通知草稿并记录正式发送/归档证据。",
+      "check": "无实际发送或归档证据不标完成。",
+      "when": "付款确认匹配与归档",
+      "workflow_id": "WF-16",
+      "source_refs": [
+        {
+          "source_id": "SRC-10",
+          "locator": "Stages 8–11 / confirmation controls"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-17-01",
+      "domain": "AP 自动化",
+      "title": "区分付款和归档状态",
+      "statement": "拆分 unpaid、partial、paid-not-filed、closed。",
+      "check": "Paid 不自动等于 Closed。",
+      "when": "未完款项与账务对账",
+      "workflow_id": "WF-17",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "carry-forward ledger / latest folder update"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "carry-forward ledger / latest folder update"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-17-02",
+      "domain": "AP 自动化",
+      "title": "计算未完余额",
+      "statement": "依据证据记录 paid-to-date 与 balance due。",
+      "check": "未付余额 = 原金额 − 已付金额。",
+      "when": "未完款项与账务对账",
+      "workflow_id": "WF-17",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "carry-forward ledger / latest folder update"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "carry-forward ledger / latest folder update"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-17-03",
+      "domain": "AP 自动化",
+      "title": "尊重当前批次边界",
+      "statement": "无当前批次 PDF 的 ledger 项只作独立跟进，不新增付款行。",
+      "check": "旧 carry-forward 规则不覆盖 10/08 更新。",
+      "when": "未完款项与账务对账",
+      "workflow_id": "WF-17",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "carry-forward ledger / latest folder update"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "carry-forward ledger / latest folder update"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-17-04",
+      "domain": "AP 自动化",
+      "title": "核对账务入账",
+      "statement": "将付款记录、项目归档与会计入账逐项对账。",
+      "check": "没有会计证据不标 Entered in QBD。",
+      "when": "未完款项与账务对账",
+      "workflow_id": "WF-17",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "carry-forward ledger / latest folder update"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "carry-forward ledger / latest folder update"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-17-05",
+      "domain": "AP 自动化",
+      "title": "关闭有完整证据的项",
+      "statement": "仅在全额支付且归档完成时关闭，并保留原因。",
+      "check": "记录未被永久删除。",
+      "when": "未完款项与账务对账",
+      "workflow_id": "WF-17",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "carry-forward ledger / latest folder update"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "carry-forward ledger / latest folder update"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-18-01",
+      "domain": "风险与执行",
+      "title": "列保险需求",
+      "statement": "按项目工作范围列 builder’s risk、GL 及相关证明。",
+      "check": "需求来自当前项目条件。",
+      "when": "保险文件与 coverage 跟进",
+      "workflow_id": "WF-18",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "insurance policies / compliance / closing checklist"
+        },
+        {
+          "source_id": "SRC-05",
+          "locator": "insurance policies / compliance / closing checklist"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "insurance policies / compliance / closing checklist"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-18-02",
+      "domain": "风险与执行",
+      "title": "核对实体名称",
+      "statement": "核查 insured、additional insured 与 lender/mortgagee 信息。",
+      "check": "泛称或错误主体列为缺口。",
+      "when": "保险文件与 coverage 跟进",
+      "workflow_id": "WF-18",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "insurance policies / compliance / closing checklist"
+        },
+        {
+          "source_id": "SRC-05",
+          "locator": "insurance policies / compliance / closing checklist"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "insurance policies / compliance / closing checklist"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-18-03",
+      "domain": "风险与执行",
+      "title": "区别证书和完整 policy",
+      "statement": "COI 提供摘要，完整 policy/endorsement 需要单独核对。",
+      "check": "不把证书当完整 coverage 判断。",
+      "when": "保险文件与 coverage 跟进",
+      "workflow_id": "WF-18",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "insurance policies / compliance / closing checklist"
+        },
+        {
+          "source_id": "SRC-05",
+          "locator": "insurance policies / compliance / closing checklist"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "insurance policies / compliance / closing checklist"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-18-04",
+      "domain": "风险与执行",
+      "title": "跟进续保与变更",
+      "statement": "记录到期、报价、bind 与缺项的不同状态。",
+      "check": "报价或请求不代表已生效。",
+      "when": "保险文件与 coverage 跟进",
+      "workflow_id": "WF-18",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "insurance policies / compliance / closing checklist"
+        },
+        {
+          "source_id": "SRC-05",
+          "locator": "insurance policies / compliance / closing checklist"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "insurance policies / compliance / closing checklist"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-18-05",
+      "domain": "风险与执行",
+      "title": "提交专业确认",
+      "statement": "将 coverage 和 exclusion 争议交 broker/有权限人员确认。",
+      "check": "网站知识点不作保险覆盖法律结论。",
+      "when": "保险文件与 coverage 跟进",
+      "workflow_id": "WF-18",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "insurance policies / compliance / closing checklist"
+        },
+        {
+          "source_id": "SRC-05",
+          "locator": "insurance policies / compliance / closing checklist"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "insurance policies / compliance / closing checklist"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-19-01",
+      "domain": "风险与执行",
+      "title": "将事实与状态分开",
+      "statement": "记录事实来源、文件日期和已确认状态。",
+      "check": "内部备注不替代正式文件。",
+      "when": "索赔资料组织与跟进",
+      "workflow_id": "WF-19",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "claims / Insurance Claims"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-19-02",
+      "domain": "风险与执行",
+      "title": "整理证据缺口",
+      "statement": "列 loss documentation、证明材料和待提供记录。",
+      "check": "敏感人身/诉讼细节保持私有。",
+      "when": "索赔资料组织与跟进",
+      "workflow_id": "WF-19",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "claims / Insurance Claims"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-19-03",
+      "domain": "风险与执行",
+      "title": "明确负责人",
+      "statement": "把每个问题分给律师、broker、业务负责人等。",
+      "check": "谁确认、谁提供文件可区分。",
+      "when": "索赔资料组织与跟进",
+      "workflow_id": "WF-19",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "claims / Insurance Claims"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-19-04",
+      "domain": "风险与执行",
+      "title": "准备跟进草稿",
+      "statement": "按未解决的问题整理沟通草稿。",
+      "check": "不代替律师意见或实际发信。",
+      "when": "索赔资料组织与跟进",
+      "workflow_id": "WF-19",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "claims / Insurance Claims"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-19-05",
+      "domain": "风险与执行",
+      "title": "记录回复及变化",
+      "statement": "在正式回复后更新状态，并保留旧记录。",
+      "check": "没有回复不标解决。",
+      "when": "索赔资料组织与跟进",
+      "workflow_id": "WF-19",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "claims / Insurance Claims"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-20-01",
+      "domain": "风险与执行",
+      "title": "确认适用主体",
+      "statement": "确定需要哪个实体的成立、good standing、执照或 bond。",
+      "check": "不跨实体借用文件。",
+      "when": "执照、实体与行政文件管理",
+      "workflow_id": "WF-20",
+      "source_refs": [
+        {
+          "source_id": "SRC-05",
+          "locator": "licenses / filings / entity documents"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "licenses / filings / entity documents"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "licenses / filings / entity documents"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-20-02",
+      "domain": "风险与执行",
+      "title": "核对申请字段",
+      "statement": "检查缺项、签署、费用凭证和支持文件。",
+      "check": "不补造 EIN、签署或执照号。",
+      "when": "执照、实体与行政文件管理",
+      "workflow_id": "WF-20",
+      "source_refs": [
+        {
+          "source_id": "SRC-05",
+          "locator": "licenses / filings / entity documents"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "licenses / filings / entity documents"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "licenses / filings / entity documents"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-20-03",
+      "domain": "风险与执行",
+      "title": "记录递交证据",
+      "statement": "保存递交日期、回执和版本。",
+      "check": "Sent 不等于 Approved。",
+      "when": "执照、实体与行政文件管理",
+      "workflow_id": "WF-20",
+      "source_refs": [
+        {
+          "source_id": "SRC-05",
+          "locator": "licenses / filings / entity documents"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "licenses / filings / entity documents"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "licenses / filings / entity documents"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-20-04",
+      "domain": "风险与执行",
+      "title": "跟进未完成要求",
+      "statement": "记录补件、待回复和责任人。",
+      "check": "状态有来源及下一步。",
+      "when": "执照、实体与行政文件管理",
+      "workflow_id": "WF-20",
+      "source_refs": [
+        {
+          "source_id": "SRC-05",
+          "locator": "licenses / filings / entity documents"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "licenses / filings / entity documents"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "licenses / filings / entity documents"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-20-05",
+      "domain": "风险与执行",
+      "title": "归档获批文件",
+      "statement": "正式文件收到后归入实体档案。",
+      "check": "有效期与使用范围可回查。",
+      "when": "执照、实体与行政文件管理",
+      "workflow_id": "WF-20",
+      "source_refs": [
+        {
+          "source_id": "SRC-05",
+          "locator": "licenses / filings / entity documents"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "licenses / filings / entity documents"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "licenses / filings / entity documents"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-21-01",
+      "domain": "TimeXmart 与创作",
+      "title": "先确认当前版本",
+      "statement": "区分营销设想、后续产品结构和已实现能力。",
+      "check": "不混合不同阶段的事实。",
+      "when": "TimeXmart 产品故事拆解",
+      "workflow_id": "WF-21",
+      "source_refs": [
+        {
+          "source_id": "SRC-13",
+          "locator": "project positioning / product structure"
+        },
+        {
+          "source_id": "SRC-14",
+          "locator": "project positioning / product structure"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-21-02",
+      "domain": "TimeXmart 与创作",
+      "title": "从具体帮助开始",
+      "statement": "用一次用户需求与可提供的帮助解释价值。",
+      "check": "不以抽象口号替代用户场景。",
+      "when": "TimeXmart 产品故事拆解",
+      "workflow_id": "WF-21",
+      "source_refs": [
+        {
+          "source_id": "SRC-13",
+          "locator": "project positioning / product structure"
+        },
+        {
+          "source_id": "SRC-14",
+          "locator": "project positioning / product structure"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-21-03",
+      "domain": "TimeXmart 与创作",
+      "title": "说明交换过程",
+      "statement": "连接需求、匹配、交换与结果记录。",
+      "check": "方案与已完成交付明确区分。",
+      "when": "TimeXmart 产品故事拆解",
+      "workflow_id": "WF-21",
+      "source_refs": [
+        {
+          "source_id": "SRC-13",
+          "locator": "project positioning / product structure"
+        },
+        {
+          "source_id": "SRC-14",
+          "locator": "project positioning / product structure"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-21-04",
+      "domain": "TimeXmart 与创作",
+      "title": "连接个人价值",
+      "statement": "说明作品、评价与交换记录如何成为能力证明的设想。",
+      "check": "不宣称尚未验证的产品成果。",
+      "when": "TimeXmart 产品故事拆解",
+      "workflow_id": "WF-21",
+      "source_refs": [
+        {
+          "source_id": "SRC-13",
+          "locator": "project positioning / product structure"
+        },
+        {
+          "source_id": "SRC-14",
+          "locator": "project positioning / product structure"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-21-05",
+      "domain": "TimeXmart 与创作",
+      "title": "形成可复用文稿",
+      "statement": "整理一句定位、使用场景、功能顺序和来源。",
+      "check": "每个产品判断保留版本与出处。",
+      "when": "TimeXmart 产品故事拆解",
+      "workflow_id": "WF-21",
+      "source_refs": [
+        {
+          "source_id": "SRC-13",
+          "locator": "project positioning / product structure"
+        },
+        {
+          "source_id": "SRC-14",
+          "locator": "project positioning / product structure"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-22-01",
+      "domain": "TimeXmart 与创作",
+      "title": "冻结角色参考",
+      "statement": "核对米白机身、黑色结构、金色细节、像素眼与 MIRA 标识。",
+      "check": "同一项目使用同一角色版本。",
+      "when": "MIRA 角色与品牌一致性",
+      "workflow_id": "WF-22",
+      "source_refs": [
+        {
+          "source_id": "SRC-15",
+          "locator": "MIRA reference / logo and UI references"
+        },
+        {
+          "source_id": "SRC-17",
+          "locator": "MIRA reference / logo and UI references"
+        },
+        {
+          "source_id": "SRC-19",
+          "locator": "MIRA reference / logo and UI references"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-22-02",
+      "domain": "TimeXmart 与创作",
+      "title": "区分视觉场景",
+      "statement": "分别处理产品 UI 与宣传画面的色彩和排版。",
+      "check": "不把一套色彩当所有场景的唯一标准。",
+      "when": "MIRA 角色与品牌一致性",
+      "workflow_id": "WF-22",
+      "source_refs": [
+        {
+          "source_id": "SRC-15",
+          "locator": "MIRA reference / logo and UI references"
+        },
+        {
+          "source_id": "SRC-17",
+          "locator": "MIRA reference / logo and UI references"
+        },
+        {
+          "source_id": "SRC-19",
+          "locator": "MIRA reference / logo and UI references"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-22-03",
+      "domain": "TimeXmart 与创作",
+      "title": "确定开头动作",
+      "statement": "从已调好的 MIRA 开场与主体表达出发。",
+      "check": "测试片头不当完整成片发布。",
+      "when": "MIRA 角色与品牌一致性",
+      "workflow_id": "WF-22",
+      "source_refs": [
+        {
+          "source_id": "SRC-15",
+          "locator": "MIRA reference / logo and UI references"
+        },
+        {
+          "source_id": "SRC-17",
+          "locator": "MIRA reference / logo and UI references"
+        },
+        {
+          "source_id": "SRC-19",
+          "locator": "MIRA reference / logo and UI references"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-22-04",
+      "domain": "TimeXmart 与创作",
+      "title": "检查文字与 Logo",
+      "statement": "使用确认的原始资产和准确文字。",
+      "check": "生成图像不擅自重绘品牌文字。",
+      "when": "MIRA 角色与品牌一致性",
+      "workflow_id": "WF-22",
+      "source_refs": [
+        {
+          "source_id": "SRC-15",
+          "locator": "MIRA reference / logo and UI references"
+        },
+        {
+          "source_id": "SRC-17",
+          "locator": "MIRA reference / logo and UI references"
+        },
+        {
+          "source_id": "SRC-19",
+          "locator": "MIRA reference / logo and UI references"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-22-05",
+      "domain": "TimeXmart 与创作",
+      "title": "整理资产复用",
+      "statement": "分开角色镜头、UI、文字和品牌资产。",
+      "check": "单镜头修订不需要重建全部素材。",
+      "when": "MIRA 角色与品牌一致性",
+      "workflow_id": "WF-22",
+      "source_refs": [
+        {
+          "source_id": "SRC-15",
+          "locator": "MIRA reference / logo and UI references"
+        },
+        {
+          "source_id": "SRC-17",
+          "locator": "MIRA reference / logo and UI references"
+        },
+        {
+          "source_id": "SRC-19",
+          "locator": "MIRA reference / logo and UI references"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-23-01",
+      "domain": "TimeXmart 与创作",
+      "title": "定义展示规则",
+      "statement": "只收录最终成片，排除测试、预览、旧版及原素材。",
+      "check": "最新文件不自动等于用户批准的最终版。",
+      "when": "最终视频筛选与作品发布",
+      "workflow_id": "WF-23",
+      "source_refs": [
+        {
+          "source_id": "SRC-13",
+          "locator": "final export / portfolio selections"
+        },
+        {
+          "source_id": "SRC-18",
+          "locator": "final export / portfolio selections"
+        },
+        {
+          "source_id": "SRC-19",
+          "locator": "final export / portfolio selections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-23-02",
+      "domain": "TimeXmart 与创作",
+      "title": "检查实际开头",
+      "statement": "查看开场画面，确认小机器人版本。",
+      "check": "不只按文件名猜开头。",
+      "when": "最终视频筛选与作品发布",
+      "workflow_id": "WF-23",
+      "source_refs": [
+        {
+          "source_id": "SRC-13",
+          "locator": "final export / portfolio selections"
+        },
+        {
+          "source_id": "SRC-18",
+          "locator": "final export / portfolio selections"
+        },
+        {
+          "source_id": "SRC-19",
+          "locator": "final export / portfolio selections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-23-03",
+      "domain": "TimeXmart 与创作",
+      "title": "去重并分主题",
+      "statement": "按成片内容及文件指纹区分技能、物品和个人 IP 三条作品。",
+      "check": "同一成片副本不重复展示。",
+      "when": "最终视频筛选与作品发布",
+      "workflow_id": "WF-23",
+      "source_refs": [
+        {
+          "source_id": "SRC-13",
+          "locator": "final export / portfolio selections"
+        },
+        {
+          "source_id": "SRC-18",
+          "locator": "final export / portfolio selections"
+        },
+        {
+          "source_id": "SRC-19",
+          "locator": "final export / portfolio selections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-23-04",
+      "domain": "TimeXmart 与创作",
+      "title": "验证媒体与封面",
+      "statement": "检查文件、封面、播放入口和公开可读性。",
+      "check": "目录数量不代替播放检查。",
+      "when": "最终视频筛选与作品发布",
+      "workflow_id": "WF-23",
+      "source_refs": [
+        {
+          "source_id": "SRC-13",
+          "locator": "final export / portfolio selections"
+        },
+        {
+          "source_id": "SRC-18",
+          "locator": "final export / portfolio selections"
+        },
+        {
+          "source_id": "SRC-19",
+          "locator": "final export / portfolio selections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-23-05",
+      "domain": "TimeXmart 与创作",
+      "title": "发布后检查",
+      "statement": "核对页面、缓存、链接与不应展示的内容。",
+      "check": "已移除跳绳与非选定宣传版本。",
+      "when": "最终视频筛选与作品发布",
+      "workflow_id": "WF-23",
+      "source_refs": [
+        {
+          "source_id": "SRC-13",
+          "locator": "final export / portfolio selections"
+        },
+        {
+          "source_id": "SRC-18",
+          "locator": "final export / portfolio selections"
+        },
+        {
+          "source_id": "SRC-19",
+          "locator": "final export / portfolio selections"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-24-01",
+      "domain": "知识管理",
+      "title": "建立来源登记",
+      "statement": "记录文件类型、指纹、页/表/行结构及可读取范围。",
+      "check": "无法读取部分标为缺口。",
+      "when": "资料拆分与来源追踪",
+      "workflow_id": "WF-24",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "source structure / record keeping"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "source structure / record keeping"
+        },
+        {
+          "source_id": "SRC-14",
+          "locator": "source structure / record keeping"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-24-02",
+      "domain": "知识管理",
+      "title": "拆成单一信息单元",
+      "statement": "将原文、字段与公式按最小可理解单位拆分。",
+      "check": "不把整个文件摘要当一个知识点。",
+      "when": "资料拆分与来源追踪",
+      "workflow_id": "WF-24",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "source structure / record keeping"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "source structure / record keeping"
+        },
+        {
+          "source_id": "SRC-14",
+          "locator": "source structure / record keeping"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-24-03",
+      "domain": "知识管理",
+      "title": "区分证据与方法",
+      "statement": "原文片段作为证据；提炼的知识点写用途、操作与检查。",
+      "check": "推导和原文清楚区分。",
+      "when": "资料拆分与来源追踪",
+      "workflow_id": "WF-24",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "source structure / record keeping"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "source structure / record keeping"
+        },
+        {
+          "source_id": "SRC-14",
+          "locator": "source structure / record keeping"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-24-04",
+      "domain": "知识管理",
+      "title": "处理版本与冲突",
+      "statement": "保留旧规则，并明确新版覆盖范围。",
+      "check": "冲突未解决的条目不当现行执行依据。",
+      "when": "资料拆分与来源追踪",
+      "workflow_id": "WF-24",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "source structure / record keeping"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "source structure / record keeping"
+        },
+        {
+          "source_id": "SRC-14",
+          "locator": "source structure / record keeping"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-24-05",
+      "domain": "知识管理",
+      "title": "建立工作流关系",
+      "statement": "把输入、步骤、输出和验收连接到知识点 ID。",
+      "check": "每一步可回查来源和完成证据。",
+      "when": "资料拆分与来源追踪",
+      "workflow_id": "WF-24",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "source structure / record keeping"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "source structure / record keeping"
+        },
+        {
+          "source_id": "SRC-14",
+          "locator": "source structure / record keeping"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-25-01",
+      "domain": "职业与项目",
+      "title": "确认角色与时间",
+      "statement": "以简历、记录与本人确认建立角色时间线。",
+      "check": "历史简历与现职状态区分。",
+      "when": "从经历到可展示的贡献记录",
+      "workflow_id": "WF-25",
+      "source_refs": [
+        {
+          "source_id": "SRC-01",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-02",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-06",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-11",
+          "locator": "résumé / professional notes / action records"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-25-02",
+      "domain": "职业与项目",
+      "title": "区分贡献与结果",
+      "statement": "明确参与、负责、建立和协作的边界。",
+      "check": "不把团队整体成果都归个人。",
+      "when": "从经历到可展示的贡献记录",
+      "workflow_id": "WF-25",
+      "source_refs": [
+        {
+          "source_id": "SRC-01",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-02",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-06",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-11",
+          "locator": "résumé / professional notes / action records"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-25-03",
+      "domain": "职业与项目",
+      "title": "为贡献保留证据",
+      "statement": "把具体文件、任务或产出连接到陈述。",
+      "check": "没有证据的指标不补写。",
+      "when": "从经历到可展示的贡献记录",
+      "workflow_id": "WF-25",
+      "source_refs": [
+        {
+          "source_id": "SRC-01",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-02",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-06",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-11",
+          "locator": "résumé / professional notes / action records"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-25-04",
+      "domain": "职业与项目",
+      "title": "拆出可复用能力",
+      "statement": "将经历变成分析、组织、执行、创作等可操作方法。",
+      "check": "能力描述能对应具体操作。",
+      "when": "从经历到可展示的贡献记录",
+      "workflow_id": "WF-25",
+      "source_refs": [
+        {
+          "source_id": "SRC-01",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-02",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-06",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-11",
+          "locator": "résumé / professional notes / action records"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-25-05",
+      "domain": "职业与项目",
+      "title": "脱敏公开展示",
+      "statement": "移除地址、金额、个人资料、客户和诉讼细节。",
+      "check": "公开摘要与私人证据分开。",
+      "when": "从经历到可展示的贡献记录",
+      "workflow_id": "WF-25",
+      "source_refs": [
+        {
+          "source_id": "SRC-01",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-02",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-06",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-11",
+          "locator": "résumé / professional notes / action records"
+        }
+      ],
+      "status": "来源支持的方法；执行时仍须核对输入",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-26-01",
+      "domain": "结构化信用研究",
+      "title": "登记文件与日期",
+      "statement": "分别记录预售、最终发行和监测材料的文件日期、截止日与版本。",
+      "check": "不同阶段数据不直接覆盖。",
+      "when": "RTL 交易字段标准化",
+      "workflow_id": "WF-26",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "Trust Summary Overview / Trust Overview / Credit Ratings"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "Trust Summary Overview / Trust Overview / Credit Ratings"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-26-02",
+      "domain": "结构化信用研究",
+      "title": "定义规模字段",
+      "statement": "区分初始贷款池本金、发行额、资金账户与未来承诺。",
+      "check": "每个数字附单位与口径。",
+      "when": "RTL 交易字段标准化",
+      "workflow_id": "WF-26",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "Trust Summary Overview / Trust Overview / Credit Ratings"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "Trust Summary Overview / Trust Overview / Credit Ratings"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-26-03",
+      "domain": "结构化信用研究",
+      "title": "拆分指标层级",
+      "statement": "分别标记实际加权平均、组合约束、单笔上限和集中度。",
+      "check": "同名不同层级的指标保持独立。",
+      "when": "RTL 交易字段标准化",
+      "workflow_id": "WF-26",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "Trust Summary Overview / Trust Overview / Credit Ratings"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "Trust Summary Overview / Trust Overview / Credit Ratings"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-26-04",
+      "domain": "结构化信用研究",
+      "title": "保留版本冲突",
+      "statement": "并列两版不同数值，回到文件位置核对，不平均或随意选取。",
+      "check": "每项修订有依据。",
+      "when": "RTL 交易字段标准化",
+      "workflow_id": "WF-26",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "Trust Summary Overview / Trust Overview / Credit Ratings"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "Trust Summary Overview / Trust Overview / Credit Ratings"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-26-05",
+      "domain": "结构化信用研究",
+      "title": "输出比较表",
+      "statement": "输出字段、标准值、日期、来源及缺失状态。",
+      "check": "未披露值保留未知。",
+      "when": "RTL 交易字段标准化",
+      "workflow_id": "WF-26",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "Trust Summary Overview / Trust Overview / Credit Ratings"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "Trust Summary Overview / Trust Overview / Credit Ratings"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-27-01",
+      "domain": "结构化信用研究",
+      "title": "确认项目属性",
+      "statement": "列产品类型、地区、施工阶段、杠杆与资料状态。",
+      "check": "敏感项目身份留在私人资料中。",
+      "when": "贷款与资金池合格标准匹配",
+      "workflow_id": "WF-27",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "Eligibility Criteria / Silverline Deal Fit / Credit Enhancement"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "Eligibility Criteria / Silverline Deal Fit / Credit Enhancement"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-27-02",
+      "domain": "结构化信用研究",
+      "title": "核对单笔条件",
+      "statement": "逐项比较明确的单笔要求，缺少字段列待补。",
+      "check": "组合平均要求不当单笔门槛。",
+      "when": "贷款与资金池合格标准匹配",
+      "workflow_id": "WF-27",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "Eligibility Criteria / Silverline Deal Fit / Credit Enhancement"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "Eligibility Criteria / Silverline Deal Fit / Credit Enhancement"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-27-03",
+      "domain": "结构化信用研究",
+      "title": "核对组合限制",
+      "statement": "单独比较集中度与组合加权约束。",
+      "check": "单笔合格不代表池级容量可用。",
+      "when": "贷款与资金池合格标准匹配",
+      "workflow_id": "WF-27",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "Eligibility Criteria / Silverline Deal Fit / Credit Enhancement"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "Eligibility Criteria / Silverline Deal Fit / Credit Enhancement"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-27-04",
+      "domain": "结构化信用研究",
+      "title": "核对结构支持",
+      "statement": "记录信用增级、服务与发起安排，不只比较评级或票息。",
+      "check": "各层级定义可回查。",
+      "when": "贷款与资金池合格标准匹配",
+      "workflow_id": "WF-27",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "Eligibility Criteria / Silverline Deal Fit / Credit Enhancement"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "Eligibility Criteria / Silverline Deal Fit / Credit Enhancement"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-27-05",
+      "domain": "结构化信用研究",
+      "title": "形成尽调问题",
+      "statement": "输出可匹配、需确认与未支持事项，交负责人核实。",
+      "check": "不将研究结论写成授信批准或融资承诺。",
+      "when": "贷款与资金池合格标准匹配",
+      "workflow_id": "WF-27",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "Eligibility Criteria / Silverline Deal Fit / Credit Enhancement"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "Eligibility Criteria / Silverline Deal Fit / Credit Enhancement"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-28-01",
+      "domain": "融资渠道研究",
+      "title": "规范化机构名称",
+      "statement": "去除名称变体，保留各联系记录，不以行数当独立机构数。",
+      "check": "计数前检查重复与空行。",
+      "when": "融资渠道与报价统一比较",
+      "workflow_id": "WF-28",
+      "source_refs": [
+        {
+          "source_id": "SRC-21",
+          "locator": "Lender List / classified channels / project comparison tables"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-28-02",
+      "domain": "融资渠道研究",
+      "title": "明确产品与角色",
+      "statement": "分开贷款方、经纪、白标和资金提供方，标注产品覆盖。",
+      "check": "网站信息与正式反馈分开。",
+      "when": "融资渠道与报价统一比较",
+      "workflow_id": "WF-28",
+      "source_refs": [
+        {
+          "source_id": "SRC-21",
+          "locator": "Lender List / classified channels / project comparison tables"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-28-03",
+      "domain": "融资渠道研究",
+      "title": "展开全部费用",
+      "statement": "列利率、点数、佣金、储备和退出或延期费。",
+      "check": "历史报价带日期。",
+      "when": "融资渠道与报价统一比较",
+      "workflow_id": "WF-28",
+      "source_refs": [
+        {
+          "source_id": "SRC-21",
+          "locator": "Lender List / classified channels / project comparison tables"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-28-04",
+      "domain": "融资渠道研究",
+      "title": "比较资金时间线",
+      "statement": "列交割净到账、后续可提款和支出时点。",
+      "check": "名义额度不当实际可用现金。",
+      "when": "融资渠道与报价统一比较",
+      "workflow_id": "WF-28",
+      "source_refs": [
+        {
+          "source_id": "SRC-21",
+          "locator": "Lender List / classified channels / project comparison tables"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-28-05",
+      "domain": "融资渠道研究",
+      "title": "记录下一步",
+      "statement": "为每个候选写未确认条件、负责人和需要的支持材料。",
+      "check": "没有反馈不标为已同意。",
+      "when": "融资渠道与报价统一比较",
+      "workflow_id": "WF-28",
+      "source_refs": [
+        {
+          "source_id": "SRC-21",
+          "locator": "Lender List / classified channels / project comparison tables"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-29-01",
+      "domain": "结构化信用研究",
+      "title": "拆开报告主张",
+      "statement": "逐项标记直接披露、作者计算、预测和代理估算。",
+      "check": "预测不写成已经发生。",
+      "when": "历史市场报告复核",
+      "workflow_id": "WF-29",
+      "source_refs": [
+        {
+          "source_id": "SRC-23",
+          "locator": "7 页报告 / 时间、代理值与市场结论"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-29-02",
+      "domain": "结构化信用研究",
+      "title": "区分票息与资产收益",
+      "statement": "分别记录债券票息、贷款池利率和平台净收益。",
+      "check": "不同层面不直接相减得结论。",
+      "when": "历史市场报告复核",
+      "workflow_id": "WF-29",
+      "source_refs": [
+        {
+          "source_id": "SRC-23",
+          "locator": "7 页报告 / 时间、代理值与市场结论"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-29-03",
+      "domain": "结构化信用研究",
+      "title": "核对代理值",
+      "statement": "若本期未披露而借用其他交易，明确代理来源与限制。",
+      "check": "代理值不伪装成直接披露。",
+      "when": "历史市场报告复核",
+      "workflow_id": "WF-29",
+      "source_refs": [
+        {
+          "source_id": "SRC-23",
+          "locator": "7 页报告 / 时间、代理值与市场结论"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-29-04",
+      "domain": "结构化信用研究",
+      "title": "限定样本范围",
+      "statement": "注明样本、日期与覆盖范围，不能外推为全市场事实。",
+      "check": "无法验证的统计保留待核实。",
+      "when": "历史市场报告复核",
+      "workflow_id": "WF-29",
+      "source_refs": [
+        {
+          "source_id": "SRC-23",
+          "locator": "7 页报告 / 时间、代理值与市场结论"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-29-05",
+      "domain": "结构化信用研究",
+      "title": "写出有边界的结论",
+      "statement": "附支持来源、适用时间、风险与下一步验证。",
+      "check": "不将历史判断冒充现时行情。",
+      "when": "历史市场报告复核",
+      "workflow_id": "WF-29",
+      "source_refs": [
+        {
+          "source_id": "SRC-23",
+          "locator": "7 页报告 / 时间、代理值与市场结论"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-30-01",
+      "domain": "建设成本分析",
+      "title": "筛选可比项目",
+      "statement": "按结构、面积、施工条件与装修等级选择历史参考。",
+      "check": "通胀调整不代替可比性判断。",
+      "when": "从图纸到数量乘单价预算",
+      "workflow_id": "WF-30",
+      "source_refs": [
+        {
+          "source_id": "SRC-24",
+          "locator": "用户提供的成本计量与项目核对工作摘要"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-30-02",
+      "domain": "建设成本分析",
+      "title": "记录工程量单位",
+      "statement": "分别登记长度、面积、体积、套数或工时并统一换算。",
+      "check": "每个数量有计量位置与单位。",
+      "when": "从图纸到数量乘单价预算",
+      "workflow_id": "WF-30",
+      "source_refs": [
+        {
+          "source_id": "SRC-24",
+          "locator": "用户提供的成本计量与项目核对工作摘要"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-30-03",
+      "domain": "建设成本分析",
+      "title": "说明单价范围",
+      "statement": "区分材料、人工、设备、运输与损耗，避免范围错配。",
+      "check": "按时计费与包干不可直接混用。",
+      "when": "从图纸到数量乘单价预算",
+      "workflow_id": "WF-30",
+      "source_refs": [
+        {
+          "source_id": "SRC-24",
+          "locator": "用户提供的成本计量与项目核对工作摘要"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-30-04",
+      "domain": "建设成本分析",
+      "title": "图纸预算双向核对",
+      "statement": "查图纸遗漏项与预算未支持项，重测差异数量。",
+      "check": "不凭总额调平而隐藏范围问题。",
+      "when": "从图纸到数量乘单价预算",
+      "workflow_id": "WF-30",
+      "source_refs": [
+        {
+          "source_id": "SRC-24",
+          "locator": "用户提供的成本计量与项目核对工作摘要"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-30-05",
+      "domain": "建设成本分析",
+      "title": "输出待报价与修订",
+      "statement": "列暂估、重测、责任人、证据和修订日期。",
+      "check": "尚未取得的报价不标最终成本。",
+      "when": "从图纸到数量乘单价预算",
+      "workflow_id": "WF-30",
+      "source_refs": [
+        {
+          "source_id": "SRC-24",
+          "locator": "用户提供的成本计量与项目核对工作摘要"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-31-01",
+      "domain": "AI 工作流设计",
+      "title": "限定任务",
+      "statement": "只选择明确文档类别和问题，写出必须回答的字段。",
+      "check": "评价范围事先确定。",
+      "when": "信用 AI 的证据与异常评价",
+      "workflow_id": "WF-31",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        },
+        {
+          "source_id": "SRC-23",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-31-02",
+      "domain": "AI 工作流设计",
+      "title": "给字段带来源",
+      "statement": "记录页码或单元格、日期、定义与直接/计算/代理类型。",
+      "check": "引用内容真的支持答案。",
+      "when": "信用 AI 的证据与异常评价",
+      "workflow_id": "WF-31",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        },
+        {
+          "source_id": "SRC-23",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-31-03",
+      "domain": "AI 工作流设计",
+      "title": "设计困难样本",
+      "statement": "加入缺失披露、旧版、同名异义和识别失败。",
+      "check": "样本包含应该回答未知的情况。",
+      "when": "信用 AI 的证据与异常评价",
+      "workflow_id": "WF-31",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        },
+        {
+          "source_id": "SRC-23",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-31-04",
+      "domain": "AI 工作流设计",
+      "title": "分层评价",
+      "statement": "分别检查提取、计算、来源支持和保留未知的能力。",
+      "check": "不能只按文风像专家打分。",
+      "when": "信用 AI 的证据与异常评价",
+      "workflow_id": "WF-31",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        },
+        {
+          "source_id": "SRC-23",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    },
+    {
+      "id": "KP-31-05",
+      "domain": "AI 工作流设计",
+      "title": "保存修订反馈",
+      "statement": "记录人工纠正与错误类别，加入后续回归样本。",
+      "check": "评价结果必须来自真实测量。",
+      "when": "信用 AI 的证据与异常评价",
+      "workflow_id": "WF-31",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        },
+        {
+          "source_id": "SRC-23",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        }
+      ],
+      "status": "资料支持的方法或明确标注的技能延展",
+      "type": "可操作知识点"
+    }
+  ],
+  "workflows": [
+    {
+      "id": "WF-01",
+      "domain": "房地产建模",
+      "title": "开发项目承销模型搭建",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Project Assumptions / Construction Draw Schedule / Projected Cash Flows"
+        }
+      ],
+      "inputs": [
+        "户型与租金表",
+        "开发预算",
+        "施工与稳定期时间线",
+        "融资条款"
+      ],
+      "steps": [
+        {
+          "title": "把输入与计算分开",
+          "action": "将租金、成本、时间与融资参数集中为输入；引用到支持表和现金流表。",
+          "check": "同一参数只有一个可追溯输入来源。",
+          "knowledge_id": "KP-01-01"
+        },
+        {
+          "title": "建立开发成本结构",
+          "action": "分开土地、硬成本、软成本、contingency 与融资费用，再汇总。",
+          "check": "开发成本明细与总成本一致，储备未重复计入。",
+          "knowledge_id": "KP-01-02"
+        },
+        {
+          "title": "按时间放置资金流",
+          "action": "把施工预算展开成月度提款，再把稳定期、运营期与退出连接。",
+          "check": "现金流支出月份与 draw schedule 一致。",
+          "knowledge_id": "KP-01-03"
+        },
+        {
+          "title": "区分两层现金流",
+          "action": "先算无杠杆资产现金流，再加入融资、利息、本金与退出偿还。",
+          "check": "融资在股权层处理，不在资产层重复扣除。",
+          "knowledge_id": "KP-01-04"
+        },
+        {
+          "title": "形成可复核输出",
+          "action": "汇总 IRR、股权倍数、资金需求及关键假设。",
+          "check": "错误引用、缺失输入与外部链接单独列出。",
+          "knowledge_id": "KP-01-05"
+        }
+      ],
+      "outputs": [
+        "输入表与计算表地图",
+        "开发现金流",
+        "模型待复核清单"
+      ],
+      "acceptance": [
+        "Sources & Uses 对齐",
+        "投资投入与退出符号一致"
+      ],
+      "metrics": [
+        "成本对账差额 = 总成本 − 明细合计",
+        "模型缺口数 = 未确认的输入或引用数量"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-02",
+      "domain": "房地产建模",
+      "title": "租金表到 NOI",
+      "source_refs": [
+        {
+          "source_id": "SRC-04",
+          "locator": "Project Assumptions!D7 / UW Model!B25:B38"
+        },
+        {
+          "source_id": "SRC-12",
+          "locator": "Project Assumptions!D7 / UW Model!B25:B38"
+        }
+      ],
+      "inputs": [
+        "单位数与面积",
+        "单位租金及其单位",
+        "空置/信用损失",
+        "运营费用"
+      ],
+      "steps": [
+        {
+          "title": "确认租金单位",
+          "action": "区分每户月租与每平方英尺月租，避免把面积再乘一次。",
+          "check": "收入计算的单位一致。",
+          "knowledge_id": "KP-02-01"
+        },
+        {
+          "title": "计算底层租金",
+          "action": "面积型租金先算面积 × 单价，再按户型乘套数；月度转年化乘 12。",
+          "check": "各户型汇总回租金表。",
+          "knowledge_id": "KP-02-02"
+        },
+        {
+          "title": "调整有效收入",
+          "action": "按输入扣空置和信用损失，加入已支持的附加收入。",
+          "check": "假设、费用与收入基数有来源。",
+          "knowledge_id": "KP-02-03"
+        },
+        {
+          "title": "建立运营费用",
+          "action": "分别列税、保险、维修、管理与其他运营费用。",
+          "check": "按固定额或百分比计算的口径明确。",
+          "knowledge_id": "KP-02-04"
+        },
+        {
+          "title": "解释 NOI 变化",
+          "action": "以 EGI − 运营费用计算 NOI，并记录租金、空置及费用的主要变化。",
+          "check": "NOI 与来源行相减一致。",
+          "knowledge_id": "KP-02-05"
+        }
+      ],
+      "outputs": [
+        "NOI bridge",
+        "租金及费用口径说明"
+      ],
+      "acceptance": [
+        "不将缺失输入当零",
+        "金额与月份口径一致"
+      ],
+      "metrics": [
+        "NOI = EGI − OpEx",
+        "费用率 = OpEx / EGI，EGI 不可用时结果不可用"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-03",
+      "domain": "房地产建模",
+      "title": "建设预算与提款日历",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Construction budget / Construction Draw Schedule"
+        }
+      ],
+      "inputs": [
+        "按工种预算",
+        "施工开始日期",
+        "施工月数",
+        "工种支出节奏"
+      ],
+      "steps": [
+        {
+          "title": "拆分工种成本",
+          "action": "按总承包、结构、机电及其他预算科目整理成本。",
+          "check": "工种合计等于支持的总预算。",
+          "knowledge_id": "KP-03-01"
+        },
+        {
+          "title": "建立月份日历",
+          "action": "从开工日展开建设期间日期。",
+          "check": "日期连续且期数与工期一致。",
+          "knowledge_id": "KP-03-02"
+        },
+        {
+          "title": "分配月度支出",
+          "action": "把每个工种成本安排到对应施工月份。",
+          "check": "每项月度合计回到该项预算。",
+          "knowledge_id": "KP-03-03"
+        },
+        {
+          "title": "连接融资使用",
+          "action": "将月度建设支出接入项目现金流与贷款提款假设。",
+          "check": "未提款余额不被当作已经收到的现金。",
+          "knowledge_id": "KP-03-04"
+        },
+        {
+          "title": "更新预算影响",
+          "action": "收到报价修订后更新成本，并重看资金与时间缺口。",
+          "check": "旧版、新版与差异可以回查。",
+          "knowledge_id": "KP-03-05"
+        }
+      ],
+      "outputs": [
+        "月度支出日历",
+        "draw schedule",
+        "预算变更记录"
+      ],
+      "acceptance": [
+        "按工种与按月份双向对账"
+      ],
+      "metrics": [
+        "提款对账差额 = 期间提款合计 − 预算合计",
+        "每户成本 = 总成本 / 户数"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-04",
+      "domain": "房地产建模",
+      "title": "贷款、债务服务与退出余额",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Projected Cash Flows rows 61–81 / loan amortization templates"
+        }
+      ],
+      "inputs": [
+        "收购/建设/长期贷款条款",
+        "资金使用日历",
+        "利率与摊还方式",
+        "退出日期"
+      ],
+      "steps": [
+        {
+          "title": "分开三类融资",
+          "action": "分别记录收购或再融资、建设贷款和长期贷款。",
+          "check": "贷款用途与对应成本匹配。",
+          "knowledge_id": "KP-04-01"
+        },
+        {
+          "title": "排列放款与偿还",
+          "action": "在实际融资事件发生期放入贷款现金流。",
+          "check": "再融资所得与旧贷款清偿没有漏计或重复。",
+          "knowledge_id": "KP-04-02"
+        },
+        {
+          "title": "计算利息和本金",
+          "action": "区别 interest-only 和 amortizing debt，分别计算本金与利息。",
+          "check": "期初余额 − 本金偿还 = 期末余额。",
+          "knowledge_id": "KP-04-03"
+        },
+        {
+          "title": "测算 DSCR",
+          "action": "以同期间 NOI / 债务服务计算覆盖能力。",
+          "check": "NOI 与债务服务时间口径相同。",
+          "knowledge_id": "KP-04-04"
+        },
+        {
+          "title": "扣除退出债务",
+          "action": "在出售或退出时扣对应未还本金。",
+          "check": "股权退出收入能从净出售收入与债务余额追溯。",
+          "knowledge_id": "KP-04-05"
+        }
+      ],
+      "outputs": [
+        "贷款时间线",
+        "债务服务与余额表",
+        "股权现金流"
+      ],
+      "acceptance": [
+        "债务余额 rollforward 对账"
+      ],
+      "metrics": [
+        "DSCR = NOI / Debt Service",
+        "退出净股权收入 = 净出售收入 − 退出债务"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-05",
+      "domain": "房地产建模",
+      "title": "DCF 估值与敏感性",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "DCF Analysis / Projected Cash Flows"
+        }
+      ],
+      "inputs": [
+        "NOI 预测",
+        "退出 cap rate",
+        "出售费用",
+        "折现率依据"
+      ],
+      "steps": [
+        {
+          "title": "区分现金流层级",
+          "action": "先决定在做资产 DCF 还是股权 DCF。",
+          "check": "现金流与折现率层级一致。",
+          "knowledge_id": "KP-05-01"
+        },
+        {
+          "title": "推导退出价值",
+          "action": "用退出后下一期 NOI / exit cap rate 计算终值，再扣出售费用。",
+          "check": "终值没有把同一经营期重复计算。",
+          "knowledge_id": "KP-05-02"
+        },
+        {
+          "title": "逐期求现值",
+          "action": "按对应期数折现经营现金流与净终值。",
+          "check": "时点、折现因子与资金符号一致。",
+          "knowledge_id": "KP-05-03"
+        },
+        {
+          "title": "说明折现率",
+          "action": "记录 WACC 或风险溢价 build-up 的输入和依据。",
+          "check": "历史文件输入未冒充今天的市场数据。",
+          "knowledge_id": "KP-05-04"
+        },
+        {
+          "title": "运行情景比较",
+          "action": "比较 discount rate × cap rate 对估值与 NPV 的影响。",
+          "check": "每个格子对应真实改变后的两项输入。",
+          "knowledge_id": "KP-05-05"
+        }
+      ],
+      "outputs": [
+        "DCF 结构说明",
+        "敏感性表",
+        "假设依据"
+      ],
+      "acceptance": [
+        "将模型估值与实际成交/承诺分开"
+      ],
+      "metrics": [
+        "NPV = 未来现金流现值 − 初始投入",
+        "情景覆盖数 = 实际计算的不同输入组合数量"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-06",
+      "domain": "房地产建模",
+      "title": "LP / GP 收益 waterfall",
+      "source_refs": [
+        {
+          "source_id": "SRC-12",
+          "locator": "Fund Terms Assumptions / OZ Fund Equity Waterfall"
+        }
+      ],
+      "inputs": [
+        "LP/GP 出资",
+        "可分配现金流",
+        "优先回报与欠款口径",
+        "catch-up 和 residual 条款"
+      ],
+      "steps": [
+        {
+          "title": "整理条款顺序",
+          "action": "明确资本返还、优先回报欠款、GP catch-up 与 residual promote 的先后。",
+          "check": "文字条款、tier 标签与公式一致。",
+          "knowledge_id": "KP-06-01"
+        },
+        {
+          "title": "建立余额滚动",
+          "action": "分别记录资本余额和累积未付 preferred return。",
+          "check": "期末余额 = 期初 + 当期新增 − 当期支付。",
+          "knowledge_id": "KP-06-02"
+        },
+        {
+          "title": "限制当层支付",
+          "action": "只能在当前可分配现金范围内支付当前 tier。",
+          "check": "已分配现金不再流入下一层。",
+          "knowledge_id": "KP-06-03"
+        },
+        {
+          "title": "分别汇总参与人",
+          "action": "区分 LP distributions、GP co-invest 与 GP promote。",
+          "check": "项目现金流与参与人分配总额对齐。",
+          "knowledge_id": "KP-06-04"
+        },
+        {
+          "title": "计算和检查收益",
+          "action": "用带日期的现金流计算 XIRR，汇总倍数并检查现金余额。",
+          "check": "XIRR 日期与现金流配对，余额差额有解释。",
+          "knowledge_id": "KP-06-05"
+        }
+      ],
+      "outputs": [
+        "分配层级图",
+        "LP/GP 现金流",
+        "分配平衡检查"
+      ],
+      "acceptance": [
+        "不把税务假设视为已验证法律结论"
+      ],
+      "metrics": [
+        "分配差额 = 可分配现金 − LP 分配 − GP 分配",
+        "资本倍数 = 总分配 / 实际投入"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-07",
+      "domain": "贷款承销",
+      "title": "RTL 贷款规模与杠杆限制",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "UW Model!B61:B67 / metrics sections"
+        },
+        {
+          "source_id": "SRC-04",
+          "locator": "UW Model!B61:B67 / metrics sections"
+        }
+      ],
+      "inputs": [
+        "土地价值与成本基础",
+        "selected ARV",
+        "所选策略与借款人层级",
+        "现行审批参数"
+      ],
+      "steps": [
+        {
+          "title": "确认分母",
+          "action": "分别定义土地价值、ARV 和总成本基础。",
+          "check": "Acquisition LTV 不与 LTC 混用分母。",
+          "knowledge_id": "KP-07-01"
+        },
+        {
+          "title": "计算杠杆比例",
+          "action": "按对应贷款部分与分母计算 Acq LTV、ARLTV、LTC。",
+          "check": "公式检查条件与分母单元格一致。",
+          "knowledge_id": "KP-07-02"
+        },
+        {
+          "title": "转成额度限制",
+          "action": "将每项允许杠杆乘对应资产或成本基础。",
+          "check": "审批参数引用的是确认后的版本。",
+          "knowledge_id": "KP-07-03"
+        },
+        {
+          "title": "选择 binding limit",
+          "action": "比较三项限制，取最小值作为模型中的 binding max。",
+          "check": "要求贷款与约束额度比较，其他政策条件另核对。",
+          "knowledge_id": "KP-07-04"
+        },
+        {
+          "title": "形成承销解释",
+          "action": "说明哪项限制生效、缺哪些资料以及为何不能继续。",
+          "check": "模型额度不直接等于最终授信批准。",
+          "knowledge_id": "KP-07-05"
+        }
+      ],
+      "outputs": [
+        "杠杆对比",
+        "binding limit 说明",
+        "资料缺口"
+      ],
+      "acceptance": [
+        "不得沿用历史政策当现行审批标准"
+      ],
+      "metrics": [
+        "LTC = Total Loan / Cost Basis",
+        "binding max = MIN(各约束对应贷款额)"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-08",
+      "domain": "贷款承销",
+      "title": "SOFR 定价与 carry 估算",
+      "source_refs": [
+        {
+          "source_id": "SRC-04",
+          "locator": "Pricing Engine / UW Model rows 79–83"
+        }
+      ],
+      "inputs": [
+        "SOFR 与 floor",
+        "产品和经验层级",
+        "spread 与杠杆调整",
+        "平均提款余额和期限"
+      ],
+      "steps": [
+        {
+          "title": "确认基准日期",
+          "action": "记录 SOFR 输入日期、floor 和适用定价版本。",
+          "check": "报价时间与输入日期一致。",
+          "knowledge_id": "KP-08-01"
+        },
+        {
+          "title": "选择基础 spread",
+          "action": "按产品和 borrower tier 选择已确认的 spread。",
+          "check": "不适用产品保持不可用。",
+          "knowledge_id": "KP-08-02"
+        },
+        {
+          "title": "组合 all-in rate",
+          "action": "取 MAX(SOFR,floor)，再加调整后 spread / 10000。",
+          "check": "百分比与 basis points 单位一致。",
+          "knowledge_id": "KP-08-03"
+        },
+        {
+          "title": "估算建设 carry",
+          "action": "贷款额 × 平均已提款比例 × 年利率 / 12 × 月数。",
+          "check": "平均提款假设单独列明，并与实际 draw path 区分。",
+          "knowledge_id": "KP-08-04"
+        },
+        {
+          "title": "核对报价输出",
+          "action": "检查 Pricing Engine、UW Model 与 term sheet 的利率和费用。",
+          "check": "各版本之间没有未解释的差异。",
+          "knowledge_id": "KP-08-05"
+        }
+      ],
+      "outputs": [
+        "定价构成",
+        "carry 估算",
+        "条款一致性检查"
+      ],
+      "acceptance": [
+        "报价须由有权限人员确认"
+      ],
+      "metrics": [
+        "all-in rate = 有效基准 + 调整后 spread / 10000",
+        "报价差异数 = 未解释的条款差异数量"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-09",
+      "domain": "贷款执行",
+      "title": "交割资料清单",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "Closing checklist / loan documentation sections"
+        },
+        {
+          "source_id": "SRC-05",
+          "locator": "Closing checklist / loan documentation sections"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "Closing checklist / loan documentation sections"
+        }
+      ],
+      "inputs": [
+        "项目与实体资料",
+        "贷款方 needs list",
+        "保险与 title 文件",
+        "负责人与截止日"
+      ],
+      "steps": [
+        {
+          "title": "按六类建清单",
+          "action": "按实体、项目、保险/title、个人、贷款及 draw 文件组织。",
+          "check": "每个项目有对应清单。",
+          "knowledge_id": "KP-09-01"
+        },
+        {
+          "title": "明确文件状态",
+          "action": "记录所需文件、版本、有效期、负责人、收到/待补状态。",
+          "check": "没有文件证据不标为已完成。",
+          "knowledge_id": "KP-09-02"
+        },
+        {
+          "title": "核对主体一致",
+          "action": "比较实体名、借款主体、保险与 title 文件。",
+          "check": "主体冲突列为待确认。",
+          "knowledge_id": "KP-09-03"
+        },
+        {
+          "title": "整理交割缺口",
+          "action": "把 payoff、WIP、许可证、保险和 lender conditions 的缺项排序。",
+          "check": "关键条件有责任人与下一步。",
+          "knowledge_id": "KP-09-04"
+        },
+        {
+          "title": "提交审核包",
+          "action": "形成已收到资料和缺口清单，交给有权限人员审查。",
+          "check": "只由正式授权人员确认交割与放款。",
+          "knowledge_id": "KP-09-05"
+        }
+      ],
+      "outputs": [
+        "交割清单",
+        "缺项与负责人表",
+        "审核资料包"
+      ],
+      "acceptance": [
+        "隐藏身份证、账户和客户细节"
+      ],
+      "metrics": [
+        "资料完成率 = 有证据的完成项 / 必需项",
+        "关键未完成项数 = 未解决的阻塞条件数量"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-10",
+      "domain": "贷款执行",
+      "title": "建设提款与 payoff 跟进",
+      "source_refs": [
+        {
+          "source_id": "SRC-05",
+          "locator": "construction draw / financing / checklist"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "construction draw / financing / checklist"
+        }
+      ],
+      "inputs": [
+        "提款申请",
+        "WIP/预算",
+        "检查与 lien waiver",
+        "贷款账户与 payoff 信息"
+      ],
+      "steps": [
+        {
+          "title": "核对申请依据",
+          "action": "匹配提款申请、预算和已发生工程成本。",
+          "check": "申请金额能追溯到支持材料。",
+          "knowledge_id": "KP-10-01"
+        },
+        {
+          "title": "跟进检查条件",
+          "action": "核对 inspection、保险凭证及 waiver。",
+          "check": "缺项不被视为已满足。",
+          "knowledge_id": "KP-10-02"
+        },
+        {
+          "title": "跟踪审批与资金",
+          "action": "区别 submitted、approved、funded 三种状态。",
+          "check": "银行或贷款方证据决定 funded 状态。",
+          "knowledge_id": "KP-10-03"
+        },
+        {
+          "title": "核对账户与支付",
+          "action": "对资金到账、重复付款及贷款账户进行对账。",
+          "check": "任何冲突留给负责人员确认。",
+          "knowledge_id": "KP-10-04"
+        },
+        {
+          "title": "归档 payoff 与变更",
+          "action": "保留 payoff、延期、清偿与后续沟通版本。",
+          "check": "申请、批准和实际支付可串联回查。",
+          "knowledge_id": "KP-10-05"
+        }
+      ],
+      "outputs": [
+        "提款状态台账",
+        "payoff 跟进记录"
+      ],
+      "acceptance": [
+        "不得把批准状态当已到账"
+      ],
+      "metrics": [
+        "资金差额 = 到账金额 − 支持的批准金额",
+        "每个提款的证据覆盖 = 申请/批准/到账状态均有来源"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-11",
+      "domain": "AP 自动化",
+      "title": "发票接收与 OCR",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 1 / Step 0 / OCR amendments"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 1 / Step 0 / OCR amendments"
+        }
+      ],
+      "inputs": [
+        "本次可读取的附件",
+        "下载台账",
+        "文件哈希",
+        "OCR 工具与输出位置"
+      ],
+      "steps": [
+        {
+          "title": "建立接收清单",
+          "action": "列出可读取的新附件，不把转发目录视为完整邮箱记录。",
+          "check": "覆盖来源与未读取项清楚。",
+          "knowledge_id": "KP-11-01"
+        },
+        {
+          "title": "按文件哈希去重",
+          "action": "用 SHA-256 对比已保存附件。",
+          "check": "重复文件有记录，不重新处理。",
+          "knowledge_id": "KP-11-02"
+        },
+        {
+          "title": "按版式识别文本",
+          "action": "有文字层直接提取；图片型文档先 OCR。",
+          "check": "OCR 不覆盖原文件。",
+          "knowledge_id": "KP-11-03"
+        },
+        {
+          "title": "复核重要字段",
+          "action": "在页面图像上核对金额、发票号与主体。",
+          "check": "影响付款的字段有人工可读证据。",
+          "knowledge_id": "KP-11-04"
+        },
+        {
+          "title": "区分文档类型",
+          "action": "分类为 invoice、receipt、statement、quote 或 suspicious。",
+          "check": "非发票和可疑文件不进入可付款队列。",
+          "knowledge_id": "KP-11-05"
+        }
+      ],
+      "outputs": [
+        "接收清单",
+        "OCR 文本",
+        "分类结果"
+      ],
+      "acceptance": [
+        "本工作流不访问未授权邮箱，不移动或删除原邮件"
+      ],
+      "metrics": [
+        "接收覆盖率 = 已记录附件 / 本次可读取附件",
+        "OCR 人工待核对数 = 关键字段未核对数量"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-12",
+      "domain": "AP 自动化",
+      "title": "实体识别与 CSI 编码",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 2 / CSI update 2026-10-05"
+        }
+      ],
+      "inputs": [
+        "发票正文",
+        "project registry",
+        "CSI/vendor mapping",
+        "可支持的项目别名"
+      ],
+      "steps": [
+        {
+          "title": "读取发票正面",
+          "action": "提取 Bill To、service/job address 和行项目。",
+          "check": "不依赖文件名决定主体。",
+          "knowledge_id": "KP-12-01"
+        },
+        {
+          "title": "匹配项目实体",
+          "action": "按已确认 registry 查找准确项目 LLC。",
+          "check": "不得用母公司替代未知项目实体。",
+          "knowledge_id": "KP-12-02"
+        },
+        {
+          "title": "为多工种逐行编码",
+          "action": "先查 vendor mapping，多工种依据行项目描述。",
+          "check": "未知工种标记待确认。",
+          "knowledge_id": "KP-12-03"
+        },
+        {
+          "title": "核对命名字段",
+          "action": "仅将已确认的日期、vendor、invoice、金额和 scope 用于命名建议。",
+          "check": "不创造发票号或金额。",
+          "knowledge_id": "KP-12-04"
+        },
+        {
+          "title": "保存判断证据",
+          "action": "记录使用了哪个 registry 条目和成本映射。",
+          "check": "每个主体与编码判断可回查。",
+          "knowledge_id": "KP-12-05"
+        }
+      ],
+      "outputs": [
+        "发票结构化字段",
+        "项目与编码匹配证据"
+      ],
+      "acceptance": [
+        "未知实体进入 HOLD，不自动推断资金账户"
+      ],
+      "metrics": [
+        "匹配率 = 有来源的实体匹配 / 发票数量",
+        "编码缺口数 = 未确认工种数量"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-13",
+      "domain": "AP 自动化",
+      "title": "重复付款防控",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "project-archive paid check 2026-10-06"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "project-archive paid check 2026-10-06"
+        }
+      ],
+      "inputs": [
+        "vendor/invoice/amount",
+        "项目归档",
+        "付款台账",
+        "其他支付系统只读状态"
+      ],
+      "steps": [
+        {
+          "title": "同时查字节与业务键",
+          "action": "文件哈希查副本；vendor + invoice + amount 查内容重复。",
+          "check": "字节不同不代表不同账单。",
+          "knowledge_id": "KP-13-01"
+        },
+        {
+          "title": "查所有相关归档",
+          "action": "查已支付归档、历史子目录与旧项目记录。",
+          "check": "记录搜索范围和未能检查的来源。",
+          "knowledge_id": "KP-13-02"
+        },
+        {
+          "title": "识别付款证据",
+          "action": "paid marker、确认记录或只读系统状态支持已支付判断。",
+          "check": "无明确标记的匹配进入 HOLD。",
+          "knowledge_id": "KP-13-03"
+        },
+        {
+          "title": "保留阻断状态",
+          "action": "已在别处支付的行标 DO NOT PAY，并记录原因。",
+          "check": "不将未清除重复风险重新作为 PAY。",
+          "knowledge_id": "KP-13-04"
+        },
+        {
+          "title": "留对账记录",
+          "action": "记录命中位置、判断和人工确认结果。",
+          "check": "不得自行 void 或提交银行交易。",
+          "knowledge_id": "KP-13-05"
+        }
+      ],
+      "outputs": [
+        "重复检查记录",
+        "HOLD/DO NOT PAY 清单"
+      ],
+      "acceptance": [
+        "查重只读；风险由有权限人员处理"
+      ],
+      "metrics": [
+        "重复拦截数 = 有证据的已支付或重复项",
+        "未检查来源数 = 访问不足的来源数量"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-14",
+      "domain": "AP 自动化",
+      "title": "更新现有批准批次表",
+      "source_refs": [
+        {
+          "source_id": "SRC-10",
+          "locator": "FINAL RULE 2026-10-08 / existing-sheet update"
+        }
+      ],
+      "inputs": [
+        "人工建立的批次文件夹",
+        "该文件夹中的发票 PDF",
+        "已有 Approved to Pay 表",
+        "字段提取与查重结果"
+      ],
+      "steps": [
+        {
+          "title": "定位人工批次",
+          "action": "找到人工已创建的批次和现有付款表。",
+          "check": "不创建新批次或新日期表。",
+          "knowledge_id": "KP-14-01"
+        },
+        {
+          "title": "以 PDF 清单作为基础",
+          "action": "每张有效发票 PDF 对应一行；无对应 PDF 不新增付款行。",
+          "check": "表格行与文件清单逐一对应。",
+          "knowledge_id": "KP-14-02"
+        },
+        {
+          "title": "更新事实与辅助字段",
+          "action": "填 PDF 的金额、发票号、项目和编码，再加入资料、风险与决定状态。",
+          "check": "不从旧 ledger 自动复活发票行。",
+          "knowledge_id": "KP-14-03"
+        },
+        {
+          "title": "保留人工决定",
+          "action": "已付 elsewhere 标 GREY/DO NOT PAY、保留原因；保留已有决定。",
+          "check": "不擅自删行、移入 PDF 或移动批次。",
+          "knowledge_id": "KP-14-04"
+        },
+        {
+          "title": "复核后输出",
+          "action": "计算合计和按状态分组结果，保留更改记录。",
+          "check": "原表锁定或无更新权限时停止并报告。",
+          "knowledge_id": "KP-14-05"
+        }
+      ],
+      "outputs": [
+        "更新后的现有批次表",
+        "改动与异常清单"
+      ],
+      "acceptance": [
+        "10/08 更新优先于旧建批次/新增表/从 ledger 拉行的顺序"
+      ],
+      "metrics": [
+        "行数差额 = 发票行数 − 批次发票 PDF 数",
+        "金额差额 = 表格合计 − PDF 支持金额合计"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-15",
+      "domain": "AP 自动化",
+      "title": "批准后检查供应商资料",
+      "source_refs": [
+        {
+          "source_id": "SRC-08",
+          "locator": "Stage 5b / approval-before-docs"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "Stage 5b / approval-before-docs"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "Stage 5b / approval-before-docs"
+        }
+      ],
+      "inputs": [
+        "人工批准证据",
+        "vendor × project 文档库",
+        "当前文档要求",
+        "联系人核实结果"
+      ],
+      "steps": [
+        {
+          "title": "确认先有批准",
+          "action": "先确认发票已由批准人审核，再进入资料收集。",
+          "check": "未批准项不触发资料催收。",
+          "knowledge_id": "KP-15-01"
+        },
+        {
+          "title": "先查文件再查台账",
+          "action": "核对文档库，再更新 vendor master。",
+          "check": "旧 ledger 不能替代实际文件。",
+          "knowledge_id": "KP-15-02"
+        },
+        {
+          "title": "区分两层资料",
+          "action": "W-9 和完整 policy 为 vendor 级；COI 与 agreement 按项目核对。",
+          "check": "项目级资料不跨项目默认有效。",
+          "knowledge_id": "KP-15-03"
+        },
+        {
+          "title": "检查有效性与缺口",
+          "action": "核对当前日期、实体及所需证明，不仅检查文件是否存在。",
+          "check": "只列确实缺失或无效项目。",
+          "knowledge_id": "KP-15-04"
+        },
+        {
+          "title": "生成请求草稿",
+          "action": "生成缺项请求并标 HOLD - DOCS；首次联系交人工审核。",
+          "check": "收件人与附件未确认时不发送。",
+          "knowledge_id": "KP-15-05"
+        }
+      ],
+      "outputs": [
+        "文档缺口清单",
+        "请求草稿",
+        "更新状态建议"
+      ],
+      "acceptance": [
+        "实际发信、豁免及 PAY 决定需要明确授权；本任务不发送消息"
+      ],
+      "metrics": [
+        "有效资料完成率 = 有效必需资料 / 必需资料",
+        "缺项数 = 经文件核对的缺失或无效资料数量"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-16",
+      "domain": "AP 自动化",
+      "title": "付款确认匹配与归档",
+      "source_refs": [
+        {
+          "source_id": "SRC-10",
+          "locator": "Stages 8–11 / confirmation controls"
+        }
+      ],
+      "inputs": [
+        "付款详情 PDF",
+        "原发票",
+        "当前付款表",
+        "已确认实体与账户末四位映射"
+      ],
+      "steps": [
+        {
+          "title": "确认真实付款状态",
+          "action": "从银行确认读 payee、amount、send-on、status 和 confirmation/check 信息。",
+          "check": "Scheduled 不当作 Paid。",
+          "knowledge_id": "KP-16-01"
+        },
+        {
+          "title": "匹配确认与发票",
+          "action": "比较 payee、amount、memo/invoice 与付款日期。",
+          "check": "不使用旧支付记录充当本次证据。",
+          "knowledge_id": "KP-16-02"
+        },
+        {
+          "title": "核对实体与末四位",
+          "action": "核对 Project LLC 与 paid-from account 映射。",
+          "check": "冲突进入 NEEDS_HUMAN。",
+          "knowledge_id": "KP-16-03"
+        },
+        {
+          "title": "准备合并资料",
+          "action": "仅在匹配后把确认页与发票组成归档件，并保留原始文件。",
+          "check": "不永久删除原件，不遗漏付款来源末四位。",
+          "knowledge_id": "KP-16-04"
+        },
+        {
+          "title": "记录通知和归档",
+          "action": "更新确认信息，生成通知草稿并记录正式发送/归档证据。",
+          "check": "无实际发送或归档证据不标完成。",
+          "knowledge_id": "KP-16-05"
+        }
+      ],
+      "outputs": [
+        "匹配检查",
+        "归档件准备清单",
+        "通知草稿和状态"
+      ],
+      "acceptance": [
+        "银行提交、批准与付款由正式授权人员操作"
+      ],
+      "metrics": [
+        "确认匹配率 = 完全匹配项 / 本次确认项",
+        "归档完成率 = 已支付且已归档项 / 已支付项"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-17",
+      "domain": "AP 自动化",
+      "title": "未完款项与账务对账",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "carry-forward ledger / latest folder update"
+        },
+        {
+          "source_id": "SRC-10",
+          "locator": "carry-forward ledger / latest folder update"
+        }
+      ],
+      "inputs": [
+        "批准台账",
+        "部分付款证据",
+        "项目归档",
+        "已付款表"
+      ],
+      "steps": [
+        {
+          "title": "区分付款和归档状态",
+          "action": "拆分 unpaid、partial、paid-not-filed、closed。",
+          "check": "Paid 不自动等于 Closed。",
+          "knowledge_id": "KP-17-01"
+        },
+        {
+          "title": "计算未完余额",
+          "action": "依据证据记录 paid-to-date 与 balance due。",
+          "check": "未付余额 = 原金额 − 已付金额。",
+          "knowledge_id": "KP-17-02"
+        },
+        {
+          "title": "尊重当前批次边界",
+          "action": "无当前批次 PDF 的 ledger 项只作独立跟进，不新增付款行。",
+          "check": "旧 carry-forward 规则不覆盖 10/08 更新。",
+          "knowledge_id": "KP-17-03"
+        },
+        {
+          "title": "核对账务入账",
+          "action": "将付款记录、项目归档与会计入账逐项对账。",
+          "check": "没有会计证据不标 Entered in QBD。",
+          "knowledge_id": "KP-17-04"
+        },
+        {
+          "title": "关闭有完整证据的项",
+          "action": "仅在全额支付且归档完成时关闭，并保留原因。",
+          "check": "记录未被永久删除。",
+          "knowledge_id": "KP-17-05"
+        }
+      ],
+      "outputs": [
+        "未完成台账",
+        "差异清单",
+        "关闭证据"
+      ],
+      "acceptance": [
+        "不通过改变账务记录来消除未解决的差异"
+      ],
+      "metrics": [
+        "余额 = 发票额 − 有证据的已付额",
+        "关闭率 = 全额支付且归档完成 / 批准项"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-18",
+      "domain": "风险与执行",
+      "title": "保险文件与 coverage 跟进",
+      "source_refs": [
+        {
+          "source_id": "SRC-03",
+          "locator": "insurance policies / compliance / closing checklist"
+        },
+        {
+          "source_id": "SRC-05",
+          "locator": "insurance policies / compliance / closing checklist"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "insurance policies / compliance / closing checklist"
+        }
+      ],
+      "inputs": [
+        "项目实体",
+        "所需保险类别",
+        "policy/COI/endorsement",
+        "有效期与待确认缺口"
+      ],
+      "steps": [
+        {
+          "title": "列保险需求",
+          "action": "按项目工作范围列 builder’s risk、GL 及相关证明。",
+          "check": "需求来自当前项目条件。",
+          "knowledge_id": "KP-18-01"
+        },
+        {
+          "title": "核对实体名称",
+          "action": "核查 insured、additional insured 与 lender/mortgagee 信息。",
+          "check": "泛称或错误主体列为缺口。",
+          "knowledge_id": "KP-18-02"
+        },
+        {
+          "title": "区别证书和完整 policy",
+          "action": "COI 提供摘要，完整 policy/endorsement 需要单独核对。",
+          "check": "不把证书当完整 coverage 判断。",
+          "knowledge_id": "KP-18-03"
+        },
+        {
+          "title": "跟进续保与变更",
+          "action": "记录到期、报价、bind 与缺项的不同状态。",
+          "check": "报价或请求不代表已生效。",
+          "knowledge_id": "KP-18-04"
+        },
+        {
+          "title": "提交专业确认",
+          "action": "将 coverage 和 exclusion 争议交 broker/有权限人员确认。",
+          "check": "网站知识点不作保险覆盖法律结论。",
+          "knowledge_id": "KP-18-05"
+        }
+      ],
+      "outputs": [
+        "保险文件矩阵",
+        "有效期与变更跟进表"
+      ],
+      "acceptance": [
+        "不公开 policy number、索赔及客户信息"
+      ],
+      "metrics": [
+        "有效文件率 = 有效且主体匹配的文件 / 所需文件",
+        "到期未解决数 = 未确认续保或变更的项目数量"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-19",
+      "domain": "风险与执行",
+      "title": "索赔资料组织与跟进",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "claims / Insurance Claims"
+        }
+      ],
+      "inputs": [
+        "索赔资料",
+        "正式状态记录",
+        "律师/保险方回复",
+        "证据与下一步"
+      ],
+      "steps": [
+        {
+          "title": "将事实与状态分开",
+          "action": "记录事实来源、文件日期和已确认状态。",
+          "check": "内部备注不替代正式文件。",
+          "knowledge_id": "KP-19-01"
+        },
+        {
+          "title": "整理证据缺口",
+          "action": "列 loss documentation、证明材料和待提供记录。",
+          "check": "敏感人身/诉讼细节保持私有。",
+          "knowledge_id": "KP-19-02"
+        },
+        {
+          "title": "明确负责人",
+          "action": "把每个问题分给律师、broker、业务负责人等。",
+          "check": "谁确认、谁提供文件可区分。",
+          "knowledge_id": "KP-19-03"
+        },
+        {
+          "title": "准备跟进草稿",
+          "action": "按未解决的问题整理沟通草稿。",
+          "check": "不代替律师意见或实际发信。",
+          "knowledge_id": "KP-19-04"
+        },
+        {
+          "title": "记录回复及变化",
+          "action": "在正式回复后更新状态，并保留旧记录。",
+          "check": "没有回复不标解决。",
+          "knowledge_id": "KP-19-05"
+        }
+      ],
+      "outputs": [
+        "私有索赔证据清单",
+        "跟进问题摘要"
+      ],
+      "acceptance": [
+        "不推断法律责任或自行处理诉讼操作"
+      ],
+      "metrics": [
+        "无证据状态数 = 无正式来源的状态数量",
+        "待回复数 = 未收到明确回复的事项数量"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-20",
+      "domain": "风险与执行",
+      "title": "执照、实体与行政文件管理",
+      "source_refs": [
+        {
+          "source_id": "SRC-05",
+          "locator": "licenses / filings / entity documents"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "licenses / filings / entity documents"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "licenses / filings / entity documents"
+        }
+      ],
+      "inputs": [
+        "实体档案",
+        "执照或 bond 要求",
+        "递交证据",
+        "收件与审批状态"
+      ],
+      "steps": [
+        {
+          "title": "确认适用主体",
+          "action": "确定需要哪个实体的成立、good standing、执照或 bond。",
+          "check": "不跨实体借用文件。",
+          "knowledge_id": "KP-20-01"
+        },
+        {
+          "title": "核对申请字段",
+          "action": "检查缺项、签署、费用凭证和支持文件。",
+          "check": "不补造 EIN、签署或执照号。",
+          "knowledge_id": "KP-20-02"
+        },
+        {
+          "title": "记录递交证据",
+          "action": "保存递交日期、回执和版本。",
+          "check": "Sent 不等于 Approved。",
+          "knowledge_id": "KP-20-03"
+        },
+        {
+          "title": "跟进未完成要求",
+          "action": "记录补件、待回复和责任人。",
+          "check": "状态有来源及下一步。",
+          "knowledge_id": "KP-20-04"
+        },
+        {
+          "title": "归档获批文件",
+          "action": "正式文件收到后归入实体档案。",
+          "check": "有效期与使用范围可回查。",
+          "knowledge_id": "KP-20-05"
+        }
+      ],
+      "outputs": [
+        "实体资料清单",
+        "行政执行状态记录"
+      ],
+      "acceptance": [
+        "正式递交与签署需对应授权"
+      ],
+      "metrics": [
+        "缺项数 = 缺失必需文件数量",
+        "状态覆盖率 = 有证据的状态 / 跟踪项"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-21",
+      "domain": "TimeXmart 与创作",
+      "title": "TimeXmart 产品故事拆解",
+      "source_refs": [
+        {
+          "source_id": "SRC-13",
+          "locator": "project positioning / product structure"
+        },
+        {
+          "source_id": "SRC-14",
+          "locator": "project positioning / product structure"
+        }
+      ],
+      "inputs": [
+        "产品版本",
+        "用户问题",
+        "已有功能或方案",
+        "明确的证据和边界"
+      ],
+      "steps": [
+        {
+          "title": "先确认当前版本",
+          "action": "区分营销设想、后续产品结构和已实现能力。",
+          "check": "不混合不同阶段的事实。",
+          "knowledge_id": "KP-21-01"
+        },
+        {
+          "title": "从具体帮助开始",
+          "action": "用一次用户需求与可提供的帮助解释价值。",
+          "check": "不以抽象口号替代用户场景。",
+          "knowledge_id": "KP-21-02"
+        },
+        {
+          "title": "说明交换过程",
+          "action": "连接需求、匹配、交换与结果记录。",
+          "check": "方案与已完成交付明确区分。",
+          "knowledge_id": "KP-21-03"
+        },
+        {
+          "title": "连接个人价值",
+          "action": "说明作品、评价与交换记录如何成为能力证明的设想。",
+          "check": "不宣称尚未验证的产品成果。",
+          "knowledge_id": "KP-21-04"
+        },
+        {
+          "title": "形成可复用文稿",
+          "action": "整理一句定位、使用场景、功能顺序和来源。",
+          "check": "每个产品判断保留版本与出处。",
+          "knowledge_id": "KP-21-05"
+        }
+      ],
+      "outputs": [
+        "产品叙事卡",
+        "版本差异表",
+        "视频文稿"
+      ],
+      "acceptance": [
+        "不生成虚假使用量、用户评价或收益"
+      ],
+      "metrics": [
+        "已支持声明比例 = 有证据声明 / 所有事实声明",
+        "版本冲突数 = 尚未解释的版本差异"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-22",
+      "domain": "TimeXmart 与创作",
+      "title": "MIRA 角色与品牌一致性",
+      "source_refs": [
+        {
+          "source_id": "SRC-15",
+          "locator": "MIRA reference / logo and UI references"
+        },
+        {
+          "source_id": "SRC-17",
+          "locator": "MIRA reference / logo and UI references"
+        },
+        {
+          "source_id": "SRC-19",
+          "locator": "MIRA reference / logo and UI references"
+        }
+      ],
+      "inputs": [
+        "批准的角色参考",
+        "Logo 资产",
+        "产品 UI 参考",
+        "分镜与视频要求"
+      ],
+      "steps": [
+        {
+          "title": "冻结角色参考",
+          "action": "核对米白机身、黑色结构、金色细节、像素眼与 MIRA 标识。",
+          "check": "同一项目使用同一角色版本。",
+          "knowledge_id": "KP-22-01"
+        },
+        {
+          "title": "区分视觉场景",
+          "action": "分别处理产品 UI 与宣传画面的色彩和排版。",
+          "check": "不把一套色彩当所有场景的唯一标准。",
+          "knowledge_id": "KP-22-02"
+        },
+        {
+          "title": "确定开头动作",
+          "action": "从已调好的 MIRA 开场与主体表达出发。",
+          "check": "测试片头不当完整成片发布。",
+          "knowledge_id": "KP-22-03"
+        },
+        {
+          "title": "检查文字与 Logo",
+          "action": "使用确认的原始资产和准确文字。",
+          "check": "生成图像不擅自重绘品牌文字。",
+          "knowledge_id": "KP-22-04"
+        },
+        {
+          "title": "整理资产复用",
+          "action": "分开角色镜头、UI、文字和品牌资产。",
+          "check": "单镜头修订不需要重建全部素材。",
+          "knowledge_id": "KP-22-05"
+        }
+      ],
+      "outputs": [
+        "角色与资产清单",
+        "品牌一致性检查"
+      ],
+      "acceptance": [
+        "仅选择用户确认的 MIRA 开场最终版本"
+      ],
+      "metrics": [
+        "一致性通过率 = 核对通过项 / 参考项",
+        "可复用资产数 = 已整理并标版本的独立素材数量"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-23",
+      "domain": "TimeXmart 与创作",
+      "title": "最终视频筛选与作品发布",
+      "source_refs": [
+        {
+          "source_id": "SRC-13",
+          "locator": "final export / portfolio selections"
+        },
+        {
+          "source_id": "SRC-18",
+          "locator": "final export / portfolio selections"
+        },
+        {
+          "source_id": "SRC-19",
+          "locator": "final export / portfolio selections"
+        }
+      ],
+      "inputs": [
+        "最终候选成片",
+        "用户选择",
+        "视频信息",
+        "公开范围"
+      ],
+      "steps": [
+        {
+          "title": "定义展示规则",
+          "action": "只收录最终成片，排除测试、预览、旧版及原素材。",
+          "check": "最新文件不自动等于用户批准的最终版。",
+          "knowledge_id": "KP-23-01"
+        },
+        {
+          "title": "检查实际开头",
+          "action": "查看开场画面，确认小机器人版本。",
+          "check": "不只按文件名猜开头。",
+          "knowledge_id": "KP-23-02"
+        },
+        {
+          "title": "去重并分主题",
+          "action": "按成片内容及文件指纹区分技能、物品和个人 IP 三条作品。",
+          "check": "同一成片副本不重复展示。",
+          "knowledge_id": "KP-23-03"
+        },
+        {
+          "title": "验证媒体与封面",
+          "action": "检查文件、封面、播放入口和公开可读性。",
+          "check": "目录数量不代替播放检查。",
+          "knowledge_id": "KP-23-04"
+        },
+        {
+          "title": "发布后检查",
+          "action": "核对页面、缓存、链接与不应展示的内容。",
+          "check": "已移除跳绳与非选定宣传版本。",
+          "knowledge_id": "KP-23-05"
+        }
+      ],
+      "outputs": [
+        "三条 MIRA 成片清单",
+        "发布检查记录"
+      ],
+      "acceptance": [
+        "不重新渲染视频，也不公开未选择的素材"
+      ],
+      "metrics": [
+        "有效成片数 = 去重后的已选最终视频",
+        "播放检查通过率 = 已通过检查的链接 / 展示链接"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-24",
+      "domain": "知识管理",
+      "title": "资料拆分与来源追踪",
+      "source_refs": [
+        {
+          "source_id": "SRC-07",
+          "locator": "source structure / record keeping"
+        },
+        {
+          "source_id": "SRC-09",
+          "locator": "source structure / record keeping"
+        },
+        {
+          "source_id": "SRC-14",
+          "locator": "source structure / record keeping"
+        }
+      ],
+      "inputs": [
+        "原文件",
+        "可提取内容",
+        "主题分类",
+        "版本或日期"
+      ],
+      "steps": [
+        {
+          "title": "建立来源登记",
+          "action": "记录文件类型、指纹、页/表/行结构及可读取范围。",
+          "check": "无法读取部分标为缺口。",
+          "knowledge_id": "KP-24-01"
+        },
+        {
+          "title": "拆成单一信息单元",
+          "action": "将原文、字段与公式按最小可理解单位拆分。",
+          "check": "不把整个文件摘要当一个知识点。",
+          "knowledge_id": "KP-24-02"
+        },
+        {
+          "title": "区分证据与方法",
+          "action": "原文片段作为证据；提炼的知识点写用途、操作与检查。",
+          "check": "推导和原文清楚区分。",
+          "knowledge_id": "KP-24-03"
+        },
+        {
+          "title": "处理版本与冲突",
+          "action": "保留旧规则，并明确新版覆盖范围。",
+          "check": "冲突未解决的条目不当现行执行依据。",
+          "knowledge_id": "KP-24-04"
+        },
+        {
+          "title": "建立工作流关系",
+          "action": "把输入、步骤、输出和验收连接到知识点 ID。",
+          "check": "每一步可回查来源和完成证据。",
+          "knowledge_id": "KP-24-05"
+        }
+      ],
+      "outputs": [
+        "来源登记",
+        "知识点索引",
+        "版本/冲突记录"
+      ],
+      "acceptance": [
+        "只量化真实数量，不补造业绩"
+      ],
+      "metrics": [
+        "来源覆盖率 = 已解析来源 / 已收到来源",
+        "可追溯率 = 有来源的知识点 / 全部知识点"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-25",
+      "domain": "职业与项目",
+      "title": "从经历到可展示的贡献记录",
+      "source_refs": [
+        {
+          "source_id": "SRC-01",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-02",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-06",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-07",
+          "locator": "résumé / professional notes / action records"
+        },
+        {
+          "source_id": "SRC-11",
+          "locator": "résumé / professional notes / action records"
+        }
+      ],
+      "inputs": [
+        "角色与日期",
+        "工作证据",
+        "完成与进行中状态",
+        "公开范围"
+      ],
+      "steps": [
+        {
+          "title": "确认角色与时间",
+          "action": "以简历、记录与本人确认建立角色时间线。",
+          "check": "历史简历与现职状态区分。",
+          "knowledge_id": "KP-25-01"
+        },
+        {
+          "title": "区分贡献与结果",
+          "action": "明确参与、负责、建立和协作的边界。",
+          "check": "不把团队整体成果都归个人。",
+          "knowledge_id": "KP-25-02"
+        },
+        {
+          "title": "为贡献保留证据",
+          "action": "把具体文件、任务或产出连接到陈述。",
+          "check": "没有证据的指标不补写。",
+          "knowledge_id": "KP-25-03"
+        },
+        {
+          "title": "拆出可复用能力",
+          "action": "将经历变成分析、组织、执行、创作等可操作方法。",
+          "check": "能力描述能对应具体操作。",
+          "knowledge_id": "KP-25-04"
+        },
+        {
+          "title": "脱敏公开展示",
+          "action": "移除地址、金额、个人资料、客户和诉讼细节。",
+          "check": "公开摘要与私人证据分开。",
+          "knowledge_id": "KP-25-05"
+        }
+      ],
+      "outputs": [
+        "职业贡献记录",
+        "证据索引",
+        "公开摘要"
+      ],
+      "acceptance": [
+        "手写不清晰、简历版本矛盾及未核对奖项保留待确认"
+      ],
+      "metrics": [
+        "证据覆盖率 = 有证据的贡献 / 展示贡献",
+        "待确认陈述数 = 有来源矛盾或歧义的陈述数量"
+      ],
+      "boundary": "只基于已提供资料；缺少输入时列出缺口，不补造数据。",
+      "execution": "填写输入 → 按步骤执行 → 留下检查证据；本页面不代替外部系统的实际操作。"
+    },
+    {
+      "id": "WF-26",
+      "title": "RTL 交易字段标准化",
+      "domain": "结构化信用研究",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "Trust Summary Overview / Trust Overview / Credit Ratings"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "Trust Summary Overview / Trust Overview / Credit Ratings"
+        }
+      ],
+      "inputs": [
+        "两个版本的研究表",
+        "原始评级文件",
+        "报告日期与截止日"
+      ],
+      "steps": [
+        {
+          "title": "登记文件与日期",
+          "action": "分别记录预售、最终发行和监测材料的文件日期、截止日与版本。",
+          "check": "不同阶段数据不直接覆盖。",
+          "knowledge_id": "KP-26-01"
+        },
+        {
+          "title": "定义规模字段",
+          "action": "区分初始贷款池本金、发行额、资金账户与未来承诺。",
+          "check": "每个数字附单位与口径。",
+          "knowledge_id": "KP-26-02"
+        },
+        {
+          "title": "拆分指标层级",
+          "action": "分别标记实际加权平均、组合约束、单笔上限和集中度。",
+          "check": "同名不同层级的指标保持独立。",
+          "knowledge_id": "KP-26-03"
+        },
+        {
+          "title": "保留版本冲突",
+          "action": "并列两版不同数值，回到文件位置核对，不平均或随意选取。",
+          "check": "每项修订有依据。",
+          "knowledge_id": "KP-26-04"
+        },
+        {
+          "title": "输出比较表",
+          "action": "输出字段、标准值、日期、来源及缺失状态。",
+          "check": "未披露值保留未知。",
+          "knowledge_id": "KP-26-05"
+        }
+      ],
+      "outputs": [
+        "字段字典",
+        "版本差异表",
+        "来源索引"
+      ],
+      "acceptance": [
+        "输出、来源与未确认项一一对应；缺失输入不补造。"
+      ],
+      "metrics": [
+        "字段缺失率 = 缺失必要字段 / 全部必要字段",
+        "未解释的版本冲突数"
+      ],
+      "boundary": "历史研究结构，不表示交易数据已获独立核验。",
+      "execution": "填写输入 → 逐步核对 → 保存输出与缺口；页面不执行外部系统操作。"
+    },
+    {
+      "id": "WF-27",
+      "title": "贷款与资金池合格标准匹配",
+      "domain": "结构化信用研究",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "Eligibility Criteria / Silverline Deal Fit / Credit Enhancement"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "Eligibility Criteria / Silverline Deal Fit / Credit Enhancement"
+        }
+      ],
+      "inputs": [
+        "项目属性",
+        "单笔标准",
+        "组合与集中度限制",
+        "当前资金池信息"
+      ],
+      "steps": [
+        {
+          "title": "确认项目属性",
+          "action": "列产品类型、地区、施工阶段、杠杆与资料状态。",
+          "check": "敏感项目身份留在私人资料中。",
+          "knowledge_id": "KP-27-01"
+        },
+        {
+          "title": "核对单笔条件",
+          "action": "逐项比较明确的单笔要求，缺少字段列待补。",
+          "check": "组合平均要求不当单笔门槛。",
+          "knowledge_id": "KP-27-02"
+        },
+        {
+          "title": "核对组合限制",
+          "action": "单独比较集中度与组合加权约束。",
+          "check": "单笔合格不代表池级容量可用。",
+          "knowledge_id": "KP-27-03"
+        },
+        {
+          "title": "核对结构支持",
+          "action": "记录信用增级、服务与发起安排，不只比较评级或票息。",
+          "check": "各层级定义可回查。",
+          "knowledge_id": "KP-27-04"
+        },
+        {
+          "title": "形成尽调问题",
+          "action": "输出可匹配、需确认与未支持事项，交负责人核实。",
+          "check": "不将研究结论写成授信批准或融资承诺。",
+          "knowledge_id": "KP-27-05"
+        }
+      ],
+      "outputs": [
+        "合格条件矩阵",
+        "尽调缺口",
+        "对手方问题清单"
+      ],
+      "acceptance": [
+        "输出、来源与未确认项一一对应；缺失输入不补造。"
+      ],
+      "metrics": [
+        "已支持条件数 / 必须条件数",
+        "未解决的组合限制数"
+      ],
+      "boundary": "平台适配需正式确认；不自动决定授信或融资。",
+      "execution": "填写输入 → 逐步核对 → 保存输出与缺口；页面不执行外部系统操作。"
+    },
+    {
+      "id": "WF-28",
+      "title": "融资渠道与报价统一比较",
+      "domain": "融资渠道研究",
+      "source_refs": [
+        {
+          "source_id": "SRC-21",
+          "locator": "Lender List / classified channels / project comparison tables"
+        }
+      ],
+      "inputs": [
+        "融资需求",
+        "带日期的报价",
+        "提款与储备条件",
+        "费用项目"
+      ],
+      "steps": [
+        {
+          "title": "规范化机构名称",
+          "action": "去除名称变体，保留各联系记录，不以行数当独立机构数。",
+          "check": "计数前检查重复与空行。",
+          "knowledge_id": "KP-28-01"
+        },
+        {
+          "title": "明确产品与角色",
+          "action": "分开贷款方、经纪、白标和资金提供方，标注产品覆盖。",
+          "check": "网站信息与正式反馈分开。",
+          "knowledge_id": "KP-28-02"
+        },
+        {
+          "title": "展开全部费用",
+          "action": "列利率、点数、佣金、储备和退出或延期费。",
+          "check": "历史报价带日期。",
+          "knowledge_id": "KP-28-03"
+        },
+        {
+          "title": "比较资金时间线",
+          "action": "列交割净到账、后续可提款和支出时点。",
+          "check": "名义额度不当实际可用现金。",
+          "knowledge_id": "KP-28-04"
+        },
+        {
+          "title": "记录下一步",
+          "action": "为每个候选写未确认条件、负责人和需要的支持材料。",
+          "check": "没有反馈不标为已同意。",
+          "knowledge_id": "KP-28-05"
+        }
+      ],
+      "outputs": [
+        "统一报价矩阵",
+        "可用资金时间线",
+        "后续沟通问题"
+      ],
+      "acceptance": [
+        "输出、来源与未确认项一一对应；缺失输入不补造。"
+      ],
+      "metrics": [
+        "有效反馈覆盖率",
+        "关键字段缺失率"
+      ],
+      "boundary": "联系人、历史私有报价和项目身份不公开。",
+      "execution": "填写输入 → 逐步核对 → 保存输出与缺口；页面不执行外部系统操作。"
+    },
+    {
+      "id": "WF-29",
+      "title": "历史市场报告复核",
+      "domain": "结构化信用研究",
+      "source_refs": [
+        {
+          "source_id": "SRC-23",
+          "locator": "7 页报告 / 时间、代理值与市场结论"
+        }
+      ],
+      "inputs": [
+        "历史报告",
+        "报告引用的一级资料",
+        "关键主张列表"
+      ],
+      "steps": [
+        {
+          "title": "拆开报告主张",
+          "action": "逐项标记直接披露、作者计算、预测和代理估算。",
+          "check": "预测不写成已经发生。",
+          "knowledge_id": "KP-29-01"
+        },
+        {
+          "title": "区分票息与资产收益",
+          "action": "分别记录债券票息、贷款池利率和平台净收益。",
+          "check": "不同层面不直接相减得结论。",
+          "knowledge_id": "KP-29-02"
+        },
+        {
+          "title": "核对代理值",
+          "action": "若本期未披露而借用其他交易，明确代理来源与限制。",
+          "check": "代理值不伪装成直接披露。",
+          "knowledge_id": "KP-29-03"
+        },
+        {
+          "title": "限定样本范围",
+          "action": "注明样本、日期与覆盖范围，不能外推为全市场事实。",
+          "check": "无法验证的统计保留待核实。",
+          "knowledge_id": "KP-29-04"
+        },
+        {
+          "title": "写出有边界的结论",
+          "action": "附支持来源、适用时间、风险与下一步验证。",
+          "check": "不将历史判断冒充现时行情。",
+          "knowledge_id": "KP-29-05"
+        }
+      ],
+      "outputs": [
+        "主张与证据对照",
+        "代理值清单",
+        "有边界的研究结论"
+      ],
+      "acceptance": [
+        "输出、来源与未确认项一一对应；缺失输入不补造。"
+      ],
+      "metrics": [
+        "有支持主张数 / 被检查主张数",
+        "未经解释的代理值数量"
+      ],
+      "boundary": "本流程提供研究复核方法，不提供当前投资建议。",
+      "execution": "填写输入 → 逐步核对 → 保存输出与缺口；页面不执行外部系统操作。"
+    },
+    {
+      "id": "WF-30",
+      "title": "从图纸到数量乘单价预算",
+      "domain": "建设成本分析",
+      "source_refs": [
+        {
+          "source_id": "SRC-24",
+          "locator": "用户提供的成本计量与项目核对工作摘要"
+        }
+      ],
+      "inputs": [
+        "图纸版本",
+        "同建筑类型的历史发票",
+        "工种报价",
+        "范围假设"
+      ],
+      "steps": [
+        {
+          "title": "筛选可比项目",
+          "action": "按结构、面积、施工条件与装修等级选择历史参考。",
+          "check": "通胀调整不代替可比性判断。",
+          "knowledge_id": "KP-30-01"
+        },
+        {
+          "title": "记录工程量单位",
+          "action": "分别登记长度、面积、体积、套数或工时并统一换算。",
+          "check": "每个数量有计量位置与单位。",
+          "knowledge_id": "KP-30-02"
+        },
+        {
+          "title": "说明单价范围",
+          "action": "区分材料、人工、设备、运输与损耗，避免范围错配。",
+          "check": "按时计费与包干不可直接混用。",
+          "knowledge_id": "KP-30-03"
+        },
+        {
+          "title": "图纸预算双向核对",
+          "action": "查图纸遗漏项与预算未支持项，重测差异数量。",
+          "check": "不凭总额调平而隐藏范围问题。",
+          "knowledge_id": "KP-30-04"
+        },
+        {
+          "title": "输出待报价与修订",
+          "action": "列暂估、重测、责任人、证据和修订日期。",
+          "check": "尚未取得的报价不标最终成本。",
+          "knowledge_id": "KP-30-05"
+        }
+      ],
+      "outputs": [
+        "计量与单价表",
+        "图纸预算索引",
+        "待报价清单"
+      ],
+      "acceptance": [
+        "输出、来源与未确认项一一对应；缺失输入不补造。"
+      ],
+      "metrics": [
+        "暂估成本占比",
+        "重测差异 = 新计量 − 旧计量"
+      ],
+      "boundary": "本人摘要中的工作，原始图纸与数值尚需核验。",
+      "execution": "填写输入 → 逐步核对 → 保存输出与缺口；页面不执行外部系统操作。"
+    },
+    {
+      "id": "WF-31",
+      "title": "信用 AI 的证据与异常评价",
+      "domain": "AI 工作流设计",
+      "source_refs": [
+        {
+          "source_id": "SRC-20",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        },
+        {
+          "source_id": "SRC-22",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        },
+        {
+          "source_id": "SRC-23",
+          "locator": "研究字段、版本差异与代理值处理方法"
+        }
+      ],
+      "inputs": [
+        "具体研究任务",
+        "字段字典",
+        "人工标注样本",
+        "答案与来源"
+      ],
+      "steps": [
+        {
+          "title": "限定任务",
+          "action": "只选择明确文档类别和问题，写出必须回答的字段。",
+          "check": "评价范围事先确定。",
+          "knowledge_id": "KP-31-01"
+        },
+        {
+          "title": "给字段带来源",
+          "action": "记录页码或单元格、日期、定义与直接/计算/代理类型。",
+          "check": "引用内容真的支持答案。",
+          "knowledge_id": "KP-31-02"
+        },
+        {
+          "title": "设计困难样本",
+          "action": "加入缺失披露、旧版、同名异义和识别失败。",
+          "check": "样本包含应该回答未知的情况。",
+          "knowledge_id": "KP-31-03"
+        },
+        {
+          "title": "分层评价",
+          "action": "分别检查提取、计算、来源支持和保留未知的能力。",
+          "check": "不能只按文风像专家打分。",
+          "knowledge_id": "KP-31-04"
+        },
+        {
+          "title": "保存修订反馈",
+          "action": "记录人工纠正与错误类别，加入后续回归样本。",
+          "check": "评价结果必须来自真实测量。",
+          "knowledge_id": "KP-31-05"
+        }
+      ],
+      "outputs": [
+        "标注样本",
+        "错误分类表",
+        "来源与计算检查"
+      ],
+      "acceptance": [
+        "输出、来源与未确认项一一对应；缺失输入不补造。"
+      ],
+      "metrics": [
+        "无依据答案数",
+        "关键错误数",
+        "人工修正次数"
+      ],
+      "boundary": "基于已有工作的产品延展方案，不声称已开发或验证生产系统。",
+      "execution": "填写输入 → 逐步核对 → 保存输出与缺口；页面不执行外部系统操作。"
+    }
+  ],
+  "version_notes": [
+    "AP 工作流使用 10/08 已有批次与已有表规则；旧的建批次/拉取旧行顺序仅保留在私有原文资料。",
+    "PDF 内部额度与保险参数不公开，复用时必须确认现行版本。",
+    "模型原文件存在错误引用与外部链接；工作流要求先复核，不发布未经验证的收益结果。",
+    "照片为可辨内容人工整理；早期简历部分信息存在版本差异，保留待确认。",
+    "10/17 新增两版 RTL 比较、融资渠道、历史市场报告和本人成本工作摘要；研究结论与未核实事项分开。"
+  ]
+}

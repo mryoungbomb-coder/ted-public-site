@@ -10,3 +10,5 @@ Object.assign(window.TED_PROJECTS.find(p=>p.id==="real-estate"),{caseLink:"work-
 Object.assign(window.TED_PROJECTS.find(p=>p.id==="real-estate"),{caseLink:"underwriting.html",caseLabel:"Excel 模型拆解与我的建模过程"});
 
 Object.assign(window.TED_PROJECTS.find(p=>p.id==="timexmart"),{caseLink:"personal-ip.html#films",caseLabel:"观看 MIRA 小机器人开场的宣传片"});
+
+Object.assign(window.TED_PROJECTS.find(p=>p.id==="finance-automation"),{caseLink:"automation.html",caseLabel:"我创建的 AP 自动化工作流"});
