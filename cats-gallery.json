@@ -1,0 +1,82 @@
+[
+  {
+    "id": "cat-photo-01",
+    "title": "安静坐着",
+    "caption": "白色胸口与前爪，棕色虎斑花纹。",
+    "src": "assets/cats/cat-01.jpg",
+    "width": 2880,
+    "height": 3840
+  },
+  {
+    "id": "cat-photo-02",
+    "title": "靠近一点",
+    "caption": "镜头前的小猫特写。",
+    "src": "assets/cats/cat-02.jpg",
+    "width": 1197,
+    "height": 1280
+  },
+  {
+    "id": "cat-photo-03",
+    "title": "占领我的椅子",
+    "caption": "工作椅上的日常陪伴。",
+    "src": "assets/cats/cat-03.jpg",
+    "width": 2880,
+    "height": 3840
+  },
+  {
+    "id": "cat-photo-04",
+    "title": "抬头看我",
+    "caption": "抬头望向镜头的一瞬间。",
+    "src": "assets/cats/cat-04.jpg",
+    "width": 2880,
+    "height": 3840
+  },
+  {
+    "id": "cat-photo-05",
+    "title": "怀里的小猫",
+    "caption": "靠在怀里，只露出一张小脸。",
+    "src": "assets/cats/cat-05.jpg",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "id": "cat-photo-06",
+    "title": "挨在一起",
+    "caption": "灰白长毛猫与虎斑白猫的合照。",
+    "src": "assets/cats/cat-06.jpg",
+    "width": 2880,
+    "height": 3840
+  },
+  {
+    "id": "cat-photo-07",
+    "title": "一起守着椅子",
+    "caption": "两只猫一起坐在椅子上。",
+    "src": "assets/cats/cat-07.jpg",
+    "width": 2880,
+    "height": 3840
+  },
+  {
+    "id": "cat-photo-08",
+    "title": "纸箱里的日常",
+    "caption": "一只躺进纸箱，一只凑在旁边。",
+    "src": "assets/cats/cat-08.jpg",
+    "width": 1280,
+    "height": 1278
+  },
+  {
+    "id": "cat-photo-09",
+    "title": "从上面看过来",
+    "caption": "小猫俯身看向镜头。",
+    "src": "assets/cats/cat-09.jpg",
+    "width": 713,
+    "height": 1280
+  },
+  {
+    "id": "cat-photo-10",
+    "title": "贴着我的脸",
+    "caption": "耳机旁边，多了一个小脑袋。",
+    "src": "assets/cats/cat-10.jpg",
+    "width": 2880,
+    "height": 3840
+  }
+]
