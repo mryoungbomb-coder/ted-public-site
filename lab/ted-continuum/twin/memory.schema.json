@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source-backed personal memory",
+  "type": "object",
+  "required": [
+    "id",
+    "statement",
+    "source_ids",
+    "as_of",
+    "visibility",
+    "owner_approved",
+    "evidence_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "statement": {
+      "type": "string"
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "visibility": {
+      "enum": [
+        "private",
+        "review",
+        "public"
+      ]
+    },
+    "owner_approved": {
+      "type": "boolean"
+    },
+    "evidence_status": {
+      "enum": [
+        "source-supported",
+        "self-reported",
+        "inferred",
+        "proposed"
+      ]
+    },
+    "supersedes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

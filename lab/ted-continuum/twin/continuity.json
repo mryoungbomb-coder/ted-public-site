@@ -1,0 +1,33 @@
+{
+  "status": "design-spec-not-activated",
+  "content_storage": [
+    "UTF-8 JSON / JSONL",
+    "Original media plus display derivatives",
+    "SQLite exports for private journal"
+  ],
+  "separate_layers": [
+    "identity",
+    "evidence and memories",
+    "model adapters",
+    "visual embodiment",
+    "permissions"
+  ],
+  "backup_target": "At least three verified copies across separate locations, including an offline copy; a target plan, not a claim that these copies exist.",
+  "verification": [
+    "SHA-256 integrity manifest",
+    "Actual restore test before declaring a backup usable",
+    "Maintain media separately from AI summaries"
+  ],
+  "inactive_policy": "No automatic inference of death or authorization from silence.",
+  "memorial_mode": "Only after an explicit authorized change: freeze biography, mark historical responses, disable autonomous outward actions.",
+  "migration": "Rebuild search and swap model adapter without rewriting the underlying identity or source archive.",
+  "not_implemented": [
+    "domain registration",
+    "external backup provisioning",
+    "DID issuance",
+    "IPFS pinning",
+    "live model service",
+    "voice clone",
+    "3D rig"
+  ]
+}

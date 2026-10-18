@@ -1,0 +1,19 @@
+TED / CONTINUUM — local design study, 2026-10-17
+
+Open index.html through an HTTP server (the archive uses fetch).
+With Python installed, from this directory:
+  python -m http.server 8770 --bind 127.0.0.1
+Then open http://127.0.0.1:8770/index.html
+
+Read research.html for the complete proposal and its limitations.
+Run python twin/verify_manifest.py to verify included files.
+Run python twin/search_archive.py automation to search public materials.
+export_public.py requires explicitly approved, public, source-backed records
+and a NEW output filename; it never reads your private journal automatically.
+
+Included: original interface, public metadata and articles, portrait/concept
+assets, identity/memory formats and standard-library helper tools.
+Not included: private SQLite database, business originals, full Instagram
+archive, remote video files, generated-model endpoint, API secrets, voice or 3D.
+Remote media links remain dependent on their original public hosts.
+This package is a portable representation, not consciousness upload.

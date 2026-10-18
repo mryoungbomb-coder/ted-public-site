@@ -1,0 +1,38 @@
+{
+  "version": "0.1",
+  "concept_name": "CONTINUUM",
+  "status": "proposed",
+  "human_markers": [
+    "本人参考照片中的细框眼镜",
+    "浅棕色蓬松额发",
+    "本人轮廓的风格化表达"
+  ],
+  "wardrobe": [
+    "墨黑无领结构外套",
+    "暖白内领",
+    "宽松黑色西裤",
+    "简洁深色鞋履"
+  ],
+  "signature": "领口一条极细的琥珀色线",
+  "materials": [
+    "人类面部与布料为主",
+    "局部烟灰玻璃轮廓层"
+  ],
+  "palette": {
+    "graphite": "#20211e",
+    "paper": "#f4f1ea",
+    "amber": "#c28342",
+    "silver": "#aaa8a1"
+  },
+  "representations": {
+    "portrait": "../assets/avatar-donghua-v2.png",
+    "code_mark": "../assets/avatar-mark.svg",
+    "future_3d": "not-created"
+  },
+  "voice_clone": "not-created",
+  "face_rig": "not-created",
+  "revision": "2026-10-18 / donghua concept 02",
+  "active_concept": "../assets/avatar-donghua-v2.png",
+  "previous_concept": "../assets/avatar-concept.png",
+  "style": "Contemporary 2D donghua; clean lines, cel shading; larger head relative to shoulders, owner portrait reference."
+}

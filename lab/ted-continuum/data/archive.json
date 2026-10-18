@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "project-real-estate",
+    "kind": "project",
+    "title": "从成本到现金流",
+    "subtitle": "Real estate underwriting",
+    "topic": "Finance",
+    "year": "2026",
+    "summary": "把租金、开发成本、建设提款、贷款和 LP / GP 分配连接成可复核的模型。",
+    "role": "房地产投资与贷款承销的分析实践",
+    "evidence": "依据提供的开发模板与 RTL 模型；模型存在历史引用与条款待复核项。",
+    "outputs": [
+      "开发模板 17 张工作表的结构拆解",
+      "RTL 模型 5 张表的额度与定价逻辑",
+      "预算、融资与退出的检查路径"
+    ],
+    "related": [
+      "development-model",
+      "equity-waterfall",
+      "rtl-underwriting",
+      "construction-cost",
+      "funding-gap"
+    ],
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/underwriting.html",
+    "cover": "model"
+  },
+  {
+    "id": "project-timexmart",
+    "kind": "project",
+    "title": "TimeXmart / MIRA",
+    "subtitle": "A product, a character, a story",
+    "topic": "Build",
+    "year": "2026",
+    "summary": "参与技能与价值交换方向的产品探索，把品牌故事做成 MIRA 小机器人开场的最终宣传片。",
+    "role": "联合创始人与产品、融资、营销方向的实践；角色时间依据提供的简历。",
+    "evidence": "品牌、产品方案与已选成片分别展示；不把产品设想当作已实现的业务数据。",
+    "outputs": [
+      "三条已选 MIRA 开场最终宣传片",
+      "产品定位、品牌角色与表达方法",
+      "个人价值与能力证明的产品探索"
+    ],
+    "related": [],
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/personal-ip.html#films",
+    "cover": "mira"
+  },
+  {
+    "id": "project-automation",
+    "kind": "project",
+    "title": "把流程写成系统",
+    "subtitle": "Finance × AI workflows",
+    "topic": "Build",
+    "year": "2026",
+    "summary": "将发票识别、项目实体、重复检查、资料条件与付款确认拆成有来源的流程。",
+    "role": "AP 工作流文档、规则和责任边界的整理与设计",
+    "evidence": "依据提供的三份自动化文档；未用未测量的节省工时或准确率作为成果。",
+    "outputs": [
+      "端到端 AP 流程与后续规则修订",
+      "字段、状态、检查和人工责任边界",
+      "异常队列与来源追踪方法"
+    ],
+    "related": [
+      "ap-system",
+      "invoice-controls",
+      "credit-ai-workflow"
+    ],
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/automation.html",
+    "cover": "system"
+  },
+  {
+    "id": "project-credit",
+    "kind": "project",
+    "title": "把信用研究放回证据",
+    "subtitle": "RTL / capital markets research",
+    "topic": "Finance",
+    "year": "2026",
+    "summary": "拆开交易规模、合格资产、组合约束、评级与融资方案，保留来源、日期和代理值。",
+    "role": "结构化信用与融资渠道研究的工作记录",
+    "evidence": "历史报告和两版比较表；具体市场结论未作为今天的事实重新发布。",
+    "outputs": [
+      "RTL 比较表的字段与口径",
+      "融资渠道与项目方案比较",
+      "代理值、版本冲突及缺失披露检查"
+    ],
+    "related": [
+      "rtl-research",
+      "lender-comparison"
+    ],
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/note.html?id=rtl-research",
+    "cover": "model"
+  },
+  {
+    "id": "project-quant",
+    "kind": "project",
+    "title": "Quant Lab",
+    "subtitle": "Research as a reproducible system",
+    "topic": "Research",
+    "year": "",
+    "summary": "以数据、策略、成本回测和模拟执行组织量化研究。",
+    "role": "研究与模拟交易项目",
+    "evidence": "公开项目摘要；不展示收益承诺或未经验证的交易成绩。",
+    "outputs": [
+      "模块化研究思路",
+      "成本与执行边界",
+      "可复现性与模拟账本"
+    ],
+    "related": [],
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/project.html?id=quant",
+    "cover": "system"
+  },
+  {
+    "id": "project-research",
+    "kind": "project",
+    "title": "研究，变成表达",
+    "subtitle": "AI / business / visual stories",
+    "topic": "Create",
+    "year": "",
+    "summary": "从原始材料出发，把技术和商业问题组织成文章与视频。",
+    "role": "内容研究与视频表达",
+    "evidence": "已整理的公开研究与创作档案；历史判断保留时间边界。",
+    "outputs": [
+      "研究与来源梳理",
+      "文章与影像表达",
+      "主题之间的复用"
+    ],
+    "related": [],
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/project.html?id=research",
+    "cover": "night"
+  },
+  {
+    "id": "note-ap-system",
+    "kind": "note",
+    "title": "把应付账款变成有证据的状态机",
+    "subtitle": "AUTOMATION / AP",
+    "topic": "Research",
+    "year": "2026",
+    "summary": "我把发票进入公司之后的一连串操作整理成端到端流程：接收文件、读取票面、确认项目实体、识别重复、等待审批、检查供应商资料、整理付款准备、匹配银行确认、归档与会计衔接。提供的三份文档记录了处理规则、表格字段、异常分支以及人的职责。这些材料能证明我设计和记录了工作流；它们不能独立证明每次自动化都成功，也不能支持未经测量的节省工时或准确率。展示重点是怎样把业务要求变成可以检查的步骤。",
+    "sections": [
+      {
+        "heading": "我整理了什么",
+        "text": "我把发票进入公司之后的一连串操作整理成端到端流程：接收文件、读取票面、确认项目实体、识别重复、等待审批、检查供应商资料、整理付款准备、匹配银行确认、归档与会计衔接。提供的三份文档记录了处理规则、表格字段、异常分支以及人的职责。这些材料能证明我设计和记录了工作流；它们不能独立证明每次自动化都成功，也不能支持未经测量的节省工时或准确率。展示重点是怎样把业务要求变成可以检查的步骤。"
+      },
+      {
+        "heading": "从文件堆到状态机",
+        "text": "工作对象不是一个文件名，而是一张有身份、有来源、有状态的发票。最低记录包括供应商、票号、日期、金额、项目实体、付款路线、支持文件与当前状态。收到文件表示进入处理队列，业务批准表示可以继续检查，资料齐全表示满足准备条件，银行回执才支持付款状态更新。批准、排入付款和银行付款不能压缩成一个完成按钮。每次状态转换都应写下触发证据、时间和执行者，否则下一位接手的人仍然需要重新猜测。"
+      },
+      {
+        "heading": "把版本差异处理清楚",
+        "text": "文档从早期端到端设计逐步收紧执行范围。后续十月八日的规则要求只更新人工已经建立的批次和工作表，以该批次现有的发票文件为边界；不自动新建批次、不从历史总账复活旧行，也不随意移动原始文件。因此，复用时先确认当前有效规则，不能把旧版的自动创建目录与新版的人工建批次同时执行。规则冲突应变成显式的待确认事项，而不是让模型挑选自己最方便的一段。"
+      },
+      {
+        "heading": "如何拆成可执行单元",
+        "text": "第一步先列出当前批次内的发票文件，形成输入清单。第二步从票面提取字段，并保留页码与文件对应关系。第三步逐项检查项目、金额、重复和资料缺口，给出建议状态与理由。第四步只对授权范围内的现有工作表提出更新，并记录修改前后差异。第五步由负责人检查付款准备，再由有权限的人处理银行动作。每一步的产出都能独立复核；任何一步缺少证据，下一步就保留待处理状态，不用猜测把流程补齐。"
+      },
+      {
+        "heading": "为什么要保留人的位置",
+        "text": "供应商改名、实体相近、信用卡付款和支票付款交叉出现时，单靠文字相似度容易做错。资料缺失是否允许例外、某笔费用应由哪个实体承担、付款是否真的已经生效，都需要业务判断或外部证据。我把自动化定位为准备材料、发现矛盾和降低重复录入负担。对外通知与银行动作有不同授权条件；网页展示不执行这些动作，也不把文档里的历史操作指令当作今天的授权。"
+      },
+      {
+        "heading": "技能延展与验收",
+        "text": "由这套流程可以进一步练习状态建模、结构化提取、异常队列、版本控制和审计日志。推荐的验收不是看输出是否整齐，而是抽取正常、重复、缺资料、实体冲突与部分付款样本，检查是否进入正确分支。可记录字段准确率、异常漏检数、无依据状态变更数及人工修正次数。这里列的是可实施的评价方法，不是已经取得的结果。一个可靠交付应同时给出可付款候选清单、保留事项和支持证据，让业务人员知道下一步具体要做什么。"
+      }
+    ],
+    "evidence": "流程文档可核对 · 运行效果未量化",
+    "source": "依据：本人提供的 AP SKILL、README 与 End-to-End Workflow；包含后续修订。公开页面只解释方法，不包含供应商、账户、邮件或发票原文。",
+    "hanCount": 985,
+    "updated": "2026-10-17",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/note.html?id=ap-system"
+  },
+  {
+    "id": "note-invoice-controls",
+    "kind": "note",
+    "title": "发票识别、去重与付款凭证如何闭环",
+    "subtitle": "AUTOMATION / CONTROLS",
+    "topic": "Research",
+    "year": "2026",
+    "summary": "发票自动化的第一个难点是文件名看起来很确定，内容却可能不同。同一供应商的报价、对账单、收据与正式发票都可能进入同一个文件夹。我提供的流程要求依据票面判断文件性质，再提取供应商、票号、日期、金额、项目和付款信息。文件名适合帮助查找，不适合作为金额和付款状态的最终依据。对于纯图片扫描件，应先识别文字，再回到页面图像核对关键金额，不能因为识别程序输出了数字，就认为数字已经准确。",
+    "sections": [
+      {
+        "heading": "先读票面，再读文件名",
+        "text": "发票自动化的第一个难点是文件名看起来很确定，内容却可能不同。同一供应商的报价、对账单、收据与正式发票都可能进入同一个文件夹。我提供的流程要求依据票面判断文件性质，再提取供应商、票号、日期、金额、项目和付款信息。文件名适合帮助查找，不适合作为金额和付款状态的最终依据。对于纯图片扫描件，应先识别文字，再回到页面图像核对关键金额，不能因为识别程序输出了数字，就认为数字已经准确。"
+      },
+      {
+        "heading": "两种重复，需要两种检查",
+        "text": "完全相同的文件可以用内容哈希识别，但邮件重存、重新扫描或加盖印章以后，字节已经改变，同一张发票仍然可能再次进入队列。所以第二层检查要比较规范化后的供应商、票号和金额，并结合项目实体、日期和历史记录。大小写、空格和供应商简称可以标准化，原始值仍需保留。相近但不相同的记录应标为疑似重复，由人查看差异；不能直接删除，也不能因为哈希不同就放行付款。"
+      },
+      {
+        "heading": "实体映射决定后续路径",
+        "text": "同一个供应商可能服务多个项目，不同项目可能属于不同法律实体。读取地址或施工描述只是线索，不足以保证付款主体正确。应建立项目名称、实体名称与支持文件的映射，再检查发票抬头、工作范围和已批准的项目归属是否一致。若信息冲突，输出需要确认的具体字段。付款资料和银行信息尤其不应靠模型补全；供应商名称相似，也不代表收款账户可以沿用其他项目的历史记录。"
+      },
+      {
+        "heading": "部分付款不能当作整张结清",
+        "text": "一张发票可能被分期支付，也可能附有信用单或调整项。记录中应区分票面金额、本次计划支付、累计已付和剩余余额。余额可以通过调整后的应付金额减去有凭证的累计支付来计算，但缺少凭证时应保持待核实。对账单汇总了多张票据，不能再作为一张新增发票重复计入。信用卡收据、自动扣款记录与支票候选清单之间也需要交叉检查，避免一条付款路线的历史记录在另一条路线里重新被激活。"
+      },
+      {
+        "heading": "回执匹配是一道独立控制",
+        "text": "付款确认应同时匹配收款方、金额、日期和能够识别发票的备注，并核对付款实体。名字相同和金额相同还不够：重复金额、旧回执和相邻批次都可能造成误配。发现矛盾时，不应合并文件、改成已付或发送通知，而应把冲突交给负责人。归档前保留原始发票、原始确认、匹配依据及版本记录，保证合并后的展示件仍能追溯到原文件。"
+      },
+      {
+        "heading": "怎样验证识别质量",
+        "text": "可执行的验证集应包含清晰电子票据、低质量扫描、缺票号、同票重扫、供应商更名、部分付款与旧回执等不同情况。字段层面分别统计金额、票号和实体的正确率；流程层面检查该暂停的是否暂停。一个把所有票都顺利处理完的系统未必更好，因为异常可能被掩盖。这里提出的扩展技能是用错误分类推动规则改进，并在每次修订后保留回归样本。没有完成真实抽样前，不给系统附上虚构的准确率或财务收益。"
+      }
+    ],
+    "evidence": "基于 AP 文档的控制拆解",
+    "source": "依据：AP 工作流中的扫描识别、双重去重、项目实体核对与确认文件匹配规则。示例为通用方法说明，未公开真实票据。",
+    "hanCount": 945,
+    "updated": "2026-10-17",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/note.html?id=invoice-controls"
+  },
+  {
+    "id": "note-development-model",
+    "kind": "note",
+    "title": "拆开开发承销模型：从假设到股权现金流",
+    "subtitle": "MODELING / DEVELOPMENT",
+    "topic": "Research",
+    "year": "2026",
+    "summary": "提供的开发承销模板包含十七张工作表，覆盖项目假设、稳定期收入、现金流、建设预算与提款、贷款摊还、基金条款和股权分配。我的建模过程可以沿着输入、支持计算、融资与输出四层理解。执行摘要负责解释结果，不能替代底层计算。隐藏表也属于模型的一部分，检查时必须展开，而不是只阅读屏幕上最容易看到的几个页签。文件中的历史错误引用和外部链接需要另列问题，不能因为模板完整就默认结果可靠。",
+    "sections": [
+      {
+        "heading": "我怎样组织模型",
+        "text": "提供的开发承销模板包含十七张工作表，覆盖项目假设、稳定期收入、现金流、建设预算与提款、贷款摊还、基金条款和股权分配。我的建模过程可以沿着输入、支持计算、融资与输出四层理解。执行摘要负责解释结果，不能替代底层计算。隐藏表也属于模型的一部分，检查时必须展开，而不是只阅读屏幕上最容易看到的几个页签。文件中的历史错误引用和外部链接需要另列问题，不能因为模板完整就默认结果可靠。"
+      },
+      {
+        "heading": "把收入的单位写清楚",
+        "text": "收入测算先明确户型、套数、面积和租金单位。按套报价时，用每套月租乘套数，再转换为对应期间；按面积报价时，先将面积与单位面积租金相乘，不能多乘一次面积。接着区分潜在租金、空置与信用损失以及其他收入，再形成有效总收入。运营费用应标明固定额、每套费用或收入百分比的基数。净运营收入是有效总收入减运营费用，不能与扣除融资成本之后的股权现金流混成同一个指标。"
+      },
+      {
+        "heading": "把预算放回时间轴",
+        "text": "土地、硬成本、软成本、融资费用与储备需要分别列示，再按施工月份安排现金支出。每项工种的月度合计要回到该项预算，所有月份的总额也要与总建设成本对齐。工期延长会改变利息、持有费用和收入开始时间，所以不能只调整最终完工日期而保持现金流不动。模型应能解释某个月为什么需要新增资金，以及该资金由股权还是贷款承担。未提款额度只是融资能力，不是已经进入账户的现金。"
+      },
+      {
+        "heading": "资产与股权分两层",
+        "text": "无杠杆现金流描述资产自身的投入、经营和退出；杠杆现金流进一步加入借款、利息、本金、再融资与退出时的还贷。建设贷款和长期贷款是两个不同阶段，转换月份要同时体现新贷款进入和旧贷款清偿。股权回报计算之前，需要确认资金符号、时间和融资层级一致。若一笔成本已包含在总开发支出中，又在股权层重复扣除，就会低估回报；若漏掉退出债务，则会高估可回收股权。"
+      },
+      {
+        "heading": "把输出变成可解释判断",
+        "text": "模型输出包括净运营收入、资金缺口、偿债覆盖、股权倍数与内部收益率。解释这些指标时，应指出驱动变化的假设，例如租金、稳定期、建设成本或退出资本化率，而不是只报一个回报数。敏感性分析应实际改变相应输入，并让现金流重新计算。资产现金流应匹配资产层面的折现率，股权现金流则需要股权层面的回报要求。没有资料支持的输入应单独显示为待确认，不用零值悄悄替代。"
+      },
+      {
+        "heading": "验收与技能延展",
+        "text": "我会从成本合计、期间支出、贷款余额、退出净收入和分配总额五条线复核模型。进一步的技能训练是建立假设登记表，让每个关键数字带上来源日期、单位、负责人和可信度；再设置基础、压力与延期情景，对结果变化给出解释。该方法来自现有模型结构的延展，不代表每个检验都已在原文件中实现。最后的交付应包括结果、计算路径和错误清单；未修复的引用与待确认条款必须跟随模型一起交给复核者。"
+      }
+    ],
+    "evidence": "17 张工作表结构与引用可核对",
+    "source": "依据：underwriting template.xlsx；包含隐藏支持表、建设提款、长期与建设贷款摊还、现金流及瀑布表。存在历史引用问题，未宣称模型已全面验证。",
+    "hanCount": 961,
+    "updated": "2026-10-17",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/note.html?id=development-model"
+  },
+  {
+    "id": "note-equity-waterfall",
+    "kind": "note",
+    "title": "LP / GP 瀑布：把条款翻译成余额与现金",
+    "subtitle": "MODELING / WATERFALL",
+    "topic": "Research",
+    "year": "2026",
+    "summary": "项目赚钱并不自动说明每位投资人能收到多少现金。提供的模板把基金条款、股权投入与收益分配分开处理，使项目层现金流能够继续映射到有限合伙人与普通合伙人的分配。需要解释的是谁先收回资本、优先回报是否累计、是否存在追赶分配，以及剩余收益如何分成。工作簿中的分层名称和公式存在需要核对的地方，因此展示时保留条款核对的工作，而不把模板标签当作已经批准的最终协议。",
+    "sections": [
+      {
+        "heading": "瀑布解决的具体问题",
+        "text": "项目赚钱并不自动说明每位投资人能收到多少现金。提供的模板把基金条款、股权投入与收益分配分开处理，使项目层现金流能够继续映射到有限合伙人与普通合伙人的分配。需要解释的是谁先收回资本、优先回报是否累计、是否存在追赶分配，以及剩余收益如何分成。工作簿中的分层名称和公式存在需要核对的地方，因此展示时保留条款核对的工作，而不把模板标签当作已经批准的最终协议。"
+      },
+      {
+        "heading": "先建立条款字典",
+        "text": "建模前先把文字协议拆成结构化参数：参与人、出资比例、回报基数、计息方法、分配顺序和触发条件。优先回报究竟基于未返还资本，还是其他定义，需要看实际条款；不能看见一个百分比就直接乘全部历史出资。资本返还与收益分配应分开记录。基金特殊税务安排也应单独列为假设，并交由专业人员确认，不能让模型中的税务名称替代正式意见。"
+      },
+      {
+        "heading": "余额滚动比一次分配更重要",
+        "text": "每期开始先承接上一期的未返还资本和未付优先回报，再加入当期出资或新产生的应计回报，最后扣除本期支付。这样可以回答为什么当期现金不足时，某一层留下欠额，也能避免把已返还资本继续计入回报基数。每项余额都应有期初、增加、减少和期末四个部分。如果只在退出时做一次静态拆分，往往看不出中途分红、追加资本和延期对参与人收益的影响。"
+      },
+      {
+        "heading": "每层只使用剩余现金",
+        "text": "瀑布每一层的可支付金额，要同时受该层应付金额和当前剩余现金限制。支付完一层，再把剩余现金交给下一层。追赶条款不能用一句简单分成比例替代，必须说明追赶的目标和计算基数。普通合伙人的跟投分配与业绩报酬也应分开，因为前者来自资本投入，后者来自约定的激励安排。只要混在一起，展示出来的回报就可能误导读者对风险承担的理解。"
+      },
+      {
+        "heading": "用极端情景检查逻辑",
+        "text": "一个有用的检查是分别测试没有可分配现金、现金只够部分返本、刚好达到优先回报，以及现金足够进入剩余分成的情景。总分配不能大于可分配现金，也不能出现没有解释的负余额。同一时期项目分配总额应与各参与人收到的金额对齐。内部收益率应使用真实日期与正负现金流配对；现金倍数只描述收回多少倍，不描述等待多久，所以两个指标需要一起解释。"
+      },
+      {
+        "heading": "我的能力与进一步补充",
+        "text": "这份材料能支持我展示开发项目到参与人收益的模型组织方式，以及把合同语言转成计算层次的思路。更进一步，可以增加逐层对账图、条款到公式的索引和异常提示，让复核者从任何一笔分配回到对应条款。这里列出的是可复用的技能延展，不是未经证明的历史功能。交付时应同时提供条款摘要、余额表、现金分配和待确认事项；只展示一个好看的回报数字，会隐藏模型中最需要讨论的风险。"
+      }
+    ],
+    "evidence": "工作簿结构可核对 · 条款冲突待复核",
+    "source": "依据：开发模板的 Fund Terms Assumptions、OZ Fund Equity Waterfall、GP Equity 与 Projected Cash Flows；本文为模型方法说明，不提供税务或法律结论。",
+    "hanCount": 908,
+    "updated": "2026-10-17",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/note.html?id=equity-waterfall"
+  },
+  {
+    "id": "note-rtl-underwriting",
+    "kind": "note",
+    "title": "RTL 承销：额度、定价与贷款生命周期",
+    "subtitle": "CREDIT / UNDERWRITING",
+    "topic": "Research",
+    "year": "2026",
+    "summary": "住宅过渡贷款的承销需要把项目计划、抵押物、借款人和退出路径放在同一个框架里。提供的五表模型把承销主表、建设预算、政策参考、条款和定价连接起来。我的工作说明应解释一笔贷款为什么需要该金额，资金用于收购还是建设，项目如何完成，以及最后通过出售或长期融资退出。模型算出的额度只是分析输出，不能直接等同于贷款批准。历史政策文件也必须带版本日期，不能作为今天的现行承诺公开使用。",
+    "sections": [
+      {
+        "heading": "从借款需求开始",
+        "text": "住宅过渡贷款的承销需要把项目计划、抵押物、借款人和退出路径放在同一个框架里。提供的五表模型把承销主表、建设预算、政策参考、条款和定价连接起来。我的工作说明应解释一笔贷款为什么需要该金额，资金用于收购还是建设，项目如何完成，以及最后通过出售或长期融资退出。模型算出的额度只是分析输出，不能直接等同于贷款批准。历史政策文件也必须带版本日期，不能作为今天的现行承诺公开使用。"
+      },
+      {
+        "heading": "三个杠杆指标的分母",
+        "text": "收购价值比、成本比和完工后价值比分别回答不同的问题。贷款相对于购买资产值多少，相对于总成本承担多少，以及相对于预期完工价值占多少，都需要明确分子与分母的口径。不能把总贷款和土地价值相除后仍称为全项目成本比，也不能把尚未验证的预期售价当作已实现价值。建设预算、购入成本和估值来源应分别保留，相关费用是否计入成本基础也要按适用规则确认。"
+      },
+      {
+        "heading": "识别真正限制贷款的条件",
+        "text": "把各项杠杆上限转换成相应贷款金额后，比较哪个约束最先生效。一个项目可能成本比还有空间，却已经触及完工价值约束；也可能抵押物价值充足，但建设预算或其他审批条件不能满足。分析应列出每个额度来源与缺失输入，并解释为什么选择当前限制项。即使取了各项金额的最小值，也仍需独立检查其他政策、借款人能力、工程条件和文件要求，不能把一个最小值公式包装成完整授信判断。"
+      },
+      {
+        "heading": "定价不能只有一个利率",
+        "text": "浮动利率需要拆成有效基准、基准下限、基础利差与适用调整，基点转换成百分比时要统一单位。条款中的费用、利息储备、提款安排和期限也会影响真实资金成本。粗略持有成本可用贷款额、平均提款比例、年利率和月数估算，但平均提款比例不等于真实逐月余额。若有提款日历，应按每期余额计算，并清楚区分估算结果与详细现金流。"
+      },
+      {
+        "heading": "承销与执行之间的连接",
+        "text": "条款形成以后，还需要对接实体文件、产权、保险、许可证和提款条件。资料已收到不代表条件已满足，提交提款也不代表资金已经到账。我在工作记录中涉及这些协调环节，展示时将分析、准备和确认分开，避免夸大个人权限。可追踪的工作产品包括杠杆比较、定价构成、条款差异和条件缺口表。发生估值或预算变更时，应回到额度与退出测试，不能只改交割清单上的状态。"
+      },
+      {
+        "heading": "可以进一步训练的技能",
+        "text": "在现有模型基础上，可以建立成本上涨、估值下降和工期延长的压力情景，观察约束额度、利息消耗与额外股权需求如何变化。也可以设置主表、定价表与条款表之间的一致性检查，自动指出版本差异。这些属于基于材料补充的可执行练习，不是已经验证上线的风控系统。最终输出应让审阅人看懂额度怎么算、风险在哪里、需要谁补什么资料，并明确哪些条件尚未被证据支持。"
+      }
+    ],
+    "evidence": "5 张模型表与历史政策可核对",
+    "source": "依据：Silverline RTL 承销模型的 UW Model、Construction Budget、Guidelines Ref、Term Sheet、Pricing Engine，以及所提供的历史信贷政策；内部参数未公开。",
+    "hanCount": 925,
+    "updated": "2026-10-17",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/note.html?id=rtl-underwriting"
+  },
+  {
+    "id": "note-rtl-research",
+    "kind": "note",
+    "title": "从评级报告到 RTL 比较：先统一口径",
+    "subtitle": "RESEARCH / STRUCTURED CREDIT",
+    "topic": "Research",
+    "year": "2026",
+    "summary": "提供的两版信托比较表分别包含五张和四张工作表，研究内容从交易概览延伸到评级、合格资产标准、贷款匹配、信用增级与业务启示。另有七页历史市场报告，把单笔项目与资金平台联系起来。能够展示的工作是怎样阅读材料、定义比较字段、识别约束并形成业务问题。它不能自动证明所有引用数字都准确，也不能证明某家平台已经接受融资合作。公开展示保留方法，具体借款人、地址和对手方联系方式留在本地。",
+    "sections": [
+      {
+        "heading": "我比较的不是几个名字",
+        "text": "提供的两版信托比较表分别包含五张和四张工作表，研究内容从交易概览延伸到评级、合格资产标准、贷款匹配、信用增级与业务启示。另有七页历史市场报告，把单笔项目与资金平台联系起来。能够展示的工作是怎样阅读材料、定义比较字段、识别约束并形成业务问题。它不能自动证明所有引用数字都准确，也不能证明某家平台已经接受融资合作。公开展示保留方法，具体借款人、地址和对手方联系方式留在本地。"
+      },
+      {
+        "heading": "先给每个字段加上下文",
+        "text": "同样叫作规模的数字，可能是初始贷款池本金、发行总额、融资账户余额或未来承诺额度。评级报告的预售、最终发行和后续监测也可能对应不同时间。研究表格应记录交易名称、文件类型、报告日期、截止日、字段定义、单位和原文位置，缺少数据时保留空缺。两个版本出现差异时，应先核对时间和定义，再决定是否修订，不能为了得到一张干净的总表而把不同口径简单平均。"
+      },
+      {
+        "heading": "组合指标与单笔门槛",
+        "text": "加权平均信用分数与单笔最低分数不是一回事，加权平均杠杆约束也不等于每一笔贷款都允许达到该水平。研究需要分别识别实际组合指标、允许的组合界限、单笔贷款上限，以及集中度限制。再将某一类项目映射进去，判断它究竟是单笔不合格，还是在组合中占比过高。这个区分能防止两种相反错误：看见组合平均较低就认定所有单笔都不行，或看见单笔允许就忽略资金池的集中度限制。"
+      },
+      {
+        "heading": "不要把债券票息当贷款收益",
+        "text": "评级层级、债券票息、贷款池加权平均利率和平台净收益分属于不同层面。历史报告涉及这些指标，比较时必须写清资金成本与资产收益各自的定义。某一期没有披露贷款池利率，借用另一交易的数据只能标为代理值，不能伪装成本期披露。信用增级也可能由次级层、超额抵押或储备支持，不能只比较一个百分比就断定风险高低，而忽略抵押物质量、结构与压力假设。"
+      },
+      {
+        "heading": "把结论变成业务可用问题",
+        "text": "研究最终要回答资金平台和自有项目的适配度：产品类型、地区、施工阶段、贷款规模和发起安排是否相容，哪些条件需要进一步沟通。结论应写明支持证据与限制，并把尚未核实的事项变成具体问题。历史市场报告中的预测、样本汇总和代理估算都带有当时的资料边界；不把它们直接改写成今天的市场事实。表格的价值是帮助定位下一次尽调，而不是仅凭公开材料替代正式对手方确认。"
+      },
+      {
+        "heading": "从研究延展到信用 AI",
+        "text": "这组材料适合转化为结构化提取和检索评价样本。可以让系统给每个答案附上页码、日期、指标类型和是否代理，再故意放入同名不同口径的字段检验是否混淆。高质量输出不仅要能回答，也应在缺失披露时保留未知，在版本冲突时并列证据。这里提出的是可继续开发的产品方向；现有文件能支持研究过程展示，不能证明已经训练出可靠的信用模型或达到生产环境的准确率。"
+      }
+    ],
+    "evidence": "两版比较表与 7 页历史报告",
+    "source": "依据：RTL Trust Analysis vs Silverline、RTL Trust Comparison vs Silverline 两版工作簿及所提供的 RTL Market Report（2026-08-12）。报告中的市场断言未作为当前事实重新发布。",
+    "hanCount": 946,
+    "updated": "2026-10-17",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/note.html?id=rtl-research"
+  },
+  {
+    "id": "note-lender-comparison",
+    "kind": "note",
+    "title": "融资渠道研究：把名单变成可比较的方案",
+    "subtitle": "RESEARCH / CAPITAL MARKETS",
+    "topic": "Research",
+    "year": "2026",
+    "summary": "提供的贷款方工作簿包含九张工作表，既有总名单，也按资产抵押、白标资金安排、具体项目和收入融资分类。主名单有名称、状态、联系人、网站、产品方向和沟通备注；项目表进一步比较金额、利率、费用、杠杆、期限和利息储备。这说明我做的不只是收集机构名称，而是在把渠道信息转成可供项目筛选的工作资料。表格行数不应被直接宣传为独立机构数量，因为同一平台可能出现多次，空行和重复版本也需要排除。",
+    "sections": [
+      {
+        "heading": "名单不是研究的终点",
+        "text": "提供的贷款方工作簿包含九张工作表，既有总名单，也按资产抵押、白标资金安排、具体项目和收入融资分类。主名单有名称、状态、联系人、网站、产品方向和沟通备注；项目表进一步比较金额、利率、费用、杠杆、期限和利息储备。这说明我做的不只是收集机构名称，而是在把渠道信息转成可供项目筛选的工作资料。表格行数不应被直接宣传为独立机构数量，因为同一平台可能出现多次，空行和重复版本也需要排除。"
+      },
+      {
+        "heading": "先定义项目真正需要什么",
+        "text": "比较融资方案前，先确定贷款用途、项目阶段、时间要求、资金缺口与预计退出方式。完成收购的紧急桥接需求，和需要持续建设提款的贷款需求不一样。一个看似低利率的方案，如果放款节点不匹配或者留置资金不足，可能无法支持施工。项目需求清单应把必须满足的条件与可谈判的条件分开，再用统一字段记录渠道反馈，避免让最醒目的利率压过其他关键限制。"
+      },
+      {
+        "heading": "统一报价的比较基准",
+        "text": "利率、点数、经纪费用、延期费用、退出收费和利息储备需要分别记录。可用资金应区分名义批准金额、交割时实际到账以及后续可提取金额。建设留置款和利息储备如果已经包含在总额里，不能重复加成融资能力。贷款成本还与实际使用期限和提款余额有关，因此不同期限、不同提款机制的方案不能仅靠一个简单百分比排序。历史报价应保留日期，并明确它不是现在仍有效的承诺。"
+      },
+      {
+        "heading": "项目适配与渠道角色",
+        "text": "贷款方、经纪渠道、白标发起安排和资金提供方可能承担不同角色。研究时需要确认谁负责审批、谁持有贷款、谁服务贷款，以及报价是否附带其他条件。资产类型、地区、借款人经验与施工阶段限制应作为筛选字段，不能在沟通完成前假设适用。缺少反馈的渠道应显示待确认，而不是将网站宣传语当成已经收到的正式条款。这样，渠道研究才能连接到真实项目决策。"
+      },
+      {
+        "heading": "怎样形成一份可执行记录",
+        "text": "每次沟通后记录日期、问题、答复、支持材料和下一步负责人。把不合适的原因保留下来，例如产品不覆盖、额度不足、时点不匹配或资料未齐，下次遇到类似项目即可复用。候选方案应输出统一的比较表、实际可用资金时间线、费用清单与待确认条件。内部联系人及联系方式属于工作资料，公开作品只展示字段结构与研究逻辑，不把历史对话和商业关系直接作为公众内容。"
+      },
+      {
+        "heading": "能力扩展与质量检查",
+        "text": "基于这份工作，可以补充机构名称去重、产品分类、日期有效性检查和融资成本情景比较。量化指标可以采用有效反馈覆盖率、关键字段缺失率以及未解决条件数量，而不是简单计算名单行数。所有指标需要先定义分母，再收集真实数据。这里说明的是可继续实施的研究方法，不是声称已经取得融资或改善融资成本。真正的成果是让团队知道哪些方案可比较、哪些信息过期，以及下一次沟通应确认什么。"
+      }
+    ],
+    "evidence": "9 张工作表的结构拆解",
+    "source": "依据：所提供的 private lender list 工作簿。主名单、资产抵押类、白标渠道、项目比较与收入融资分类均为历史记录；未公开联系人或当时报价。",
+    "hanCount": 936,
+    "updated": "2026-10-17",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/note.html?id=lender-comparison"
+  },
+  {
+    "id": "note-construction-cost",
+    "kind": "note",
+    "title": "建设成本拆解：数量、单价与图纸核对",
+    "subtitle": "WORKFLOW / COST ESTIMATING",
+    "topic": "Research",
+    "year": "2026",
+    "summary": "我提供的工作摘要描述了三个项目的成本估算：从历史已付发票寻找同类型建筑的参考，调整时间因素，再把每条预算拆成数量乘单价。摘要也记录了比较项目的筛选、图纸差异和未完成事项。由于这批原始图纸与完整预算包尚未在此核验，公开记录只呈现方法和本人报告的工作范围，不把摘要中的金额当成经过独立审计的结果。这种边界也帮助区分完成的分析与仍需工程师、分包或负责人确认的内容。",
+    "sections": [
+      {
+        "heading": "我记录的成本工作",
+        "text": "我提供的工作摘要描述了三个项目的成本估算：从历史已付发票寻找同类型建筑的参考，调整时间因素，再把每条预算拆成数量乘单价。摘要也记录了比较项目的筛选、图纸差异和未完成事项。由于这批原始图纸与完整预算包尚未在此核验，公开记录只呈现方法和本人报告的工作范围，不把摘要中的金额当成经过独立审计的结果。这种边界也帮助区分完成的分析与仍需工程师、分包或负责人确认的内容。"
+      },
+      {
+        "heading": "可比成本先解决可比性",
+        "text": "历史项目不能因为地理位置接近就直接套用。应先比较建筑类型、结构体系、面积、层数、装修等级和施工条件，再判断哪些工种可以复用。摘要中特别指出排除不适合的参考项目，以及高端装修可比会抬高另一项目的估算。通胀调整只能处理时间差，不能消除建筑标准差异。每条参考单价最好附原项目、发票日期、工作范围和调整理由，让预算能够说明为什么这项成本适合当前项目。"
+      },
+      {
+        "heading": "数量乘单价的真正含义",
+        "text": "预算中的数量要有明确单位：长度、面积、体积、套数、设备数量或工时。混凝土体积需要将长度、宽度与厚度统一单位后再转换成立方码；墙面和饰面按面积计算，线性构件则可能按长度计量。单价还要说明是否包含材料、人工、设备、运输和损耗。不同承包商可能按机械小时、天数、分项包干或材料数量计费，不能把一种计费方式的总价直接当成另一种单位价格。"
+      },
+      {
+        "heading": "图纸与预算要双向检查",
+        "text": "预算存在某一项，不代表图纸一定要求该项；图纸出现某个构件，也不代表预算已经覆盖。摘要记录过墙长与计量长度不一致，以及壁炉、栏杆、钢构和外墙材料等范围需要重新核对的问题。执行时应建立图纸位置、构件、计量方法、预算行和待确认问题的索引。发现差异后，先确认范围，再决定重算、删除或设为暂估，不能只通过改变总额让结果看起来合理。"
+      },
+      {
+        "heading": "机电与结构不能只用经验数",
+        "text": "水电暖需要区分粗装、末端安装、设备和接入工作；暖通吨数与热量指标还应由负荷计算支持，不能只凭房屋面积猜设备。框架人工和木料可以分别列示，台阶、挡土墙和场地条件也需要对应图纸。已有摘要提出补充窗户、外墙、暖通、框架和土方报价，说明预算仍有未确认部分。把这些缺口写成下一步采购或测量任务，比给一个没有解释的最终单价更有用。"
+      },
+      {
+        "heading": "验收和可复用知识",
+        "text": "一份可复核的成本记录应同时保留数量来源、单位、单价依据、范围假设和修订日期。按工种检查能发现漏项，按图纸检查能发现范围错配，按历史发票检查能发现不合理单价。进一步可以记录待报价覆盖率、重测差异和暂估占比，但没有完成统计前不宣称预算准确率。交付物应包含成本表、计量依据和未解决清单；这些材料共同解释成本是怎样形成的，以及下一步该由谁验证。"
+      }
+    ],
+    "evidence": "依据本人提供的工作摘要 · 原始计量待复核",
+    "source": "依据：本人提供的三个项目预算与图纸核对工作摘要。未获得该批完整图纸、报价和成本包，本文以脱敏方法记录呈现，不宣称已独立验证工程量。",
+    "hanCount": 910,
+    "updated": "2026-10-17",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/note.html?id=construction-cost"
+  },
+  {
+    "id": "note-funding-gap",
+    "kind": "note",
+    "title": "项目有利润，为什么仍会缺建设资金",
+    "subtitle": "WORKFLOW / DEAL ANALYSIS",
+    "topic": "Research",
+    "year": "2026",
+    "summary": "提供的工作摘要把真实成本预算和贷款用途预算分别列示，并记录了部分项目在不同预算基础下呈现不同利润的情况。这个区分非常重要：为了融资展示而设置的预算额度，不等于最终实际支出；真实成本也不等于银行愿意按相同节奏支付的金额。公开展示应解释口径之间的桥接，而不把某一版预算包装成唯一事实。摘要中的盈利与亏损结论仍需原始成本、估值和条款共同支持。",
+    "sections": [
+      {
+        "heading": "先把几个预算口径分开",
+        "text": "提供的工作摘要把真实成本预算和贷款用途预算分别列示，并记录了部分项目在不同预算基础下呈现不同利润的情况。这个区分非常重要：为了融资展示而设置的预算额度，不等于最终实际支出；真实成本也不等于银行愿意按相同节奏支付的金额。公开展示应解释口径之间的桥接，而不把某一版预算包装成唯一事实。摘要中的盈利与亏损结论仍需原始成本、估值和条款共同支持。"
+      },
+      {
+        "heading": "利润与流动性是两道问题",
+        "text": "项目最终出售收入可能高于全部成本，但在建设过程中仍可能资金不足。原因包括贷款交割时扣除储备、部分费用不被融资、工程先付款后报销、检查周期和提款限制。应把每个月的真实支出、股权投入、贷款实际可用额与提款时间排在一起，计算最大累计缺口。只比较总贷款额与总成本，会遗漏资金到位时点，也无法解释为什么一个表面盈利的项目仍需要追加股权。"
+      },
+      {
+        "heading": "留置款要与实际硬成本对照",
+        "text": "建设留置额度是否够用，需要先确认哪些工种被覆盖，是否含预备费，以及部分费用是否已经在交割时支付。可用留置款低于真实硬成本时，差额需要另有资金来源；即使总贷款看起来很大，也不能据此认定施工资金充足。利息储备和费用储备通常有自己的用途，不应随意当作可支付工程款的现金。若贷款条件限制了提款顺序，应在现金流中反映，而不是只在文字备注里提一句。"
+      },
+      {
+        "heading": "估值与退出必须同一口径",
+        "text": "出售估值要区分现状价值与完工价值，收入、出售费用、佣金、税费和债务偿还也需要按对应情景列示。摘要记录过现状价值与评估报告不一致、税费标签错误和其他项目软成本表被复制进来的问题。这些问题说明模型复用必须检查项目身份、日期、引用与口径。一个公式算得出来，并不意味着输入属于当前项目；修订前后应保留差异与支持材料。"
+      },
+      {
+        "heading": "把未完成问题变成工作单",
+        "text": "对成本基础未决、混凝土需重测、图纸未支持的暂估和专业报价缺口，应分别写明负责方、所需证据与下一步。贷款包准备完成与已经发送给对方是不同状态；用户摘要明确表示当时尚未发送，展示中不能改写成已经交付。只有确认发送或收件证据，才能更新交付状态。这样记录，项目接手者可以继续推进，而不会因为一句含糊的完成描述漏掉关键工作。"
+      },
+      {
+        "heading": "可执行的分析输出",
+        "text": "最终可以形成四份互相连接的结果：真实成本预算、贷款预算桥接、月度资金缺口和退出收益情景。每份结果都带上来源与未确认项，再用建设延期、报价上涨、估值下降测试额外资金需求。可进一步统计未确认成本占比和最大资金缺口出现月份，但需要真实资料计算后才能报告数值。这篇记录展示我如何把成本、融资和退出放在一起分析，也保留了工作尚未完成和需要复核的地方。"
+      }
+    ],
+    "evidence": "本人报告的预算与融资分析方法",
+    "source": "依据：本人提供的项目成本、融资包及待办摘要。项目名称、利润金额、贷款条款与对手方均未公开；具体结果需回到原始文件复核。",
+    "hanCount": 905,
+    "updated": "2026-10-17",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/note.html?id=funding-gap"
+  },
+  {
+    "id": "note-credit-ai-workflow",
+    "kind": "note",
+    "title": "把信用研究拆成可以检查的 AI 工作流",
+    "subtitle": "AI / RESEARCH SYSTEMS",
+    "topic": "Research",
+    "year": "2026",
+    "summary": "房地产承销、RTL 研究和应付账款自动化看似不同，实际上都包含文件输入、字段解释、规则检查、异常处理和证据输出。我已有的文件记录可以展示这些业务环节，以及我如何把重复劳动拆成工作流。由此延展到信用研究人工智能，合适的起点是让资料更容易比较和复核，而不是直接宣称模型可以替代授信判断。本篇将已提供的工作与建议的新系统明确分开，避免把一个产品设想写成已经上线的经历。",
+    "sections": [
+      {
+        "heading": "从我已有的工作开始",
+        "text": "房地产承销、RTL 研究和应付账款自动化看似不同，实际上都包含文件输入、字段解释、规则检查、异常处理和证据输出。我已有的文件记录可以展示这些业务环节，以及我如何把重复劳动拆成工作流。由此延展到信用研究人工智能，合适的起点是让资料更容易比较和复核，而不是直接宣称模型可以替代授信判断。本篇将已提供的工作与建议的新系统明确分开，避免把一个产品设想写成已经上线的经历。"
+      },
+      {
+        "heading": "先定义问题和字段",
+        "text": "系统接到的任务应具体，例如比较两笔交易的合格资产标准，或找出项目模型中未被支持的假设。先建立字段字典，包括名称、定义、单位、时点、适用层级和允许的缺失状态。加权平均约束、单笔上限和实际组合值必须是不同类型。没有这个结构，模型即使引用了真实文件，也可能把不同指标拼接成错误结论。字段设计需要业务人员参与，不能仅靠模型自动生成后无人复核。"
+      },
+      {
+        "heading": "证据跟着每个答案走",
+        "text": "提取结果至少包含原始文字、规范化值、文件版本、页码或单元格位置，以及直接披露、计算所得还是代理估算的标记。计算字段应列输入和公式，未知字段保留未知。检索到的段落只是候选证据，仍需核对它是否真的回答问题。如果两个来源冲突，系统应并列差异和日期，给出待确认事项，而不是为了生成流畅段落悄悄选择一个。敏感项目资料也不能随着检索结果自动进入公开展示。"
+      },
+      {
+        "heading": "把生成与验证分开",
+        "text": "可以先让模型提取和解释，再由确定性检查验证单位、求和、余额滚动与字段类型，最后把业务判断交给复核者。建设预算合计、贷款余额、现金分配与发票匹配都有适合独立检查的部分。生成模型不应自己写答案、自己给自己通过，也不能把缺失数值变成零以满足公式。验证失败时输出可读的错误和所需输入，比输出一个看似完整的结论更能帮助真实工作。"
+      },
+      {
+        "heading": "评价不能只看语气像专家",
+        "text": "一个评价集应包含正常样本、缺失披露、同名不同口径、旧版本、错误引用和扫描识别失败。分别检查字段提取是否正确、来源是否支持、计算是否可重现，以及应该保留未知的时候有没有乱答。涉及审批或对外动作的建议还要检查授权边界。可以定义有证据答案占比、关键错误数与人工纠正时间，但这些需要用真实样本测量；这里没有用虚构百分比来装饰能力。"
+      },
+      {
+        "heading": "一个可实现的最小闭环",
+        "text": "建议先选一类文档和一个明确问题，建立小规模人工标注样本，再实现提取、比较、来源展示与复核反馈。输出包含答案、证据、差异和下一步，负责人修改后保留修订记录，再把典型错误加入回归样本。这个顺序把研究经验、数据结构和产品交互联系起来，也让每次改进有依据。我的现有经历支持我理解问题和设计流程；要证明产品可靠，仍需后续实现、样本验证和真实使用反馈。"
+      }
+    ],
+    "evidence": "从已有研究与自动化经验延展 · 产品方案",
+    "source": "依据：RTL 比较、开发及贷款模型、AP 流程与交割清单的共同方法。本文后半为建议实现与评价方案，不声称已建成信用研究 AI 产品。",
+    "hanCount": 917,
+    "updated": "2026-10-17",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/note.html?id=credit-ai-workflow"
+  },
+  {
+    "id": "v-5c55539a9dedc7aa",
+    "kind": "film",
+    "title": "AMIE Research SourceOverlay v3",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-5c55539a9dedc7aa.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-5c55539a9dedc7aa.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=AMIE%20Research%20SourceOverlay%20v3"
+  },
+  {
+    "id": "v-d8cc49028195f164",
+    "kind": "film",
+    "title": "DayOne 深度分析 v3",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-d8cc49028195f164.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-d8cc49028195f164.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=DayOne%20%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90%20v3"
+  },
+  {
+    "id": "v-5757131d17968707",
+    "kind": "film",
+    "title": "huawei qualcomm photo cover v2",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-5757131d17968707.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-5757131d17968707.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=huawei%20qualcomm%20photo%20cover%20v2"
+  },
+  {
+    "id": "v-75e4c86b16134a9b",
+    "kind": "film",
+    "title": "firmus 20261005 v3 no logo",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-75e4c86b16134a9b.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-75e4c86b16134a9b.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=firmus%2020261005%20v3%20no%20logo"
+  },
+  {
+    "id": "v-34136cd5465b5c8b",
+    "kind": "film",
+    "title": "schneider 20261005 review v1",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-34136cd5465b5c8b.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-34136cd5465b5c8b.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=schneider%2020261005%20review%20v1"
+  },
+  {
+    "id": "v-625fdd76fc3ef27f",
+    "kind": "film",
+    "title": "TimeXmart 中国居民购房贷款贴息政策解读 CN 2026-09-29",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-625fdd76fc3ef27f.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-625fdd76fc3ef27f.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=TimeXmart%20%E4%B8%AD%E5%9B%BD%E5%B1%85%E6%B0%91%E8%B4%AD%E6%88%BF%E8%B4%B7%E6%AC%BE%E8%B4%B4%E6%81%AF%E6%94%BF%E7%AD%96%E8%A7%A3%E8%AF%BB%20CN%202026-09-29"
+  },
+  {
+    "id": "v-87aca85a7254557c",
+    "kind": "film",
+    "title": "TimeXmart SpaceX Starship Flight14 Analysis CN 2026-09-28",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-87aca85a7254557c.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-87aca85a7254557c.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=TimeXmart%20SpaceX%20Starship%20Flight14%20Analysis%20CN%202026-09-28"
+  },
+  {
+    "id": "v-f9cfdb40b1e9936a",
+    "kind": "film",
+    "title": "TimeXmart Oracle Project Jupiter Force Majeure Analysis 2026-09-25 v2",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-f9cfdb40b1e9936a.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-f9cfdb40b1e9936a.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=TimeXmart%20Oracle%20Project%20Jupiter%20Force%20Majeure%20Analysis%202026-09-25%20v2"
+  },
+  {
+    "id": "v-a776b58a0c70ee3c",
+    "kind": "film",
+    "title": "AlphaGenome Atlas Ted English FINAL 20260922",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。定稿标记",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-a776b58a0c70ee3c.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-a776b58a0c70ee3c.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=AlphaGenome%20Atlas%20Ted%20English%20FINAL%2020260922"
+  },
+  {
+    "id": "v-77ba00b11c5025ce",
+    "kind": "film",
+    "title": "Ted US China Market Recap English 20260922",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-77ba00b11c5025ce.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-77ba00b11c5025ce.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=Ted%20US%20China%20Market%20Recap%20English%2020260922"
+  },
+  {
+    "id": "v-94012dcbc7b412f3",
+    "kind": "film",
+    "title": "Ted 中美会谈与美股 20260921 竖版1080p",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-94012dcbc7b412f3.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-94012dcbc7b412f3.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=Ted%20%E4%B8%AD%E7%BE%8E%E4%BC%9A%E8%B0%88%E4%B8%8E%E7%BE%8E%E8%82%A1%2020260921%20%E7%AB%96%E7%89%881080p"
+  },
+  {
+    "id": "v-53ceee09aead555c",
+    "kind": "film",
+    "title": "马斯克转发未来设想 AGE OF BEYOND 中文版 最终版",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。定稿标记",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-53ceee09aead555c.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-53ceee09aead555c.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=%E9%A9%AC%E6%96%AF%E5%85%8B%E8%BD%AC%E5%8F%91%E6%9C%AA%E6%9D%A5%E8%AE%BE%E6%83%B3%20AGE%20OF%20BEYOND%20%E4%B8%AD%E6%96%87%E7%89%88%20%E6%9C%80%E7%BB%88%E7%89%88"
+  },
+  {
+    "id": "v-de1887e1f79f93db",
+    "kind": "film",
+    "title": "AlphaGenome Atlas Ted Approved v3",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。定稿标记",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-de1887e1f79f93db.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-de1887e1f79f93db.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=AlphaGenome%20Atlas%20Ted%20Approved%20v3"
+  },
+  {
+    "id": "v-c6fcf037bd39313a",
+    "kind": "film",
+    "title": "Figure Helix Combined Electronic v4",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-c6fcf037bd39313a.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-c6fcf037bd39313a.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=Figure%20Helix%20Combined%20Electronic%20v4"
+  },
+  {
+    "id": "v-511c3f243c69effd",
+    "kind": "film",
+    "title": "字节制药拆分 交易估值与盈利分析 v3",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-511c3f243c69effd.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-511c3f243c69effd.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=%E5%AD%97%E8%8A%82%E5%88%B6%E8%8D%AF%E6%8B%86%E5%88%86%20%E4%BA%A4%E6%98%93%E4%BC%B0%E5%80%BC%E4%B8%8E%E7%9B%88%E5%88%A9%E5%88%86%E6%9E%90%20v3"
+  },
+  {
+    "id": "v-93727408542c1473",
+    "kind": "film",
+    "title": "加息25bp 房地产多付多少钱 抖音竖屏 完整口播注释版 v1",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-93727408542c1473.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-93727408542c1473.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=%E5%8A%A0%E6%81%AF25bp%20%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%A4%9A%E4%BB%98%E5%A4%9A%E5%B0%91%E9%92%B1%20%E6%8A%96%E9%9F%B3%E7%AB%96%E5%B1%8F%20%E5%AE%8C%E6%95%B4%E5%8F%A3%E6%92%AD%E6%B3%A8%E9%87%8A%E7%89%88%20v1"
+  },
+  {
+    "id": "v-32e343e825d24dce",
+    "kind": "film",
+    "title": "AI安全评估 谁在资助评估者 v3",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-32e343e825d24dce.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-32e343e825d24dce.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=AI%E5%AE%89%E5%85%A8%E8%AF%84%E4%BC%B0%20%E8%B0%81%E5%9C%A8%E8%B5%84%E5%8A%A9%E8%AF%84%E4%BC%B0%E8%80%85%20v3"
+  },
+  {
+    "id": "v-5e2eb5aded2d938a",
+    "kind": "film",
+    "title": "飞书大会 豆包工作篇 v1",
+    "subtitle": "其他创作",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-5e2eb5aded2d938a.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-5e2eb5aded2d938a.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=%E9%A3%9E%E4%B9%A6%E5%A4%A7%E4%BC%9A%20%E8%B1%86%E5%8C%85%E5%B7%A5%E4%BD%9C%E7%AF%87%20v1"
+  },
+  {
+    "id": "v-8a66226306d2d648",
+    "kind": "film",
+    "title": "飞书大会 飞书升级篇 v1",
+    "subtitle": "其他创作",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-8a66226306d2d648.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-8a66226306d2d648.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=%E9%A3%9E%E4%B9%A6%E5%A4%A7%E4%BC%9A%20%E9%A3%9E%E4%B9%A6%E5%8D%87%E7%BA%A7%E7%AF%87%20v1"
+  },
+  {
+    "id": "v-56e864630c94b3c9",
+    "kind": "film",
+    "title": "黄仁勋 RSI 顺滑转场版 v3",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-56e864630c94b3c9.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-56e864630c94b3c9.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=%E9%BB%84%E4%BB%81%E5%8B%8B%20RSI%20%E9%A1%BA%E6%BB%91%E8%BD%AC%E5%9C%BA%E7%89%88%20v3"
+  },
+  {
+    "id": "v-b2e7ac5bbfc075b2",
+    "kind": "film",
+    "title": "Euno VC解读 全屏原页 中英自然配音 v2 定稿",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。定稿标记",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-b2e7ac5bbfc075b2.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-b2e7ac5bbfc075b2.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=Euno%20VC%E8%A7%A3%E8%AF%BB%20%E5%85%A8%E5%B1%8F%E5%8E%9F%E9%A1%B5%20%E4%B8%AD%E8%8B%B1%E8%87%AA%E7%84%B6%E9%85%8D%E9%9F%B3%20v2%20%E5%AE%9A%E7%A8%BF"
+  },
+  {
+    "id": "v-09f565f3446acdf4",
+    "kind": "film",
+    "title": "比尔盖茨 原访谈分析 v4 开场音效",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-09f565f3446acdf4.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-09f565f3446acdf4.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=%E6%AF%94%E5%B0%94%E7%9B%96%E8%8C%A8%20%E5%8E%9F%E8%AE%BF%E8%B0%88%E5%88%86%E6%9E%90%20v4%20%E5%BC%80%E5%9C%BA%E9%9F%B3%E6%95%88"
+  },
+  {
+    "id": "v-ec862440d96a7e39",
+    "kind": "film",
+    "title": "Anthropic OpenAI降速分析 原声圆框版 v1",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-ec862440d96a7e39.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-ec862440d96a7e39.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=Anthropic%20OpenAI%E9%99%8D%E9%80%9F%E5%88%86%E6%9E%90%20%E5%8E%9F%E5%A3%B0%E5%9C%86%E6%A1%86%E7%89%88%20v1"
+  },
+  {
+    "id": "v-005a8ef3b9391743",
+    "kind": "film",
+    "title": "PPI 物价与科技股估值 最终版",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。定稿标记",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-005a8ef3b9391743.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-005a8ef3b9391743.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=PPI%20%E7%89%A9%E4%BB%B7%E4%B8%8E%E7%A7%91%E6%8A%80%E8%82%A1%E4%BC%B0%E5%80%BC%20%E6%9C%80%E7%BB%88%E7%89%88"
+  },
+  {
+    "id": "v-5d814afc3d964d22",
+    "kind": "film",
+    "title": "timexmart opendesign douyin trimmed new start plus 014",
+    "subtitle": "TimeXmart / MIRA",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-5d814afc3d964d22.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-5d814afc3d964d22.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=timexmart%20opendesign%20douyin%20trimmed%20new%20start%20plus%20014"
+  },
+  {
+    "id": "v-0cadbe637e989a71",
+    "kind": "film",
+    "title": "iPhone18 Pro 数据分析 Ted配音",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-0cadbe637e989a71.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-0cadbe637e989a71.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=iPhone18%20Pro%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%20Ted%E9%85%8D%E9%9F%B3"
+  },
+  {
+    "id": "v-56741159ccc31446",
+    "kind": "film",
+    "title": "iPhone Duo 30秒 满屏纯画面 无配乐",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-56741159ccc31446.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-56741159ccc31446.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=iPhone%20Duo%2030%E7%A7%92%20%E6%BB%A1%E5%B1%8F%E7%BA%AF%E7%94%BB%E9%9D%A2%20%E6%97%A0%E9%85%8D%E4%B9%90"
+  },
+  {
+    "id": "v-e8517d2a41137cd5",
+    "kind": "film",
+    "title": "07 DeepSeek IPO金融商业解析 中文 自然提速7pct",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-e8517d2a41137cd5.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-e8517d2a41137cd5.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=07%20DeepSeek%20IPO%E9%87%91%E8%9E%8D%E5%95%86%E4%B8%9A%E8%A7%A3%E6%9E%90%20%E4%B8%AD%E6%96%87%20%E8%87%AA%E7%84%B6%E6%8F%90%E9%80%9F7pct"
+  },
+  {
+    "id": "v-8bd137d8da11fabb",
+    "kind": "film",
+    "title": "05 Veridue 创投解析 中文",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-8bd137d8da11fabb.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-8bd137d8da11fabb.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=05%20Veridue%20%E5%88%9B%E6%8A%95%E8%A7%A3%E6%9E%90%20%E4%B8%AD%E6%96%87"
+  },
+  {
+    "id": "v-e31890d44379ecc5",
+    "kind": "film",
+    "title": "06 DeepSeek IPO新闻快讯 中文 自然提速7pct",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-e31890d44379ecc5.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-e31890d44379ecc5.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=06%20DeepSeek%20IPO%E6%96%B0%E9%97%BB%E5%BF%AB%E8%AE%AF%20%E4%B8%AD%E6%96%87%20%E8%87%AA%E7%84%B6%E6%8F%90%E9%80%9F7pct"
+  },
+  {
+    "id": "v-e15247bd63dd96d4",
+    "kind": "film",
+    "title": "03 美国金融AI创投三条新闻 中文",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-e15247bd63dd96d4.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-e15247bd63dd96d4.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=03%20%E7%BE%8E%E5%9B%BD%E9%87%91%E8%9E%8DAI%E5%88%9B%E6%8A%95%E4%B8%89%E6%9D%A1%E6%96%B0%E9%97%BB%20%E4%B8%AD%E6%96%87"
+  },
+  {
+    "id": "v-768be5d9d097d3ee",
+    "kind": "film",
+    "title": "04 Mistral 创投解析 中文",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-768be5d9d097d3ee.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-768be5d9d097d3ee.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=04%20Mistral%20%E5%88%9B%E6%8A%95%E8%A7%A3%E6%9E%90%20%E4%B8%AD%E6%96%87"
+  },
+  {
+    "id": "v-3327efa93778d67d",
+    "kind": "film",
+    "title": "01 高盛上集 AI融资与利率 中文 字幕特效版",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-3327efa93778d67d.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-3327efa93778d67d.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=01%20%E9%AB%98%E7%9B%9B%E4%B8%8A%E9%9B%86%20AI%E8%9E%8D%E8%B5%84%E4%B8%8E%E5%88%A9%E7%8E%87%20%E4%B8%AD%E6%96%87%20%E5%AD%97%E5%B9%95%E7%89%B9%E6%95%88%E7%89%88"
+  },
+  {
+    "id": "v-f6f1ac05942c62bd",
+    "kind": "film",
+    "title": "02 高盛下集 通胀与推理成本 中文 字幕特效版",
+    "subtitle": "其他创作",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-f6f1ac05942c62bd.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-f6f1ac05942c62bd.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=02%20%E9%AB%98%E7%9B%9B%E4%B8%8B%E9%9B%86%20%E9%80%9A%E8%83%80%E4%B8%8E%E6%8E%A8%E7%90%86%E6%88%90%E6%9C%AC%20%E4%B8%AD%E6%96%87%20%E5%AD%97%E5%B9%95%E7%89%B9%E6%95%88%E7%89%88"
+  },
+  {
+    "id": "v-dd87979d840b8d19",
+    "kind": "film",
+    "title": "TimeXmart MIRA 创投拆解 SplitPay 2026-09-09",
+    "subtitle": "TimeXmart / MIRA",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-dd87979d840b8d19.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-dd87979d840b8d19.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=TimeXmart%20MIRA%20%E5%88%9B%E6%8A%95%E6%8B%86%E8%A7%A3%20SplitPay%202026-09-09"
+  },
+  {
+    "id": "v-e8e1e6292e90c132",
+    "kind": "film",
+    "title": "TimeXmart MIRA 美国三条新闻 2026-09-09",
+    "subtitle": "TimeXmart / MIRA",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-e8e1e6292e90c132.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-e8e1e6292e90c132.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=TimeXmart%20MIRA%20%E7%BE%8E%E5%9B%BD%E4%B8%89%E6%9D%A1%E6%96%B0%E9%97%BB%202026-09-09"
+  },
+  {
+    "id": "v-4ae474d52249fa41",
+    "kind": "film",
+    "title": "Ted 高盛MacroCall 轻盈动画版",
+    "subtitle": "商业与金融",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-4ae474d52249fa41.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-4ae474d52249fa41.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=Ted%20%E9%AB%98%E7%9B%9BMacroCall%20%E8%BD%BB%E7%9B%88%E5%8A%A8%E7%94%BB%E7%89%88"
+  },
+  {
+    "id": "v-698870a885f51c79",
+    "kind": "film",
+    "title": "Ted GPT6 Astra Review 开场精简最终版",
+    "subtitle": "AI 与科技",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。定稿标记",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-698870a885f51c79.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-698870a885f51c79.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=Ted%20GPT6%20Astra%20Review%20%E5%BC%80%E5%9C%BA%E7%B2%BE%E7%AE%80%E6%9C%80%E7%BB%88%E7%89%88"
+  },
+  {
+    "id": "v-1c953ed98111f703",
+    "kind": "film",
+    "title": "个人 IP · 新版宣传成片",
+    "subtitle": "宣传片 / 品牌作品",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-1c953ed98111f703.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-1c953ed98111f703.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=%E4%B8%AA%E4%BA%BA%20IP%20%C2%B7%20%E6%96%B0%E7%89%88%E5%AE%A3%E4%BC%A0%E6%88%90%E7%89%87"
+  },
+  {
+    "id": "v-12a903856f4fea3c",
+    "kind": "film",
+    "title": "物品交换 · 新版宣传成片",
+    "subtitle": "宣传片 / 品牌作品",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-12a903856f4fea3c.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-12a903856f4fea3c.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=%E7%89%A9%E5%93%81%E4%BA%A4%E6%8D%A2%20%C2%B7%20%E6%96%B0%E7%89%88%E5%AE%A3%E4%BC%A0%E6%88%90%E7%89%87"
+  },
+  {
+    "id": "v-464392022666c2fb",
+    "kind": "film",
+    "title": "技能交换 · 新版宣传成片",
+    "subtitle": "宣传片 / 品牌作品",
+    "topic": "Create",
+    "year": "2026",
+    "summary": "最终视频档案。同主题最新完整成片",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/creator/v-464392022666c2fb.jpg",
+    "video": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-464392022666c2fb.mp4",
+    "url": "https://mryoungbomb-coder.github.io/ted-public-site/creator.html?search=%E6%8A%80%E8%83%BD%E4%BA%A4%E6%8D%A2%20%C2%B7%20%E6%96%B0%E7%89%88%E5%AE%A3%E4%BC%A0%E6%88%90%E7%89%87"
+  },
+  {
+    "id": "frame-DJ2Pv3JSOcI",
+    "kind": "frame",
+    "title": "Life / Frame 01",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DJ2Pv3JSOcI.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DJ2Pv3JSOcI/"
+  },
+  {
+    "id": "frame-C5fDq5GN670",
+    "kind": "frame",
+    "title": "Life / Frame 02",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/C5fDq5GN670.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/C5fDq5GN670/"
+  },
+  {
+    "id": "frame-DGr6n4bs5Mo",
+    "kind": "frame",
+    "title": "Life / Frame 03",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DGr6n4bs5Mo.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DGr6n4bs5Mo/"
+  },
+  {
+    "id": "frame-DcHuoPKDcuj",
+    "kind": "frame",
+    "title": "Life / Frame 04",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DcHuoPKDcuj.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DcHuoPKDcuj/"
+  },
+  {
+    "id": "frame-DcEvw9iEvjF",
+    "kind": "frame",
+    "title": "Life / Frame 05",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DcEvw9iEvjF.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DcEvw9iEvjF/"
+  },
+  {
+    "id": "frame-DaHS6UEjayE",
+    "kind": "frame",
+    "title": "Life / Frame 06",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DaHS6UEjayE.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DaHS6UEjayE/"
+  },
+  {
+    "id": "frame-DMl6_kAtWVf",
+    "kind": "frame",
+    "title": "Life / Frame 07",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DMl6_kAtWVf.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DMl6_kAtWVf/"
+  },
+  {
+    "id": "frame-DK-URTZyRBu",
+    "kind": "frame",
+    "title": "Life / Frame 08",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DK-URTZyRBu.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DK-URTZyRBu/"
+  },
+  {
+    "id": "frame-DEtA0W7s8yF",
+    "kind": "frame",
+    "title": "Life / Frame 09",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DEtA0W7s8yF.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DEtA0W7s8yF/"
+  },
+  {
+    "id": "frame-DEHEIFpsO6M",
+    "kind": "frame",
+    "title": "Life / Frame 10",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DEHEIFpsO6M.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DEHEIFpsO6M/"
+  },
+  {
+    "id": "frame-DD8CMFjyeY0",
+    "kind": "frame",
+    "title": "Life / Frame 11",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DD8CMFjyeY0.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DD8CMFjyeY0/"
+  },
+  {
+    "id": "frame-DDxkWbESsXi",
+    "kind": "frame",
+    "title": "Life / Frame 12",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DDxkWbESsXi.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DDxkWbESsXi/"
+  },
+  {
+    "id": "frame-DDE8uF-OLCW",
+    "kind": "frame",
+    "title": "Life / Frame 13",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DDE8uF-OLCW.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DDE8uF-OLCW/"
+  },
+  {
+    "id": "frame-DC-aOEqxf20",
+    "kind": "frame",
+    "title": "Life / Frame 14",
+    "subtitle": "Instagram post cover",
+    "topic": "Life",
+    "year": "",
+    "summary": "已导入的公开帖子封面；完整轮播尚未归档。",
+    "poster": "https://mryoungbomb-coder.github.io/ted-public-site/assets/instagram/DC-aOEqxf20.jpg",
+    "url": "https://www.instagram.com/tedzhnnnn1231/p/DC-aOEqxf20/"
+  }
+]

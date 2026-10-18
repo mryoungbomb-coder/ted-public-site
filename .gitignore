@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env*
+*.sqlite*
+*.db
+creator-private.json
+index-data.json

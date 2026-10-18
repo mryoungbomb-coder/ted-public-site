@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.1",
+  "id": "ted-zhao",
+  "display_name": "Ted Zhao",
+  "identity_type": "personal_digital_counterpart",
+  "status": "concept-prototype",
+  "languages": [
+    "zh-CN",
+    "en"
+  ],
+  "positioning": {
+    "label": "Finance / Build / Create",
+    "status": "proposed",
+    "tagline": "Still becoming."
+  },
+  "identity_disclosure": "这是基于 Ted 已确认资料构建的数字档案与交互形象，不是本人实时发言或意识上传。",
+  "canonical_url": null,
+  "as_of": "2026-10-17",
+  "public_links": [
+    {
+      "type": "website",
+      "url": "https://mryoungbomb-coder.github.io/ted-public-site/"
+    },
+    {
+      "type": "instagram",
+      "url": "https://www.instagram.com/tedzhnnnn1231/"
+    }
+  ],
+  "evidence_policy": "Every factual memory must have source IDs, an as-of date and owner-approved public visibility."
+}

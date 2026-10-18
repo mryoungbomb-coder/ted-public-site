@@ -1,0 +1,27 @@
+{
+  "name": "Ted / Continuum",
+  "status": "proposal",
+  "primary_journey": [
+    "Recognize Ted",
+    "See three selected pieces",
+    "Explore the full archive",
+    "Meet the digital self"
+  ],
+  "navigation": [
+    "Work",
+    "Archive",
+    "Self"
+  ],
+  "homepage_limits": {
+    "selected_projects": 3,
+    "now_items": 1,
+    "primary_actions": 2
+  },
+  "progressive_disclosure": [
+    "Identity and editorial gallery",
+    "A single archive by type/topic",
+    "One stable detail panel with evidence and related items"
+  ],
+  "content_graph": "Daily record → owner-reviewed weekly reflection → method / case → public evidence-backed memory",
+  "scope": "Only existing public material is indexed in this local prototype. Raw journal and internal documents are not imported."
+}

@@ -1,0 +1,33 @@
+{
+  "created": "2026-10-17",
+  "scope": "Included local files only; remote media not backed up",
+  "sha256": {
+    "app.js": "476d8853aa7e33f8b506a26c327e3b005fbca881036700520593e352e8368450",
+    "assets/avatar-concept.png": "aa00fd6d88def3292790214c0dfda42e58568fa6a4c1c427749be9e03d4816d9",
+    "assets/avatar-donghua-v2.png": "1fd5fb96b373cbfaed937761faed9299b44354da65d94be90b0e68e3abc93f27",
+    "assets/avatar-mark.svg": "c620f3bc2dd8581f11d9d428c3ffe15bc5b94a6842062ce066bc4a87f5553318",
+    "assets/mira.jpg": "e77606e2b5dd3cce3e8e4eeef225aa6ab91943ea8b2a2f04fc6d62768c4f309b",
+    "assets/night.jpg": "c6831e859c59a6e1a4e4fa70b29ecfd9e71f008cf1aad73f2ed5394eabf60ce1",
+    "assets/portrait.jpg": "5ecab5cb3d5fd811c5be872cccccfb52ae6da63fbcf65f086c155e72482d2dff",
+    "data/archive.json": "2b8a20f1e383f8348751ac627e82ef3e9dc36b715fd82e21503468fdc9718e77",
+    "data/articles.json": "63410d21694dd8b87e99aefe019fe25d5cf2408cc070be6edf875d368e6d2e61",
+    "data/design-principles.json": "a5f1c5ceb9baa0c110537f5abe98dbea8d1a3d74d2625684ea5628a152ca77cd",
+    "data/research-sources.json": "0c43387f19677e34eba0732e8dddaf8ba9d1d39a849540df76abed237784a3a2",
+    "index.html": "2cd7ce20d20527bfbd054614031a5da43a209ddbc707a4ad81125b37daac8829",
+    "research.html": "7b2140652bc5ff6d85baac765eed3952b30adeacacd5c1dae1b5acfefdcf2913",
+    "START-HERE.txt": "cf85cfbf579590d2ef5963504d7f8831b0080249ad55576feee9a01b5ac46ddf",
+    "style.css": "5de5fe7c5eb6c9a7fbbcede26dc23c3b686d6e7ff82412bf31e9016f0ef11a56",
+    "twin/appearance.json": "452c09a3d7d9e9137e1c63d769a15f6188e19c8724e8da9435ed21c56847e2db",
+    "twin/behavior.json": "2d8df86808a00b0c19455f41985b6a1c30c67b4548c325006c611f4c40cc236c",
+    "twin/continuity.json": "e86cf2052ba12eb94faedc15c8161b722b6c91ca6ab338f9811f155d1dd46008",
+    "twin/export_public.py": "ba94a9e0efecc5faff0eaf1448d34e06ef15a34ab25593866f74ef5e2b4d7d64",
+    "twin/implementation-status.json": "cf924c710d036b7e32da568e039be624022081190405012b4027d0373b4ed0bb",
+    "twin/memories.public.jsonl": "d919024f8eef6b6a333425f5b12c871c74fba73e892f52dfa86429a53f86b3fb",
+    "twin/memory.schema.json": "1ff51d3e9e99f8a62fc0b413f2f3dbf656bfe3dce348b7fc5101c39a6fbcba98",
+    "twin/profile.json": "e202faf25fa89e0d2f3f03919083fd2448959f748f7723caf235a83120edafb1",
+    "twin/search_archive.py": "ad529c523d784c5090a4dc0e97979069c4193774634c840417d143e69dc22202",
+    "twin/verify_manifest.py": "50dc84d0e0d8e73199bcebfd0a48275451fb6c8a255ae15c896819760b377fae",
+    "twin/visual-generation-v2.json": "0bd74c3249cbdae8a907f9981a006f0e04b79f6adb5593980bc03748edbaa0bc",
+    "twin/visual-generation.json": "23eac30a81e0c35fd5705b748ed862e076154c969ba3524ce5ee88eeaed99be1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "implemented": [
+    "Source-backed identity JSON",
+    "Memory schema and three sourced public example memories",
+    "Searchable 71-item public catalogue",
+    "Local lexical retrieval with visible sources",
+    "2D character concept sheet",
+    "Code-native SVG identity mark",
+    "Portable source bundle and SHA-256 verification"
+  ],
+  "not_implemented": [
+    "LLM conversation",
+    "automatic full activity recording",
+    "voice synthesis or cloning",
+    "full 3D avatar mesh or rig",
+    "domain or permanent hosting",
+    "consciousness preservation"
+  ]
+}

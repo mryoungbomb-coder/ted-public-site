@@ -1,0 +1,87 @@
+[
+  {
+    "id": "R01",
+    "name": "Fiber",
+    "url": "https://www.framer.com/marketplace/templates/fiber/",
+    "preview": "https://fiber.framer.ai/",
+    "take": "单字体、黑白、统一媒体框架，底部浮动导航与项目堆叠。",
+    "apply": "精选作品保持统一规格；用一个短句介绍人，再给作品。",
+    "avoid": "首页堆叠效果不能成为唯一的内容入口；提供同等可用的普通索引。"
+  },
+  {
+    "id": "R02",
+    "name": "Moreau OS",
+    "url": "https://www.framer.com/marketplace/templates/moreau-os/",
+    "preview": "https://lucamoreauos.framer.website/",
+    "take": "以人像为桌面背景，内容像文件一样打开到统一窗口。",
+    "apply": "档案采用一致的阅读面板与分类视图，保留探索的乐趣。",
+    "avoid": "不要求访客先学会拖图标；手机使用普通列表和单层面板。"
+  },
+  {
+    "id": "R03",
+    "name": "Videoy",
+    "url": "https://www.framer.com/marketplace/templates/videoy/",
+    "preview": "https://vidure-template.framer.website/",
+    "take": "让影像承担第一印象，以 showreel 和作品项目组织内容。",
+    "apply": "精选区保留一条 MIRA 最终成片的明确播放入口。",
+    "avoid": "不照搬制作公司的服务、获奖、团队与客户数字；不默认自动播放有声视频。"
+  },
+  {
+    "id": "R04",
+    "name": "Sequence One",
+    "url": "https://www.framer.com/marketplace/templates/sequence-one/",
+    "preview": "https://sequenceone.framer.website/",
+    "take": "大标题、影像与编辑式节奏，建立克制但鲜明的第一屏。",
+    "apply": "个人名字、定位与主视觉放在首屏，后续使用有间隔的章节。",
+    "avoid": "去掉漫长加载、重复内容与不属于个人站的销售模块；模板作者的性能分数未独立实测。"
+  },
+  {
+    "id": "R05",
+    "name": "Paco Coursey",
+    "url": "https://paco.me/",
+    "take": "用简短身份介绍和少量明确入口建立个人存在。",
+    "apply": "首页保留一个可记住的定位和三个主入口，不罗列所有角色。"
+  },
+  {
+    "id": "R06",
+    "name": "Maggie Appleton / Digital Garden",
+    "url": "https://maggieappleton.com/garden-history",
+    "take": "知识可以持续生长，按关联探索，而非只按发布日期排列。",
+    "apply": "项目、文章、知识点、流程与更新记录共用对象关系。"
+  },
+  {
+    "id": "R07",
+    "name": "Derek Sivers /now",
+    "url": "https://sive.rs/now",
+    "take": "独立的 Now 页面解释此刻在关注什么。",
+    "apply": "保留带日期的近况卡；私人工作日记经确认后再形成公开近况。"
+  },
+  {
+    "id": "R08",
+    "name": "JSON Resume",
+    "url": "https://jsonresume.org/schema",
+    "take": "结构化简历可与展示层分离。",
+    "apply": "身份包使用公开 JSON；名称、角色、作品与来源独立保存。"
+  },
+  {
+    "id": "R09",
+    "name": "W3C DID",
+    "url": "https://www.w3.org/TR/did-core/",
+    "take": "去中心化标识符规范提供可验证标识的一种选择。",
+    "apply": "标识层预留扩展，不把 DID 或区块链当上线前提；它们不保存人格。"
+  },
+  {
+    "id": "R10",
+    "name": "IPFS pinning",
+    "url": "https://docs.ipfs.tech/how-to/pin-files/",
+    "take": "内容寻址不等于自动永久保存，需要持续保留可提供的副本。",
+    "apply": "优先多副本、校验与恢复测试；IPFS 只作为可选发布镜像。"
+  },
+  {
+    "id": "R11",
+    "name": "Library of Congress / Personal Archiving",
+    "url": "https://digitalpreservation.gov/personalarchiving/websites.html",
+    "take": "保存描述性元数据、整理文件并把副本放到不同位置。",
+    "apply": "用版本化内容、开放格式与可验证导出支持长期保存。"
+  }
+]

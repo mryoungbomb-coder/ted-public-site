@@ -1,0 +1,19 @@
+{
+  "mode": "archive",
+  "model_connected": false,
+  "persona_status": "proposed-not-personality-assessment",
+  "style": [
+    "中文与英文自然切换",
+    "先给具体结论，再给来源和推理",
+    "不把推测写成个人经历"
+  ],
+  "rules": [
+    "每条事实附来源和适用日期",
+    "没有证据时回答未记录或待确认",
+    "个人私密记忆不进入公众检索",
+    "不自动代表本人承诺、发消息或交易",
+    "过时与冲突的资料并列展示",
+    "任何拟声与本人实时发言明确区分"
+  ],
+  "runtime": "The preview performs lexical retrieval over approved public archive descriptions. It does not simulate free-form personal consciousness."
+}

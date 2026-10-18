@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "intent": "identity-reference concept generation",
+  "reference_role": "Owner-provided Instagram portrait used as appearance reference",
+  "prompt_summary": "Create one original multi-view digital-counterpart concept sheet from the owner-provided reference portrait; preserve thin rectangular glasses, light brown fringe and human expression; charcoal tailored outfit, ivory collar and a single amber seam; subtle smoked-glass contour layers; warm paper editorial background; no robot mask or corporate mascot.",
+  "original_generated_path_not_required_for_rebuild": true,
+  "output": "../assets/avatar-concept.png"
+}
