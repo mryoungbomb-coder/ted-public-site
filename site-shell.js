@@ -20,8 +20,6 @@ if(header&&nav&&menu){
  sections.forEach(section=>{
   const summary=section.querySelector('summary');
   section.addEventListener('toggle',()=>{summary.setAttribute('aria-expanded',String(section.open));if(section.open){lastSummary=summary;closeDirectory();closeSections(section)}});
-  section.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse'&&matchMedia('(min-width:1101px)').matches)setSection(section)});
-  section.addEventListener('pointerleave',e=>{if(e.pointerType==='mouse')leaveTimer=setTimeout(()=>{if(!section.contains(document.activeElement))section.open=false},220)});
   section.addEventListener('keydown',e=>{const links=[...section.querySelectorAll('.page-link')];if(!['ArrowDown','ArrowUp','Home','End'].includes(e.key))return;e.preventDefault();setSection(section);const index=links.indexOf(document.activeElement);const next=e.key==='Home'?0:e.key==='End'?links.length-1:e.key==='ArrowUp'?(index<=0?links.length-1:index-1):(index+1)%links.length;links[next]?.focus()});
  });
  header.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
