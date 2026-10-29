@@ -1,7 +1,7 @@
 {
   "generated": "2026-10-12T16:02:25",
-  "count": 41,
-  "latestCount": 41,
+  "count": 40,
+  "latestCount": 40,
   "categories": [
     "AI 与科技",
     "TimeXmart / MIRA",
@@ -691,29 +691,10 @@
       "selection": "同主题最新完整成片",
       "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-12a903856f4fea3c.mp4",
       "promo": true
-    },
-    {
-      "id": "v-464392022666c2fb",
-      "title": "技能交换 · 新版宣传成片",
-      "category": "宣传片 / 品牌作品",
-      "date": "2026-09-03",
-      "updated": "2026-09-03T22:52:17",
-      "version": "作品版本",
-      "family": "技能交换新版独立成片",
-      "status": "完整成片",
-      "bytes": 6913773,
-      "sourceCopies": 1,
-      "poster": "assets/creator/v-464392022666c2fb.jpg",
-      "latest": true,
-      "final": true,
-      "selection": "同主题最新完整成片",
-      "videoUrl": "https://github.com/mryoungbomb-coder/ted-public-site/releases/download/final-videos-v1/v-464392022666c2fb.mp4",
-      "promo": true
     }
   ],
   "displayPolicy": "final-only",
   "promoIds": [
-    "v-464392022666c2fb",
     "v-12a903856f4fea3c",
     "v-1c953ed98111f703"
   ]
